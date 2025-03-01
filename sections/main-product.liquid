@@ -228,7 +228,111 @@
                   {% endif %}
                 </div>
 
-
+                <div>
+                <!-- Product Details (Collapsible Sections) -->
+                <div class="product-extra-info">
+                  {% if product.metafields.custom.story != blank %}
+                    <button class="collapsible active" onclick="toggleCollapsible(this)">
+                      <span>Story</span>
+                      <span class="see-more">See More <span class="chevron">&#9660;</span></span>
+                    </button>
+                    <div class="content show">
+                      <p>{{ product.metafields.custom.story | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                
+                  {% if product.metafields.custom.ingredients != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      <span>Ingredients</span>
+                      <span class="see-more">See More <span class="chevron">&#9660;</span></span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                
+                  {% if product.metafields.custom.safety != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      <span>Safety & Usage</span>
+                      <span class="see-more">See More <span class="chevron">&#9660;</span></span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                </div>
+                
+                <!-- JavaScript for Collapsible Sections with Chevron Rotation -->
+                <script>
+                function toggleCollapsible(button) {
+                  button.classList.toggle("active");
+                  let content = button.nextElementSibling;
+                  let chevron = button.querySelector(".chevron");
+                  let seeMore = button.querySelector(".see-more");
+                
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                    chevron.innerHTML = "&#9660;"; // Down chevron
+                    seeMore.innerHTML = "See More <span class='chevron'>&#9660;</span>";
+                  } else {
+                    content.style.display = "block";
+                    chevron.innerHTML = "&#9650;"; // Up chevron
+                    seeMore.innerHTML = "See Less <span class='chevron'>&#9650;</span>";
+                  }
+                }
+                
+                // Ensure first section is open by default
+                document.addEventListener("DOMContentLoaded", function() {
+                  let firstCollapsible = document.querySelector(".collapsible.active");
+                  if (firstCollapsible) {
+                    firstCollapsible.nextElementSibling.style.display = "block";
+                  }
+                });
+                </script>
+                
+                <!-- Styling for Collapsible Sections -->
+                <style>
+                .product-extra-info {
+                  margin-top: 20px;
+                }
+                
+                .collapsible {
+                  cursor: pointer;
+                  font-weight: bold;
+                  border: none;
+                  text-align: left;
+                  width: 100%;
+                  padding: 10px;
+                  margin-top: 10px;
+                  background: none;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                }
+                
+                .see-more {
+                  font-size: 14px;
+                  color: blue;
+                  cursor: pointer;
+                  text-decoration: underline;
+                }
+                
+                .chevron {
+                  transition: transform 0.3s ease;
+                  font-size: 14px;
+                }
+                
+                .collapsible.active .chevron {
+                  transform: rotate(180deg);
+                }
+                
+                .content {
+                  display: none;
+                  padding: 10px;
+                }
+                </style>
+                
+                </div>
                   
                 {%- endif -%}
 
