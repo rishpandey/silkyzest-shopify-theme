@@ -761,57 +761,64 @@
     </script>
 
     <script>
-document.addEventListener("DOMContentLoaded", function() {
-  let collapsibles = document.querySelectorAll(".collapsible");
-
-  collapsibles.forEach(button => {
-    button.addEventListener("click", function() {
-      this.classList.toggle("active");
-      let content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
+      function toggleCollapsible(button) {
+        button.classList.toggle("active");
+        let content = button.nextElementSibling;
+        let chevron = button.querySelector(".chevron");
+      
+        if (content.style.display === "block") {
+          content.style.display = "none";
+          chevron.innerHTML = "&#9660;"; // Down chevron
+        } else {
+          content.style.display = "block";
+          chevron.innerHTML = "&#9650;"; // Up chevron
+        }
       }
-    });
-  });
+      
+      // Ensure first section is open by default
+      document.addEventListener("DOMContentLoaded", function() {
+        let firstCollapsible = document.querySelector(".collapsible.active");
+        if (firstCollapsible) {
+          firstCollapsible.nextElementSibling.style.display = "block";
+        }
+      });
+      </script>
 
-  // Keep first section open by default
-  let firstCollapsible = document.querySelector(".collapsible.active");
-  if (firstCollapsible) {
-    firstCollapsible.nextElementSibling.style.display = "block";
-  }
-});
-</script>
-    
-    <!-- CSS Styling -->
- <style>
-.product-description, .product-extra-info {
-  margin-bottom: 20px;
-}
-
-
-.collapsible {
-  cursor: pointer;
-    font-weight: bold;
-    border: none;
-    text-align: left;
-    width: 100%;
-    padding: 0 10px;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    background: unset;
-}
-
-.content {
-  display: none;
-  padding: 10px;
-}
-
-.show {
-  display: block !important;
-}
-</style>
+      <style>
+        .product-extra-info {
+          margin-top: 20px;
+        }
+        
+        .collapsible {
+          cursor: pointer;
+          font-weight: bold;
+          border: none;
+          text-align: left;
+          width: 100%;
+          padding: 10px;
+          margin-top: 10px;
+          background: none;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .chevron {
+          transition: transform 0.3s ease;
+          font-size: 14px;
+        }
+        
+        .collapsible.active .chevron {
+          transform: rotate(180deg);
+        }
+        
+        .content {
+          display: none;
+          padding: 10px;
+        }
+        </style>
+      
+      
   </div>
 </product-info>
 
