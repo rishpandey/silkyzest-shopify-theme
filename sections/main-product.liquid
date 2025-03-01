@@ -229,7 +229,62 @@
                 </div>
 
 
-                  
+                   <div>
+                    <!-- Please Note Section with Inline "See More" -->
+                    <div class="please-note">
+                      <span id="short-text">
+                        <strong>Please note:</strong> Each candle is as unique as you are. Our hand-poured creations are made to order in small batches, ensuring that no two candles are ever identical...
+                      </span>
+                      <span id="full-text" style="display: none;">
+                        <strong>Please note:</strong> Each candle is as unique as you are. Our hand-poured creations are made to order in small batches, ensuring that no two candles are ever identical. With each one carefully crafted, you'll receive a truly one-of-a-kind piece that adds a personal touch of elegance and charm to your space. You may find minor disparities or small imperfections but rest assured, they are up to our highest standards.
+                      </span>
+                      <button id="toggle-btn" onclick="toggleText()">See More</button>
+                    </div>
+                    
+                    <!-- JavaScript for Toggle Functionality -->
+                    <script>
+                    function toggleText() {
+                      let shortText = document.getElementById("short-text");
+                      let fullText = document.getElementById("full-text");
+                      let btn = document.getElementById("toggle-btn");
+                      let chevron = btn.querySelector(".chevron");
+                    
+                      if (shortText.style.display === "none") {
+                        shortText.style.display = "inline";
+                        fullText.style.display = "none";
+                        btn.innerHTML = "See More</span>";
+                      } else {
+                        shortText.style.display = "none";
+                        fullText.style.display = "inline";
+                        btn.innerHTML = "See Less</span>";
+                      }
+                    }
+                    </script>
+                    
+                    <!-- Basic Styling -->
+                    <style>
+                    .please-note {
+                      font-size: 14px;
+                      margin-top: 10px;
+                    }
+                    
+                    #toggle-btn {
+                      background: none;
+                      border: none;
+                      color: blue;
+                      cursor: pointer;
+                      font-size: 14px;
+                      padding: 0;
+                      text-decoration: underline;
+                      display: inline;
+                    }
+                    
+                    .chevron {
+                      transition: transform 0.3s ease;
+                      font-size: 12px;
+                    }
+                    </style>
+                  </div>
                   
                 {%- endif -%}
 
