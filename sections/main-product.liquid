@@ -196,7 +196,46 @@
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
                   </div>
+
+
+
+                  <!-- Collapsible Sections for Additional Product Details -->
+                  <div class="product-extra-info">
+                    {% if product.metafields.custom.story != blank %}
+                      <button class="collapsible">🌞 Story</button>
+                      <div class="content">
+                        <p>{{ product.metafields.custom.story }}</p>
+                      </div>
+                    {% endif %}
+                  
+                    {% if product.metafields.custom.ingredients != blank %}
+                      <button class="collapsible">🕯️ Ingredients</button>
+                      <div class="content">
+                        <p>{{ product.metafields.custom.ingredients }}</p>
+                      </div>
+                    {% endif %}
+                  
+                    {% if product.metafields.custom.safety != blank %}
+                      <button class="collapsible">⚠️ Safety & Usage</button>
+                      <div class="content">
+                        <p>{{ product.metafields.custom.safety }}</p>
+                      </div>
+                    {% endif %}
+                  
+                    {% if product.metafields.custom.shipping != blank %}
+                      <button class="collapsible">🚚 Shipping & Returns</button>
+                      <div class="content">
+                        <p>{{ product.metafields.custom.shipping }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  
                 {%- endif -%}
+
+
+              
+              
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -721,6 +760,61 @@
     <script type="application/ld+json">
       {{ product | structured_data }}
     </script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let collapsibles = document.querySelectorAll(".collapsible");
+      
+      collapsibles.forEach(button => {
+        button.addEventListener("click", function() {
+          this.classList.toggle("active");
+          let content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      });
+    });
+    </script>
+    
+    <!-- CSS Styling -->
+    <style>
+    .product-description {
+      margin-bottom: 20px;
+    }
+    
+    .product-extra-info {
+      margin-top: 20px;
+    }
+    
+    .collapsible {
+      background-color: #f1f1f1;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 12px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      margin-top: 10px;
+    }
+    
+    .collapsible:hover {
+      background-color: #ddd;
+    }
+    
+    .content {
+      display: none;
+      padding: 10px;
+      background-color: #F8F6F3;
+      margin-top: 5px;
+      border-radius: 5px;
+    }
+    </style>
   </div>
 </product-info>
 
