@@ -768,10 +768,11 @@
       
         if (content.style.display === "block") {
           content.style.display = "none";
+          chevron.innerHTML = "&#9660;"; // Down chevron
         } else {
           content.style.display = "block";
+          chevron.innerHTML = "&#9650;"; // Up chevron
         }
-          chevron.innerHTML = "&#9660;"; // Down chevron
       }
       
       // Ensure first section is open by default
@@ -800,7 +801,6 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          font-size: 1.
         }
         
         .chevron {
