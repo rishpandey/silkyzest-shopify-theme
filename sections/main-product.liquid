@@ -199,32 +199,25 @@
 
 
 
-                 <div class="product-extra-info">
+                <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
-                    <h3>Story</h3>
-                    <div>
-                      <p>{{ product.metafields.custom.story }}</p>
+                    <button class="collapsible active">Story</button>
+                    <div class="content show">
+                      <p>{{ product.metafields.custom.story | metafield_tag }}</p>
                     </div>
                   {% endif %}
                 
                   {% if product.metafields.custom.ingredients != blank %}
-                    <h3>Ingredients</h3>
-                    <div>
-                      <p>{{ product.metafields.custom.ingredients }}</p>
+                    <button class="collapsible">Ingredients</button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
                     </div>
                   {% endif %}
                 
                   {% if product.metafields.custom.safety != blank %}
-                    <h3>Safety & Usage</h3>
-                    <div>
-                      <p>{{ product.metafields.custom.safety }}</p>
-                    </div>
-                  {% endif %}
-                
-                  {% if product.metafields.custom.shipping != blank %}
-                    <h3>Shipping & Returns</h3>
-                    <div>
-                      <p>{{ product.metafields.custom.shipping }}</p>
+                    <button class="collapsible">Safety & Usage</button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
                     </div>
                   {% endif %}
                 </div>
@@ -761,34 +754,55 @@
     </script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let collapsibles = document.querySelectorAll(".collapsible");
-      
-      collapsibles.forEach(button => {
-        button.addEventListener("click", function() {
-          this.classList.toggle("active");
-          let content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      });
+document.addEventListener("DOMContentLoaded", function() {
+  let collapsibles = document.querySelectorAll(".collapsible");
+
+  collapsibles.forEach(button => {
+    button.addEventListener("click", function() {
+      this.classList.toggle("active");
+      let content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
     });
-    </script>
+  });
+
+  // Keep first section open by default
+  let firstCollapsible = document.querySelector(".collapsible.active");
+  if (firstCollapsible) {
+    firstCollapsible.nextElementSibling.style.display = "block";
+  }
+});
+</script>
     
     <!-- CSS Styling -->
-   <style>
-    .product-description, .product-extra-info {
-      margin-bottom: 20px;
-    }
-    
-    h3 {
-      font-size: 18px;
-      margin-top: 20px;
-    }
-    </style>
+ <style>
+.product-description, .product-extra-info {
+  margin-bottom: 20px;
+}
+
+
+.collapsible {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+}
+
+.show {
+  display: block !important;
+}
+</style>
   </div>
 </product-info>
 
