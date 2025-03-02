@@ -40,11 +40,11 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "top-left",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-232bf064-5cbd-4584-8e18-09679e02d081",
+            "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
             "text_alignment_mobile": "center"
           }
         }
