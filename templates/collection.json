@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -5,7 +14,7 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0"
       }
     },
     "product-grid": {
@@ -13,7 +22,7 @@
       "settings": {
         "products_per_page": 36,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
