@@ -16,17 +16,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_8856.jpg",
-            "heading": "",
+            "heading": "Step Into the <strong>Heart</strong> of the <strong>Forest</strong>.",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
-            "link": "",
+            "button_label": "Shop now",
+            "link": "shopify://collections/natures-love",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+            "color_scheme": "scheme-92f20a34-7634-4e99-8062-cb235baccf06",
             "text_alignment_mobile": "center"
           }
         },
@@ -34,15 +34,15 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_8876_3.jpg",
-            "heading": "",
+            "heading": "<strong>Juicy, Sweet, and Absolutely Irresistible!</strong>",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
             "text_alignment_mobile": "center"
@@ -54,7 +54,7 @@
         "slide_9wEVmA"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box.content-container {display: none;}",
+        ".slideshow__text.banner__box.content-container {background: rgba(255, 255, 255, 0.4); border-radius: 10px;}",
         ".slideshow__controls {background: linear-gradient(180deg, #faf8f6 0%, #e7e1da 100%);}"
       ],
       "settings": {
