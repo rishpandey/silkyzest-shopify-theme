@@ -35,7 +35,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_8876_3.jpg",
             "heading": "<strong>Juicy, Sweet, and Absolutely Irresistible!</strong>",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -44,7 +44,7 @@
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+            "color_scheme": "scheme-232bf064-5cbd-4584-8e18-09679e02d081",
             "text_alignment_mobile": "center"
           }
         }
