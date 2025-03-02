@@ -16,10 +16,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_8856.jpg",
-            "heading": "Step Into the <strong>Heart</strong> of the <strong>Forest</strong>.",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop now",
+            "button_label": "",
             "link": "shopify://collections/natures-love",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -34,7 +34,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_8876_3.jpg",
-            "heading": "<strong>Juicy, Sweet, and Absolutely Irresistible!</strong>",
+            "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
@@ -54,7 +54,7 @@
         "slide_9wEVmA"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box.content-container {background: rgba(255, 255, 255, 0.4); border-radius: 10px;}",
+        ".slideshow__text.banner__box.content-container {background: none; border-radius: 10px;}",
         ".slideshow__controls {background: linear-gradient(180deg, #faf8f6 0%, #e7e1da 100%);}"
       ],
       "settings": {
