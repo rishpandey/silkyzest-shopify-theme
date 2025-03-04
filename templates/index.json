@@ -17,7 +17,7 @@
           "settings": {
             "collection": "nature-inspired",
             "collection_image": "shopify://shop_images/IMG_8856.jpg",
-            "collection_name": ""
+            "collection_name": "Nature Inspired Collection"
           }
         },
         "item_PzDVyn": {
@@ -51,12 +51,10 @@
         "item_gYUAdW",
         "item_88NYN9"
       ],
-      "custom_css": [
-        ".tpt-collection-list-3__collection-item-title {/* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */ /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */ /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), -2px -2px 2px rgba(0, 0, 0, 0.2); */}"
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "sub_heading": "",
         "description": "",
         "alignment": "center",
