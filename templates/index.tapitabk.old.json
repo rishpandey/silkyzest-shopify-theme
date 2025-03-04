@@ -106,7 +106,7 @@
         "description": "<p>Step into the warm ambiance of your favorite coffee haven with our Cafe Inspired Candle.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "bakehouse",
+        "collection": "cafe-inspired",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
