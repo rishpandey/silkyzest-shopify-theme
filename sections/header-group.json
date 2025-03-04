@@ -87,7 +87,7 @@
       ],
       "settings": {
         "pause_on_hover": true,
-        "speed": 60,
+        "speed": 90,
         "section_full_width": true,
         "section_max_width": 1600,
         "content_full_width": false,
