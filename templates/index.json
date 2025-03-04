@@ -96,8 +96,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "nature-inspired",
-        "products_to_show": 12,
-        "columns_desktop": 3,
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
@@ -115,19 +115,95 @@
         "padding_bottom": 36
       }
     },
+    "tpt_collection_list_3_WCEEm9": {
+      "type": "tpt-collection-list-3",
+      "blocks": {
+        "item_6xFa6w": {
+          "type": "item",
+          "settings": {
+            "collection": "cafe-inspired",
+            "collection_image": "shopify://shop_images/coffee_late_image_10.jpg",
+            "collection_name": "Cafe Inspired Collection"
+          }
+        },
+        "item_89nCkX": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/red16.jpg",
+            "collection_name": "Collection name"
+          }
+        },
+        "item_CELMGz": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/mango_image_17_copy.jpg",
+            "collection_name": "Collection name"
+          }
+        },
+        "item_9rdPyQ": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/coffee_late_image_10.jpg",
+            "collection_name": "Collection name"
+          }
+        }
+      },
+      "block_order": [
+        "item_6xFa6w",
+        "item_89nCkX",
+        "item_CELMGz",
+        "item_9rdPyQ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "alignment": "center",
+        "top_button_label": "",
+        "top_button_link": "",
+        "button_text": "SHOP NOW",
+        "collection_name_color": "#FFFFFF",
+        "collection_button_background": "#FFFFFF",
+        "collection_button_text": "#000000",
+        "collection_button_radius": 6,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": true,
+        "content_max_width": 1440,
+        "padding_desktop": 10,
+        "padding_tablet_mobile": 10,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "featured_collection_JzLY7M": {
       "type": "featured-collection",
       "custom_css": [],
       "settings": {
-        "title": "Cafe Inspired",
+        "title": "",
         "heading_size": "h1",
-        "description": "<p>Step into the warm ambiance of your favorite coffee haven with our Cafe Inspired Candle.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "cafe-inspired",
         "products_to_show": 12,
         "columns_desktop": 3,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
@@ -148,6 +224,7 @@
   "order": [
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
+    "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M"
   ]
 }
