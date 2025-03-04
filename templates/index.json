@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "tpt_slideshow_four_4MQdVP": {
+      "type": "tpt-slideshow-four",
+      "blocks": {
+        "slide_HXhWYJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6701.jpg",
+            "preload_image": false,
+            "info_position": "center",
+            "heading": "Fragrance that <strong>Fills Your Home</strong>, Beauty that <strong>Warms Your Soul.</strong>",
+            "description": "",
+            "button_label": "Explore Now",
+            "button_link": "/",
+            "outline_button": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_HXhWYJ"
+      ],
+      "custom_css": [
+        ".tpt-slideshow__info--content {margin-top: -50%; min-width: 75%;}"
+      ],
+      "settings": {
+        "item_background_color": "#FFFFFF",
+        "background_opacity": 0,
+        "desktop_image_ratio": 75,
+        "mobile_image_ratio": 100,
+        "border_radius": 0,
+        "nav": false,
+        "dots": true,
+        "loop": true,
+        "effect": "fade",
+        "auto_play": false,
+        "delay": 5,
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1600,
+        "padding_desktop": 16,
+        "padding_tablet_mobile": 16,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "outline_button_color": "#000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "tpt_collection_list_3_XUpgfU": {
       "type": "tpt-collection-list-3",
       "blocks": {
@@ -62,7 +116,7 @@
         "top_button_link": "",
         "button_text": "SHOP NOW",
         "collection_name_color": "#ffffff",
-        "collection_button_background": "#FFFFFF",
+        "collection_button_background": "#ffffff",
         "collection_button_text": "#000000",
         "collection_button_radius": 6,
         "bottom_button_label": "",
@@ -76,7 +130,7 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
@@ -166,8 +220,8 @@
         "top_button_label": "",
         "top_button_link": "",
         "button_text": "SHOP NOW",
-        "collection_name_color": "#FFFFFF",
-        "collection_button_background": "#FFFFFF",
+        "collection_name_color": "#ffffff",
+        "collection_button_background": "#ffffff",
         "collection_button_text": "#000000",
         "collection_button_radius": 6,
         "bottom_button_label": "",
@@ -181,7 +235,7 @@
         "padding_tablet_mobile": 10,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
@@ -222,6 +276,7 @@
     }
   },
   "order": [
+    "tpt_slideshow_four_4MQdVP",
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
     "tpt_collection_list_3_WCEEm9",
