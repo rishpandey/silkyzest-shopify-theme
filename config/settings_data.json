@@ -141,6 +141,28 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "tapita-home-injector": {
+        "type": "tapita-home-injector",
+        "custom_css": [],
+        "settings": {}
+      },
+      "tapita-main-home": {
+        "type": "tapita-main-home",
+        "settings": {
+          "product_ident": "tapita-product-grid",
+          "product_target_ident": ".spb-item.type_product_scroll.product_target_ident",
+          "product-handle": "all",
+          "product-handles": ",",
+          "product-limit": 8,
+          "product-title": "",
+          "image_ratio": "adapt",
+          "show_secondary_image": false,
+          "add_image_padding": false,
+          "show_image_outline": true,
+          "show_vendor": false,
+          "show_rating": false
+        }
       }
     },
     "content_for_index": [],
@@ -230,6 +252,17 @@
         }
       },
       "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#000000",
+          "button": "#000000",
+          "button_label": "#000000",
+          "secondary_button_label": "#4a4a4a",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-499bfa65-accf-4b76-8edf-ab9219c079ba": {
         "settings": {
           "background": "#f8f6f3",
           "background_gradient": "linear-gradient(180deg, rgba(250, 248, 246, 1), rgba(231, 225, 218, 1) 100%)",
@@ -435,6 +468,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "body {background: linear-gradient( 180deg, rgba(255, 255, 255, 1), rgba(251, 245, 238, 1) 100% );}"
+    ]
   }
 }
