@@ -1,0 +1,367 @@
+{% comment %} Section layout style {% endcomment %}
+{{ 'tpt-section.css' | asset_url | stylesheet_tag }}
+
+{% comment %} Section configuration {% endcomment %}
+{%- render 'tpt-section-setting', section: section -%}
+
+{%- if section.index and section.settings.section_lazyload -%}
+  <script src="{{ 'tpt-section-lazyload.js' | asset_url }}" defer="defer"></script>
+
+  <tpt-section-lazyload data-url="?section_id={{ section.id }}">
+    <div data-lazyload-element></div>
+    <span class="tpt-section_loader"></span>
+  </tpt-section-lazyload>
+{%- else -%}
+  {% comment %} Coming soon component {% endcomment %}
+  {{ 'tpt-countdown.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'tpt-countdown.js' | asset_url }}" defer="defer"></script>
+
+  {% comment %} Current section style {% endcomment %}
+  {{ 'tpt-coming-soon-one.css' | asset_url | stylesheet_tag }}
+
+  <div class="tpt-section_container">
+    <div class="tpt-section_content">
+      <div class="tpt-section-body">
+        {% comment %} Section body {% endcomment %}
+        <div class="tpt-comingsoon_one">
+          {%- if section.settings.heading != blank or section.settings.description != blank -%}
+            <div class="tpt-comingsoon_header">
+              {%- if section.settings.heading != blank -%}
+                <div class="tpt-comingsoon_title">
+                  <h2 class="tpt-comingsoon_heading h1 tpt-section__title--color">{{ section.settings.heading }}</h2>
+                </div>
+              {%- endif -%}
+
+              {%- if section.settings.description != blank -%}
+                <div class="tpt-comingsoon_description tpt-section__foreground--color">
+                  {{ section.settings.description }}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+          <div class="tpt-comingsoon_countdown">
+            <tpt-countdown
+              class="tpt-countdown tpt-countdown_default tpt-section__foreground--color"
+              data-date="{{ section.settings.date }}"
+              data-time="{{ section.settings.time }}"
+              data-enable-utc="{{ section.settings.utc_time }}"
+              data-countdown-text="{{ section.settings.countdown_text }}"
+              data-countdown-text-plural="{{ section.settings.countdown_text_plural }}"
+            ></tpt-countdown>
+          </div>
+
+          {%- if section.settings.show_newsletter -%}
+            <div class="tpt-comingsoon_newsletter">
+              {% form 'customer', id: 'tptComingNewsletter', class: 'tpt-comingsoon_newsletter-form' %}
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="tpt-comingsoon_newsletter-wrapper">
+                  <div class="tpt-field">
+                    <input
+                      id="NewsletterForm--{{ section.id }}"
+                      type="email"
+                      name="contact[email]"
+                      class="tpt-input_text"
+                      value="{{ form.email }}"
+                      aria-required="true"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      autocomplete="email"
+                      {% if form.errors %}
+                        autofocus
+                        aria-invalid="true"
+                        aria-describedby="Newsletter-error--{{ section.id }}"
+                      {% elsif form.posted_successfully? %}
+                        aria-describedby="Newsletter-success--{{ section.id }}"
+                      {% endif %}
+                      placeholder="{{ section.settings.input_text }}"
+                      required
+                    >
+
+                    <button
+                      type="submit"
+                      class="tpt-button__primary"
+                      name="commit"
+                      id="Subscribe"
+                      aria-label="{{ section.settings.button_label }}"
+                    >
+                      {{ section.settings.button_label }}
+                    </button>
+                  </div>
+                </div>
+
+                {%- if form.errors -%}
+                  <div class="tpt-messages tpt-messages_error" id="Newsletter-error--{{ section.id }}">
+                    <svg aria-hidden="true" focusable="false" class="icon icon-error" viewBox="0 0 13 13">
+                      <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+                      <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+                      <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
+                      <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
+                    </svg>
+
+                    {{- form.errors.translated_fields.email | capitalize }}
+                    {{ form.errors.messages.email -}}
+                  </div>
+                {%- endif -%}
+
+                {%- if form.posted_successfully? -%}
+                  <div
+                    class="tpt-messages tpt-messages_success"
+                    id="Newsletter-success--{{ section.id }}"
+                  >
+                    <svg aria-hidden="true" focusable="false" class="icon icon-success" viewBox="0 0 13 13">
+                      <path d="M6.5 12.35C9.73087 12.35 12.35 9.73086 12.35 6.5C12.35 3.26913 9.73087 0.65 6.5 0.65C3.26913 0.65 0.65 3.26913 0.65 6.5C0.65 9.73086 3.26913 12.35 6.5 12.35Z" fill="#428445" stroke="white" stroke-width="0.7"/>
+                      <path d="M5.53271 8.66357L9.25213 4.68197" stroke="white"/>
+                      <path d="M4.10645 6.7688L6.13766 8.62553" stroke="white">
+                    </svg>
+
+                    {{ section.settings.success_message }}
+                  </div>
+                {%- endif -%}
+              {% endform %}
+            </div>
+          {%- endif -%}
+        </div>
+        {% comment %} End section body {% endcomment %}
+      </div>
+    </div>
+  </div>
+{%- endif -%}{%- unless content_for_header contains 'tapita-section-script-tags' -%}{% style %}#shopify-section-{{ section.id }}{display: none !important;}{% endstyle %}{%- endunless -%}
+{% schema %}
+{
+  "name": "Tpt - Coming soon #1",
+  "class": "section tpt-section",
+  "tag": "section",
+
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section body"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "COMING SOON",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "default": "<p>Our website is under construction</p>",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "date",
+      "label": "End date",
+      "default": "06/28/2026",
+      "info": "Format: mm/dd/YYYY. Example: 06/28/2026"
+    },
+    {
+      "type": "text",
+      "id": "time",
+      "label": "End time",
+      "default": "22:35:50",
+      "info": "Format: Hours:Minutes:Seconds. Example: 22:35:50"
+    },
+    {
+      "type": "checkbox",
+      "id": "utc_time",
+      "label": "Utc time",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "countdown_text",
+      "label": "Countdown text",
+      "default": "Day/Hour/Minute/Second",
+      "info": "Format: Day/Hour/Minute/Second"
+    },
+    {
+      "type": "text",
+      "id": "countdown_text_plural",
+      "label": "Countdown text plural",
+      "default": "Days/Hours/Minutes/Seconds",
+      "info": "Format: Days/Hours/Minutes/Seconds"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "input_text",
+      "label": "Input text",
+      "default": "Enter your email"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Get update"
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "Thanks for subscribing"
+    },
+    {
+      "type": "header",
+      "content": "Section layout"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_full_width",
+      "label": "Section full width",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "section_max_width",
+      "min": 1200,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Section max width",
+      "default": 1600
+    },
+    {
+      "type": "checkbox",
+      "id": "content_full_width",
+      "label": "Content full width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 800,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Content max width",
+      "default": 1440
+    },
+    {
+      "type": "range",
+      "id": "padding_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding desktop",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding tablet, mobile",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "margin_desktop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin desktop",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin tablet, mobile",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Section color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#BB80E4"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient_color",
+      "label": "Background gradient",
+      "default": "linear-gradient(45deg, rgba(187, 128, 228, 1), rgba(237, 186, 49, 1) 100%)"
+    },
+    {
+      "type": "color",
+      "id": "foreground_color",
+      "label": "Foreground",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "outline_input_color",
+      "label": "Input outline",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "input_button_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Input, button radius",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Section optimize"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_lazyload",
+      "label": "Section lazyload",
+      "default": false
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Tpt - Coming soon #1",
+      "blocks": []
+    }
+  ]
+} 
+{% endschema %}

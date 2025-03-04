@@ -1,0 +1,73 @@
+/**
+ * Count down style default
+ * <tpt-countdown class="tpt-countdown tpt-countdown_default" data-date="06/28/2024" data-time="22:35:50" data-enable-utc="true" data-countdown-text="Day/Hour/Minute/Second" data-countdown-text-plural="Days/Hours/Minutes/Seconds">
+ * </tpt-countdown>
+ */
+
+.tpt-countdown_default {
+	display: inline-flex;
+	column-gap: 2rem;
+}
+.tpt-countdown_default .tpt-countdown_item {
+	text-align: center;
+}
+
+.tpt-countdown_default .tpt-countdown_item span {
+	display: block;
+}
+
+.tpt-countdown_default .tpt-countdown_amount {
+	min-width: 8.4rem;
+	padding: 1.3rem 1rem;
+	margin-bottom: 0.5rem;
+	font-size: 4.8rem;
+	line-height: 1;
+	color: rgba(var(--color-foreground, 255, 255, 255), 1);
+	background-color: rgba(var(--color-foreground, 255, 255, 255), 0.4);
+	border-radius: 0.4rem;
+}
+
+.tpt-countdown_default .tpt-countdown_word {
+	font-size: 1.8rem;
+}
+
+/**
+ * Count down style simple
+ * <tpt-countdown class="tpt-countdown tpt-countdown_simple" data-date="06/28/2024" data-time="22:35:50" data-enable-utc="true" data-countdown-text="Day/Hour/Minute/Second" data-countdown-text-plural="Days/Hours/Minutes/Seconds">
+ * </tpt-countdown>
+ */
+
+.tpt-countdown_simple {
+	display: inline-flex;
+	column-gap: 3rem;
+}
+.tpt-countdown_simple .tpt-countdown_item {
+	text-align: center;
+	position: relative;
+	color: rgba(var(--color-foreground), 1);
+}
+
+.tpt-countdown_simple .tpt-countdown_item:not(:last-child):before {
+	content: ":";
+	font-size: 4.8rem;
+	position: absolute;
+	right: -18px;
+	top: -3px;
+	line-height: 1;
+}
+
+.tpt-countdown_simple .tpt-countdown_item span {
+	display: block;
+}
+
+.tpt-countdown_simple .tpt-countdown_amount {
+	min-width: 8.4rem;
+	margin-bottom: 0.5rem;
+	font-size: 4.8rem;
+	line-height: 1;
+	font-weight: 700;
+}
+
+.tpt-countdown_simple .tpt-countdown_word {
+	font-size: 1.8rem;
+}

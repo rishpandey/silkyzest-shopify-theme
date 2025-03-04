@@ -1,0 +1,62 @@
+.tpt-comingsoon_one {
+	text-align: center;
+}
+
+.tpt-comingsoon_one .tpt-comingsoon_header {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	margin-bottom: 4rem;
+}
+
+.tpt-comingsoon_one .tpt-comingsoon_header .tpt-comingsoon_heading,
+.tpt-comingsoon_one .tpt-comingsoon_header > * {
+	margin: 0;
+}
+
+.tpt-comingsoon_one .tpt-comingsoon_header .tpt-comingsoon_description > *:first-child {
+	margin-top: 0;
+}
+
+.tpt-comingsoon_one .tpt-comingsoon_header .tpt-comingsoon_description > *:last-child {
+	margin-bottom: 0;
+}
+
+.tpt-comingsoon_one .tpt-countdown_default .tpt-countdown_item .tpt-countdown_amount {
+	background-color: rgba(var(--tpt-section-foreground-color), 0.3);
+	color: rgb(var(--tpt-section-foreground-color));
+	font-weight: 700;
+}
+
+/**
+ * Newsletter form
+ */
+
+.tpt-comingsoon_one .tpt-field {
+	display: flex;
+	justify-content: center;
+	column-gap: 0;
+	align-items: start;
+}
+
+.tpt-comingsoon_one .tpt-comingsoon_newsletter {
+	max-width: 60rem;
+	margin: 4rem auto 0;
+}
+
+.tpt-comingsoon_one .tpt-input_text {
+	width: 100%;
+	height: 54px;
+}
+
+.tpt-comingsoon_one .tpt-input_text::placeholder {
+	opacity: 1;
+	color: rgb(var(--tpt-section-foreground-color));
+}
+
+.tpt-comingsoon_one .tpt-field .tpt-button__primary {
+	white-space: nowrap;
+	height: 54px;
+	line-height: 54px;
+	padding: 0 30px !important;
+}
