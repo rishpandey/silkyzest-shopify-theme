@@ -469,7 +469,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "body {background: linear-gradient( 180deg, rgba(255, 255, 255, 1), rgba(251, 245, 238, 1) 100% );}"
+      "body {background: linear-gradient( 180deg, rgba(255, 255, 255, 1), rgba(251, 245, 238, 0.8) 100% );}"
     ]
   }
 }
