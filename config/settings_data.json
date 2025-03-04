@@ -232,7 +232,7 @@
       "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0": {
         "settings": {
           "background": "#f8f6f3",
-          "background_gradient": "linear-gradient(180deg, rgba(250, 248, 246, 1), rgba(231, 225, 218, 1) 100%)",
+          "background_gradient": "",
           "text": "#000000",
           "button": "#d4af75",
           "button_label": "#000000",
@@ -436,7 +436,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "body{background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(251, 245, 238, 0.9) 100%)}"
+      "body {background: linear-gradient( 60deg, rgba(255, 255, 255, 1), rgba(251, 245, 238, 0.75) 100% );}"
     ]
   }
 }
