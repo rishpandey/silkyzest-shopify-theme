@@ -1,0 +1,25 @@
+.tpt-collection-list-1__image {
+	position: relative;
+	border-radius: var(--image-radius);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tpt-collection-list-1__collection-link {
+	text-decoration: none;
+	background-color: var(--button-item-background);
+	color: var(--button-item-text);
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	left: 15px;
+	text-align: center;
+	padding: 8px 20px;
+	opacity: 0;
+	border-radius: calc(var(--image-radius) / 2);
+	transition: 0.2s;
+}
+
+.tpt-collection-list-1__image:hover .tpt-collection-list-1__collection-link {
+	opacity: 1;
+}

@@ -1,0 +1,452 @@
+
+
+{% comment %} Section layout style {% endcomment %}
+{{ 'tpt-section.css' | asset_url | stylesheet_tag }}
+
+{% comment %} Section configuration {% endcomment %}
+{%- render 'tpt-section-setting', section: section -%}
+
+{%- if section.index and section.settings.section_lazyload -%}
+  <script src="{{ 'tpt-section-lazyload.js' | asset_url }}" defer="defer"></script>
+
+  <tpt-section-lazyload data-url="?section_id={{ section.id }}">
+    <div data-lazyload-element></div>
+    <span class="tpt-section_loader"></span>
+  </tpt-section-lazyload>
+{%- else -%}
+  {% comment %} Grid style {% endcomment %}
+  {{ 'tpt-grid.css' | asset_url | stylesheet_tag }}
+
+  {% comment %} Current section style {% endcomment %}
+  {{ 'tpt-collection-list-1.css' | asset_url | stylesheet_tag }}
+
+  {% style %}
+    #shopify-section-{{ section.id }}{
+      --item-image-radius: {{ section.settings.image_radius }}px;
+      --button-item-background: {{ section.settings.button_item_background }};
+      --button-item-text: {{ section.settings.button_item_text }};
+      --image-radius: {{ section.settings.image_radius }}px;
+    }
+  {% endstyle %}
+
+  {%- liquid
+    if section.settings.section_full_width and section.settings.content_full_width
+      assign content_width = '100vw'
+    else
+      assign content_width = section.settings.content_max_width | append: 'px'
+    endif
+
+    assign desktop_column = section.settings.desktop_column
+    assign tablet_column = section.settings.tablet_column
+    assign mobile_column = section.settings.mobile_column
+  -%}
+
+  {%- capture sizes -%}
+    (min-width: 1281px) calc({{ content_width }} / {{ desktop_column }}), (min-width: 768px) calc(100vw / {{ tablet_column }}), 100vw
+  {%- endcapture -%}
+
+  <div class="tpt-section_container color-{{ section.settings.color_scheme }} gradient">
+    <div class="tpt-section_content">
+      {% comment %} Section header {% endcomment %}
+      {%- render 'tpt-section-header', section: section -%}
+
+      <div class="tpt-section-body">
+        {% comment %} Section body {% endcomment %}
+        <div
+          class="tpt-collection-list__one tpt-grid desktop-{{ desktop_column }}-columns tablet-{{ tablet_column }}-columns mobile-{{ mobile_column }}-columns"
+        >
+          {%- for block in section.blocks -%}
+            <div class="tpt-collection-list__one-item tpt-grid_item">
+              <div class="tpt-collection-list-1__image">
+                <div class="tpt-ratio_item" style="--ratio-percent: {{ section.settings.image_ratio }}%">
+                  <div class="tpt-ratio_content">
+                    <a href="{{ block.settings.collection.url }}">
+                      {% if block.settings.collection_image != blank %}
+                        {%- assign image_alt = block.settings.item_image.alt | default: shop.name -%}
+                        {{
+                          block.settings.collection_image
+                          | image_url: width: 3840
+                          | image_tag:
+                            sizes: sizes,
+                            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                            loading: 'lazy',
+                            alt: image_alt
+                          | default: shop.name
+                        }}
+                      {% else %}
+                        {% if block.settings.collection.featured_image != blank %}
+                          {%- assign image_alt = block.settings.collection.featured_image.alt | default: shop.name -%}
+                          {{
+                            block.settings.collection.featured_image
+                            | image_url: width: 3840
+                            | image_tag:
+                              sizes: sizes,
+                              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                              loading: 'lazy',
+                              alt: image_alt
+                            | default: shop.name
+                          }}
+                        {%- else -%}
+                          {%- render 'tpt-image-placeholder' -%}
+                        {%- endif -%}
+                      {% endif %}
+                    </a>
+                  </div>
+                </div>
+
+                {% if block.settings.button_text != blank %}
+                  <a href="{{ block.settings.collection.url }}" class="tpt-collection-list-1__collection-link">
+                    <span>{{ block.settings.button_text }}</span>
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+        {% comment %} End section body {% endcomment %}
+      </div>
+
+      {% comment %} Section footer {% endcomment %}
+      {%- render 'tpt-section-footer', section: section -%}
+    </div>
+  </div>
+{%- endif -%}{%- unless content_for_header contains 'tapita-section-script-tags' -%}{% style %}#shopify-section-{{ section.id }}{display: none !important;}{% endstyle %}{%- endunless -%}
+{% schema %}
+{
+  "name": "Tpt - Collection list #1",
+  "class": "section tpt-section",
+  "tag": "section",
+
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Collection list #1"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        {
+          "value": "h4",
+          "label": "Small"
+        },
+        {
+          "value": "h2",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "label": "Sub-heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Lorem ipsum dolor sit amet consectetur. Sapien faucibus feugiat duis ornare tortor nulla pulvinar ut sed.</p>"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "top_button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "top_button_link",
+      "label": "Button link"
+    },
+
+    {
+      "type": "header",
+      "content": "Section body"
+    },
+    {
+      "type": "range",
+      "id": "image_ratio",
+      "min": 50,
+      "max": 150,
+      "unit": "%",
+      "step": 1,
+      "label": "Image ratio",
+      "default": 120
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Image radius",
+      "default": 12
+    },
+
+    {
+      "type": "color",
+      "id": "button_item_background",
+      "label": "Button background color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_item_text",
+      "label": "Button text color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "desktop_column",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "label": "Number of columns on desktop",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "tablet_column",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Number of columns on tablet",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "mobile_column",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "label": "Number of columns on mobile",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Section footer"
+    },
+    {
+      "type": "text",
+      "id": "bottom_button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "bottom_button_link",
+      "label": "Button link"
+    },
+
+    {
+      "type": "header",
+      "content": "Section layout"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_full_width",
+      "label": "Section full width",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "section_max_width",
+      "min": 1200,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Section max width",
+      "default": 1600
+    },
+    {
+      "type": "checkbox",
+      "id": "content_full_width",
+      "label": "Content full width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 1200,
+      "max": 1900,
+      "step": 20,
+      "unit": "px",
+      "label": "Content max width",
+      "default": 1440
+    },
+    {
+      "type": "range",
+      "id": "padding_desktop",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding desktop",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding tablet, mobile",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "margin_desktop",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin desktop",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_tablet_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin tablet, mobile",
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "Section color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient_color",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "foreground_color",
+      "label": "Foreground",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "input_button_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Input, button radius",
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "Section optimize"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_lazyload",
+      "label": "Section lazyload",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "collection_image",
+          "label": "Custom image"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "SHOP NOW"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tpt - Collection list #1",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+} 
+{% endschema %}
