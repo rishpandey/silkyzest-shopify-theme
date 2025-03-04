@@ -31,7 +31,7 @@
       ],
       "custom_css": [
         "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; font-size: 1rem; }}",
-        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; /* background: rgba(255, 255, 255, 0.4); */ } .tpt-slideshow__info--content h2 {font-size: 2rem; } .tpt-slideshow__info--content a {background: #fff !important; font-size: 1rem; }}"
+        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; /* background: rgba(255, 255, 255, 0.4); */ } .tpt-slideshow__info--content h2 {font-size: 2rem; } .tpt-slideshow__info--content a, .tpt-slideshow__info--content span {background: #fff !important; }}"
       ],
       "settings": {
         "item_background_color": "#FFFFFF",
