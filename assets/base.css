@@ -3608,3 +3608,15 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+
+
+
+div[style*="position: absolute"][style*="font-size: 9px"][style*="bottom: 10px"][style*="right: 10px"] {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
