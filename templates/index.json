@@ -64,82 +64,6 @@
         "section_lazyload": false
       }
     },
-    "tpt_collection_list_3_XUpgfU": {
-      "type": "tpt-collection-list-3",
-      "blocks": {
-        "item_ULwDdA": {
-          "type": "item",
-          "settings": {
-            "collection": "nature-inspired",
-            "collection_name": "Nature Inspired Collection"
-          }
-        },
-        "item_PzDVyn": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8746.jpg",
-            "collection_name": ""
-          }
-        },
-        "item_gYUAdW": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8787.jpg",
-            "collection_name": ""
-          }
-        },
-        "item_88NYN9": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8737.jpg",
-            "collection_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ULwDdA",
-        "item_PzDVyn",
-        "item_gYUAdW",
-        "item_88NYN9"
-      ],
-      "custom_css": [],
-      "settings": {
-        "heading": "",
-        "heading_size": "h0",
-        "sub_heading": "",
-        "description": "",
-        "alignment": "default",
-        "top_button_label": "",
-        "top_button_link": "",
-        "button_text": "SHOP NOW",
-        "collection_name_color": "#f8f6f3",
-        "collection_button_background": "#ffffff",
-        "collection_button_text": "#000000",
-        "collection_button_radius": 6,
-        "bottom_button_label": "",
-        "bottom_button_link": "",
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "section_full_width": true,
-        "section_max_width": 1600,
-        "content_full_width": true,
-        "content_max_width": 1600,
-        "padding_desktop": 16,
-        "padding_tablet_mobile": 16,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 60,
-        "background_color": "#f8f6f3",
-        "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [],
@@ -320,14 +244,90 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "tpt_collection_list_3_XUpgfU": {
+      "type": "tpt-collection-list-3",
+      "blocks": {
+        "item_ULwDdA": {
+          "type": "item",
+          "settings": {
+            "collection": "nature-inspired",
+            "collection_name": "Nature Inspired Collection"
+          }
+        },
+        "item_PzDVyn": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8746.jpg",
+            "collection_name": ""
+          }
+        },
+        "item_gYUAdW": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8787.jpg",
+            "collection_name": ""
+          }
+        },
+        "item_88NYN9": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8737.jpg",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ULwDdA",
+        "item_PzDVyn",
+        "item_gYUAdW",
+        "item_88NYN9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "sub_heading": "",
+        "description": "",
+        "alignment": "default",
+        "top_button_label": "",
+        "top_button_link": "",
+        "button_text": "SHOP NOW",
+        "collection_name_color": "#f8f6f3",
+        "collection_button_background": "#ffffff",
+        "collection_button_text": "#000000",
+        "collection_button_radius": 6,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": true,
+        "content_max_width": 1600,
+        "padding_desktop": 16,
+        "padding_tablet_mobile": 16,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 60,
+        "background_color": "#f8f6f3",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
     }
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
-    "tpt_collection_list_3_XUpgfU",
-    "featured_collection",
     "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
-    "image_with_text_3hq8MR"
+    "image_with_text_3hq8MR",
+    "tpt_collection_list_3_XUpgfU",
+    "featured_collection"
   ]
 }
