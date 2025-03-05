@@ -43,11 +43,11 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 8,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
@@ -59,7 +59,7 @@
           "type": "item",
           "settings": {
             "content": "Prepaid Orders Only!",
-            "font_size": 16,
+            "font_size": 12,
             "link": ""
           }
         },
@@ -67,7 +67,7 @@
           "type": "item",
           "settings": {
             "content": "Free shipping above Rs.999",
-            "font_size": 16,
+            "font_size": 12,
             "link": ""
           }
         },
@@ -75,7 +75,7 @@
           "type": "item",
           "settings": {
             "content": "Get 10% off on your first purchase.",
-            "font_size": 16,
+            "font_size": 12,
             "link": ""
           }
         }
@@ -84,6 +84,9 @@
         "item_4nq4NM",
         "item_8wVri8",
         "item_jjB6eh"
+      ],
+      "custom_css": [
+        "div{height:45px; display: flex; align-items: center;}"
       ],
       "settings": {
         "pause_on_hover": true,
