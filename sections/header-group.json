@@ -85,9 +85,7 @@
         "item_8wVri8",
         "item_jjB6eh"
       ],
-      "custom_css": [
-        "div{height:45px; display: flex; align-items: center;}"
-      ],
+      "custom_css": [],
       "settings": {
         "pause_on_hover": true,
         "speed": 90,
