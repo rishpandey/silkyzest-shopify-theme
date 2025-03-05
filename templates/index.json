@@ -71,7 +71,6 @@
           "type": "item",
           "settings": {
             "collection": "nature-inspired",
-            "collection_image": "shopify://shop_images/IMG_8938.jpg",
             "collection_name": "Nature Inspired Collection"
           }
         },
@@ -274,6 +273,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_3hq8MR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LGqgwp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Café Indulgence Duo!",
+            "heading_size": "h1"
+          }
+        },
+        "text_NCTUyN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wake up to the warmth of a Parisian café with our Café Indulgence Duo, a delightful candle set inspired by the comforting aroma of freshly brewed iced coffee latte and golden, buttery croissants.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KeUd6n": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/cafe-inspired",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LGqgwp",
+        "text_NCTUyN",
+        "button_KeUd6n"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Tezza-1287.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -281,6 +327,7 @@
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
     "tpt_collection_list_3_WCEEm9",
-    "featured_collection_JzLY7M"
+    "featured_collection_JzLY7M",
+    "image_with_text_3hq8MR"
   ]
 }
