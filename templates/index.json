@@ -65,6 +65,263 @@
         "section_lazyload": false
       }
     },
+    "tpt_collection_list_3_WCEEm9": {
+      "type": "tpt-collection-list-3",
+      "blocks": {
+        "item_6xFa6w": {
+          "type": "item",
+          "settings": {
+            "collection": "cafe-inspired",
+            "collection_image": "shopify://shop_images/IMG_8898.jpg",
+            "collection_name": "Cafe Inspired Collection"
+          }
+        },
+        "item_89nCkX": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8563.jpg",
+            "collection_name": "Collection name"
+          }
+        },
+        "item_CELMGz": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/mango_latte000_2.jpg",
+            "collection_name": "Collection name"
+          }
+        },
+        "item_9rdPyQ": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8901.jpg",
+            "collection_name": "Collection name"
+          }
+        }
+      },
+      "block_order": [
+        "item_6xFa6w",
+        "item_89nCkX",
+        "item_CELMGz",
+        "item_9rdPyQ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "alignment": "center",
+        "top_button_label": "",
+        "top_button_link": "",
+        "button_text": "SHOP NOW",
+        "collection_name_color": "#ffffff",
+        "collection_button_background": "#ffffff",
+        "collection_button_text": "#000000",
+        "collection_button_radius": 6,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "section_full_width": false,
+        "section_max_width": 1440,
+        "content_full_width": false,
+        "content_max_width": 1440,
+        "padding_desktop": 10,
+        "padding_tablet_mobile": 10,
+        "margin_desktop": 40,
+        "margin_tablet_mobile": 40,
+        "background_color": "#ffffff",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "featured_collection_JzLY7M": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cafe-inspired",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_3hq8MR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LGqgwp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Café Indulgence Duo!",
+            "heading_size": "h1"
+          }
+        },
+        "text_NCTUyN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wake up to the warmth of a Parisian café with our Café Indulgence Duo, a delightful candle set inspired by the comforting aroma of freshly brewed iced coffee latte and golden, buttery croissants.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KeUd6n": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/cafe-inspired",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LGqgwp",
+        "text_NCTUyN",
+        "button_KeUd6n"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Tezza-1287.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "tpt_collection_list_3_XUpgfU": {
+      "type": "tpt-collection-list-3",
+      "blocks": {
+        "item_ULwDdA": {
+          "type": "item",
+          "settings": {
+            "collection": "nature-inspired",
+            "collection_name": "Nature Inspired Collection"
+          }
+        },
+        "item_PzDVyn": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8746.jpg",
+            "collection_name": ""
+          }
+        },
+        "item_gYUAdW": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8787.jpg",
+            "collection_name": ""
+          }
+        },
+        "item_88NYN9": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/IMG_8737.jpg",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ULwDdA",
+        "item_PzDVyn",
+        "item_gYUAdW",
+        "item_88NYN9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "sub_heading": "",
+        "description": "",
+        "alignment": "default",
+        "top_button_label": "",
+        "top_button_link": "",
+        "button_text": "SHOP NOW",
+        "collection_name_color": "#f8f6f3",
+        "collection_button_background": "#ffffff",
+        "collection_button_text": "#000000",
+        "collection_button_radius": 6,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "section_full_width": false,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1600,
+        "padding_desktop": 16,
+        "padding_tablet_mobile": 16,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 60,
+        "background_color": "#ffffff",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "nature-inspired",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
     "tpt_badges_three_h7JzD6": {
       "type": "tpt-badges-three",
       "blocks": {
@@ -142,272 +399,15 @@
         "input_button_radius": 0,
         "section_lazyload": false
       }
-    },
-    "tpt_collection_list_3_WCEEm9": {
-      "type": "tpt-collection-list-3",
-      "blocks": {
-        "item_6xFa6w": {
-          "type": "item",
-          "settings": {
-            "collection": "cafe-inspired",
-            "collection_image": "shopify://shop_images/IMG_8898.jpg",
-            "collection_name": "Cafe Inspired Collection"
-          }
-        },
-        "item_89nCkX": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8563.jpg",
-            "collection_name": "Collection name"
-          }
-        },
-        "item_CELMGz": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/mango_latte000_2.jpg",
-            "collection_name": "Collection name"
-          }
-        },
-        "item_9rdPyQ": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8901.jpg",
-            "collection_name": "Collection name"
-          }
-        }
-      },
-      "block_order": [
-        "item_6xFa6w",
-        "item_89nCkX",
-        "item_CELMGz",
-        "item_9rdPyQ"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "sub_heading": "",
-        "description": "",
-        "alignment": "center",
-        "top_button_label": "",
-        "top_button_link": "",
-        "button_text": "SHOP NOW",
-        "collection_name_color": "#ffffff",
-        "collection_button_background": "#ffffff",
-        "collection_button_text": "#000000",
-        "collection_button_radius": 6,
-        "bottom_button_label": "",
-        "bottom_button_link": "",
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "section_full_width": true,
-        "section_max_width": 1440,
-        "content_full_width": true,
-        "content_max_width": 1440,
-        "padding_desktop": 10,
-        "padding_tablet_mobile": 10,
-        "margin_desktop": 40,
-        "margin_tablet_mobile": 40,
-        "background_color": "#ffffff",
-        "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
-    "featured_collection_JzLY7M": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "cafe-inspired",
-        "products_to_show": 12,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_3hq8MR": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LGqgwp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Café Indulgence Duo!",
-            "heading_size": "h1"
-          }
-        },
-        "text_NCTUyN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wake up to the warmth of a Parisian café with our Café Indulgence Duo, a delightful candle set inspired by the comforting aroma of freshly brewed iced coffee latte and golden, buttery croissants.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_KeUd6n": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/cafe-inspired",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_LGqgwp",
-        "text_NCTUyN",
-        "button_KeUd6n"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Tezza-1287.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "tpt_collection_list_3_XUpgfU": {
-      "type": "tpt-collection-list-3",
-      "blocks": {
-        "item_ULwDdA": {
-          "type": "item",
-          "settings": {
-            "collection": "nature-inspired",
-            "collection_name": "Nature Inspired Collection"
-          }
-        },
-        "item_PzDVyn": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8746.jpg",
-            "collection_name": ""
-          }
-        },
-        "item_gYUAdW": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8787.jpg",
-            "collection_name": ""
-          }
-        },
-        "item_88NYN9": {
-          "type": "item",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/IMG_8737.jpg",
-            "collection_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_ULwDdA",
-        "item_PzDVyn",
-        "item_gYUAdW",
-        "item_88NYN9"
-      ],
-      "custom_css": [],
-      "settings": {
-        "heading": "",
-        "heading_size": "h0",
-        "sub_heading": "",
-        "description": "",
-        "alignment": "default",
-        "top_button_label": "",
-        "top_button_link": "",
-        "button_text": "SHOP NOW",
-        "collection_name_color": "#f8f6f3",
-        "collection_button_background": "#ffffff",
-        "collection_button_text": "#000000",
-        "collection_button_radius": 6,
-        "bottom_button_label": "",
-        "bottom_button_link": "",
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "section_full_width": true,
-        "section_max_width": 1600,
-        "content_full_width": true,
-        "content_max_width": 1600,
-        "padding_desktop": 16,
-        "padding_tablet_mobile": 16,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 60,
-        "background_color": "#ffffff",
-        "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "nature-inspired",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
-    "tpt_badges_three_h7JzD6",
     "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_collection_list_3_XUpgfU",
-    "featured_collection"
+    "featured_collection",
+    "tpt_badges_three_h7JzD6"
   ]
 }
