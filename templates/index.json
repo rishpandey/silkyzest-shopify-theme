@@ -31,7 +31,7 @@
       ],
       "custom_css": [
         "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; }}",
-        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -70%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display:none; }}"
+        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -70%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
@@ -60,6 +60,84 @@
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "outline_button_color": "#000000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "tpt_badges_three_h7JzD6": {
+      "type": "tpt-badges-three",
+      "blocks": {
+        "item_47wmmx": {
+          "type": "item",
+          "settings": {
+            "image_type": "icon",
+            "image_preload": false,
+            "heading": "<strong>Handcrafted with Love</strong>",
+            "description": "<p>Every candle is hand-poured in small batches to ensure the highest quality and attention to detail.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "item_hqTnng": {
+          "type": "item",
+          "settings": {
+            "image_type": "icon",
+            "image_preload": false,
+            "heading": "<strong>Premium & Natural Ingredients</strong>",
+            "description": "<p>We use eco-friendly soy wax, lead-free cotton wicks, and the finest fragrance oils for a clean, long-lasting burn.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "item_Y9UnFz": {
+          "type": "item",
+          "settings": {
+            "image_type": "icon",
+            "image_preload": false,
+            "heading": "<strong>Perfect for Gifting</strong>",
+            "description": "<p>Beautiful candles and exquisite scents make our candles the ideal gift for any occasion.</p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_47wmmx",
+        "item_hqTnng",
+        "item_Y9UnFz"
+      ],
+      "settings": {
+        "heading": "Why choose us",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "<p>At <strong>Silky Zest</strong>, we believe a candle is more than just wax and wick—it’s an experience.</p><p>Here’s why our customers love us:</p>",
+        "alignment": "center",
+        "top_button_label": "",
+        "top_button_link": "",
+        "item_background_color": "#FFFFFF",
+        "item_text_color": "#000000",
+        "border_radius": 8,
+        "hidden_border": false,
+        "icon_position": "default",
+        "desktop_column": 3,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1440,
+        "padding_desktop": 0,
+        "padding_tablet_mobile": 0,
+        "margin_desktop": 20,
+        "margin_tablet_mobile": 20,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
         "input_button_radius": 0,
         "section_lazyload": false
       }
@@ -128,8 +206,8 @@
         "content_max_width": 1440,
         "padding_desktop": 10,
         "padding_tablet_mobile": 10,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
+        "margin_desktop": 20,
+        "margin_tablet_mobile": 21,
         "background_color": "#f8f6f3",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -324,6 +402,7 @@
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
+    "tpt_badges_three_h7JzD6",
     "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
