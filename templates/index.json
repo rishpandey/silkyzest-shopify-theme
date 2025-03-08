@@ -30,7 +30,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; }}",
+        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; max-height: 100vh; }}",
         "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -60%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}"
       ],
       "settings": {
