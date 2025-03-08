@@ -132,7 +132,7 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 40,
         "margin_tablet_mobile": 40,
-        "background_color": "rgba(0,0,0,0)",
+        "background_color": "#f8f6f3",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
