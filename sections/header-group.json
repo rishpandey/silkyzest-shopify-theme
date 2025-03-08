@@ -115,7 +115,7 @@
         "logo_position": "middle-left",
         "menu": "header",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "reduce-logo-size",
+        "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "menu_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
