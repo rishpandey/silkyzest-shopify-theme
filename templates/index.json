@@ -30,9 +30,9 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; }}",
+        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -60%; min-width: 75%; }}",
         "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -60%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}",
-        ".tpt-swiper-container, .tpt-swiper-container img{max-height:100vh;}"
+        ".tpt-swiper-container,.tpt-swiper-container img {max-height: 100vh;}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
@@ -115,7 +115,7 @@
         "alignment": "center",
         "top_button_label": "",
         "top_button_link": "",
-        "item_background_color": "#FFFFFF",
+        "item_background_color": "#ffffff",
         "item_text_color": "#000000",
         "border_radius": 8,
         "hidden_border": false,
