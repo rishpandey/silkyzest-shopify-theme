@@ -31,13 +31,13 @@
       ],
       "custom_css": [
         "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; min-width: 75%; }}",
-        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -70%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}"
+        "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -60%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
         "background_opacity": 0,
         "desktop_image_ratio": 75,
-        "mobile_image_ratio": 100,
+        "mobile_image_ratio": 80,
         "border_radius": 0,
         "nav": false,
         "dots": true,
