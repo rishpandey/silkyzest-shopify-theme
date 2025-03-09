@@ -11,62 +11,19 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement_bar_xCBwWn": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_Fg8tpj": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enjoy 10% off your first order & free shipping on orders above ₹999. Prepaid only.",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_Fg8tpj"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": true,
-        "change_slides_speed": 8,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "tpt_scrolling_text_1_WTwtQp": {
       "type": "tpt-scrolling-text-1",
       "blocks": {
-        "item_4nq4NM": {
-          "type": "item",
-          "settings": {
-            "content": "Prepaid Orders Only!",
-            "font_size": 12,
-            "link": ""
-          }
-        },
-        "item_8wVri8": {
-          "type": "item",
-          "settings": {
-            "content": "Free shipping above Rs.999",
-            "font_size": 12,
-            "link": ""
-          }
-        },
         "item_jjB6eh": {
           "type": "item",
           "settings": {
-            "content": "Get 10% off on your first purchase.",
-            "font_size": 12,
+            "content": "Enjoy <strong>10% off</strong> on your first order & free shipping on orders above ₹999. Prepaid only!",
+            "font_size": 14,
             "link": ""
           }
         }
       },
       "block_order": [
-        "item_4nq4NM",
-        "item_8wVri8",
         "item_jjB6eh"
       ],
       "custom_css": [
@@ -114,7 +71,6 @@
     }
   },
   "order": [
-    "announcement_bar_xCBwWn",
     "tpt_scrolling_text_1_WTwtQp",
     "header"
   ]
