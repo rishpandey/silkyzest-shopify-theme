@@ -268,8 +268,8 @@
             "image": "shopify://shop_images/Tezza-4360.jpg",
             "preload_image": false,
             "info_position": "left",
-            "heading": "New Collection",
-            "description": "<p>Sweet Dessert - Fill your space with the Sweet, Luscious Scent of a Gourmet Dessert.</p>",
+            "heading": "<strong>New Collection</strong>",
+            "description": "<p><strong>Sweet Dessert</strong> - Fill your space with the Sweet, Luscious Scent of a Gourmet Dessert.</p>",
             "button_label": "Shop now",
             "button_link": "shopify://collections/sweet-dessert",
             "outline_button": true
