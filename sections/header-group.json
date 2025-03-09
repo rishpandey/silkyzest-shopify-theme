@@ -52,7 +52,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header {max-width: 1420px;}"
+        "header {max-width: 1480px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
