@@ -74,8 +74,8 @@
             "image": "shopify://shop_images/IMG_9027.jpg",
             "preload_image": false,
             "info_position": "left",
-            "heading": "New Arrival",
-            "description": "<p>Rose Bubble Candle - A Perfect Blend of Beauty and Aroma.</p>",
+            "heading": "<strong>New Arrival</strong>",
+            "description": "<p><strong>Rose Bubble Candle</strong> - A Perfect Blend of Beauty and Aroma.</p>",
             "button_label": "Shop now",
             "button_link": "shopify://products/rose-bubble-candle-pack-of-1-candle",
             "outline_button": true
@@ -469,11 +469,11 @@
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
-    "tpt_slideshow_four_ddNyAH",
-    "tpt_collection_list_3_WCEEm9",
-    "featured_collection_JzLY7M",
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
+    "tpt_collection_list_3_WCEEm9",
+    "tpt_slideshow_four_ddNyAH",
+    "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6"
   ]
