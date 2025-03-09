@@ -74,11 +74,11 @@
             "image": "shopify://shop_images/IMG_9027.jpg",
             "preload_image": false,
             "info_position": "left",
-            "heading": "New Arrivals",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "heading": "New Arrival",
+            "description": "<p>Rose Bubble Candle - A perfect blend of beauty and aroma, this candle elevates any space with its soft floral glow.</p>",
             "button_label": "Shop now",
-            "button_link": "/",
-            "outline_button": false
+            "button_link": "shopify://products/rose-bubble-candle-pack-of-1-candle",
+            "outline_button": true
           }
         },
         "slide_e3ywxi": {
@@ -87,11 +87,11 @@
             "image": "shopify://shop_images/Tezza-4360.jpg",
             "preload_image": false,
             "info_position": "left",
-            "heading": "New Arrivals",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "heading": "New Collection",
+            "description": "<p>Sweet Dessert - A perfect blend to fill your space with the sweet, luscious scent of a gourmet dessert.</p>",
             "button_label": "Shop now",
-            "button_link": "/",
-            "outline_button": false
+            "button_link": "shopify://collections/sweet-dessert",
+            "outline_button": true
           }
         }
       },
@@ -101,7 +101,7 @@
       ],
       "settings": {
         "item_background_color": "#FFFFFF",
-        "background_opacity": 0,
+        "background_opacity": 5,
         "desktop_image_ratio": 45,
         "mobile_image_ratio": 100,
         "border_radius": 0,
@@ -110,7 +110,7 @@
         "loop": true,
         "effect": "fade",
         "auto_play": true,
-        "delay": 3,
+        "delay": 6,
         "section_full_width": false,
         "section_max_width": 1400,
         "content_full_width": false,
