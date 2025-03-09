@@ -38,7 +38,7 @@
         "item_background_color": "#ffffff",
         "background_opacity": 0,
         "desktop_image_ratio": 60,
-        "mobile_image_ratio": 70,
+        "mobile_image_ratio": 80,
         "border_radius": 0,
         "nav": false,
         "dots": true,
@@ -61,6 +61,71 @@
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "outline_button_color": "#000000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "tpt_slideshow_four_ddNyAH": {
+      "type": "tpt-slideshow-four",
+      "blocks": {
+        "slide_pwThGU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9027.jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "New Arrivals",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
+        "slide_e3ywxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Tezza-4360.jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "New Arrivals",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_pwThGU",
+        "slide_e3ywxi"
+      ],
+      "settings": {
+        "item_background_color": "#FFFFFF",
+        "background_opacity": 0,
+        "desktop_image_ratio": 45,
+        "mobile_image_ratio": 100,
+        "border_radius": 0,
+        "nav": false,
+        "dots": true,
+        "loop": true,
+        "effect": "fade",
+        "auto_play": true,
+        "delay": 3,
+        "section_full_width": false,
+        "section_max_width": 1400,
+        "content_full_width": false,
+        "content_max_width": 1400,
+        "padding_desktop": 0,
+        "padding_tablet_mobile": 0,
+        "margin_desktop": 60,
+        "margin_tablet_mobile": 40,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "outline_button_color": "#000",
         "input_button_radius": 0,
         "section_lazyload": false
       }
@@ -404,6 +469,7 @@
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
+    "tpt_slideshow_four_ddNyAH",
     "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
     "tpt_collection_list_3_XUpgfU",
