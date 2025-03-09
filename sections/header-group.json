@@ -33,7 +33,7 @@
         "pause_on_hover": true,
         "speed": 90,
         "section_full_width": true,
-        "section_max_width": 1600,
+        "section_max_width": 1400,
         "content_full_width": false,
         "content_max_width": 1440,
         "padding_desktop": 0,
