@@ -14,32 +14,16 @@
     "announcement_bar_xCBwWn": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_V8rkMG": {
-          "type": "announcement",
-          "settings": {
-            "text": "Prepaid Orders Only!",
-            "link": ""
-          }
-        },
         "announcement_Fg8tpj": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping above Rs.999",
-            "link": ""
-          }
-        },
-        "announcement_dRmy8N": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
+            "text": "Enjoy 10% off your first order & free shipping on orders above ₹999. Prepaid only.",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_V8rkMG",
-        "announcement_Fg8tpj",
-        "announcement_dRmy8N"
+        "announcement_Fg8tpj"
       ],
       "disabled": true,
       "settings": {
