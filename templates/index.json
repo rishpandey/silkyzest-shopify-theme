@@ -52,8 +52,8 @@
         "content_max_width": 1400,
         "padding_desktop": 0,
         "padding_tablet_mobile": 0,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
+        "margin_desktop": 12,
+        "margin_tablet_mobile": 12,
         "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -61,42 +61,6 @@
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "outline_button_color": "#000000",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
-    "tpt_scrolling_text_1_f67KJM": {
-      "type": "tpt-scrolling-text-1",
-      "blocks": {
-        "item_w3gKjw": {
-          "type": "item",
-          "settings": {
-            "content": "Enjoy <strong>10% off</strong> on your first order & free shipping on orders above ₹999. Prepaid only!",
-            "font_size": 14,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_w3gKjw"
-      ],
-      "name": "Tpt - Scrolling Text",
-      "settings": {
-        "pause_on_hover": true,
-        "speed": 90,
-        "section_full_width": true,
-        "section_max_width": 1440,
-        "content_full_width": false,
-        "content_max_width": 1440,
-        "padding_desktop": 2,
-        "padding_tablet_mobile": 2,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
-        "background_color": "#121212",
-        "background_gradient_color": "",
-        "foreground_color": "#FFFFFF",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
         "input_button_radius": 0,
         "section_lazyload": false
       }
@@ -267,6 +231,42 @@
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "outline_button_color": "#000000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "tpt_scrolling_text_1_f67KJM": {
+      "type": "tpt-scrolling-text-1",
+      "blocks": {
+        "item_w3gKjw": {
+          "type": "item",
+          "settings": {
+            "content": "Enjoy <strong>10% off</strong> on your first order & free shipping on orders above ₹999. Prepaid only!",
+            "font_size": 14,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_w3gKjw"
+      ],
+      "name": "Tpt - Scrolling Text",
+      "settings": {
+        "pause_on_hover": true,
+        "speed": 90,
+        "section_full_width": true,
+        "section_max_width": 1440,
+        "content_full_width": false,
+        "content_max_width": 1440,
+        "padding_desktop": 2,
+        "padding_tablet_mobile": 2,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#121212",
+        "background_gradient_color": "",
+        "foreground_color": "#FFFFFF",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
         "input_button_radius": 0,
         "section_lazyload": false
       }
