@@ -206,6 +206,71 @@
         "padding_bottom": 0
       }
     },
+    "tpt_slideshow_four_ddNyAH": {
+      "type": "tpt-slideshow-four",
+      "blocks": {
+        "slide_pwThGU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9027.jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "<strong>New Arrival</strong>",
+            "description": "<p><strong>Rose Bubble Candle</strong> - A Perfect Blend of Beauty and Aroma</p>",
+            "button_label": "Shop now",
+            "button_link": "shopify://products/rose-bubble-candle-pack-of-1-candle",
+            "outline_button": true
+          }
+        },
+        "slide_e3ywxi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Tezza-4360.jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "<strong>New Collection</strong>",
+            "description": "<p><strong>Sweet Dessert</strong> - Sweet, Luscious Scent of a Gourmet Dessert</p>",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/sweet-dessert",
+            "outline_button": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_pwThGU",
+        "slide_e3ywxi"
+      ],
+      "settings": {
+        "item_background_color": "#ffffff",
+        "background_opacity": 5,
+        "desktop_image_ratio": 45,
+        "mobile_image_ratio": 100,
+        "border_radius": 0,
+        "nav": false,
+        "dots": true,
+        "loop": true,
+        "effect": "fade",
+        "auto_play": true,
+        "delay": 6,
+        "section_full_width": false,
+        "section_max_width": 1400,
+        "content_full_width": false,
+        "content_max_width": 1400,
+        "padding_desktop": 40,
+        "padding_tablet_mobile": 40,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#ffffff",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "outline_button_color": "#000000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "tpt_collection_list_3_WCEEm9": {
       "type": "tpt-collection-list-3",
       "blocks": {
@@ -278,71 +343,6 @@
         "title_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
-    "tpt_slideshow_four_ddNyAH": {
-      "type": "tpt-slideshow-four",
-      "blocks": {
-        "slide_pwThGU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9027.jpg",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "<strong>New Arrival</strong>",
-            "description": "<p><strong>Rose Bubble Candle</strong> - A Perfect Blend of Beauty and Aroma</p>",
-            "button_label": "Shop now",
-            "button_link": "shopify://products/rose-bubble-candle-pack-of-1-candle",
-            "outline_button": true
-          }
-        },
-        "slide_e3ywxi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Tezza-4360.jpg",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "<strong>New Collection</strong>",
-            "description": "<p><strong>Sweet Dessert</strong> - Sweet, Luscious Scent of a Gourmet Dessert</p>",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/sweet-dessert",
-            "outline_button": true
-          }
-        }
-      },
-      "block_order": [
-        "slide_pwThGU",
-        "slide_e3ywxi"
-      ],
-      "settings": {
-        "item_background_color": "#ffffff",
-        "background_opacity": 5,
-        "desktop_image_ratio": 45,
-        "mobile_image_ratio": 100,
-        "border_radius": 0,
-        "nav": false,
-        "dots": true,
-        "loop": true,
-        "effect": "fade",
-        "auto_play": true,
-        "delay": 6,
-        "section_full_width": false,
-        "section_max_width": 1400,
-        "content_full_width": false,
-        "content_max_width": 1400,
-        "padding_desktop": 40,
-        "padding_tablet_mobile": 40,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
-        "background_color": "#ffffff",
-        "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "outline_button_color": "#000000",
         "input_button_radius": 0,
         "section_lazyload": false
       }
@@ -505,11 +505,11 @@
   },
   "order": [
     "tpt_slideshow_four_4MQdVP",
-    "tpt_scrolling_text_1_f67KJM",
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
-    "tpt_collection_list_3_WCEEm9",
     "tpt_slideshow_four_ddNyAH",
+    "tpt_scrolling_text_1_f67KJM",
+    "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6"
