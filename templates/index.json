@@ -12,6 +12,19 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_mNaRMT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mini_cupcake.jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
         "slide_HXhWYJ": {
           "type": "slide",
           "settings": {
@@ -27,6 +40,7 @@
         }
       },
       "block_order": [
+        "slide_mNaRMT",
         "slide_HXhWYJ"
       ],
       "custom_css": [
