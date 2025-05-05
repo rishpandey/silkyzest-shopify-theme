@@ -59,7 +59,7 @@
         "loop": true,
         "effect": "fade",
         "auto_play": true,
-        "delay": 8,
+        "delay": 10,
         "section_full_width": false,
         "section_max_width": 1400,
         "content_full_width": false,
