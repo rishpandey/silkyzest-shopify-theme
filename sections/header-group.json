@@ -11,44 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "tpt_scrolling_text_1_WTwtQp": {
-      "type": "tpt-scrolling-text-1",
-      "blocks": {
-        "item_jjB6eh": {
-          "type": "item",
-          "settings": {
-            "content": "Enjoy <strong>10% off</strong> on your first order & free shipping on orders above ₹999. Prepaid only!",
-            "font_size": 14,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_jjB6eh"
-      ],
-      "custom_css": [
-        "section {height: 45px; display: flex; align-items: center;}"
-      ],
-      "settings": {
-        "pause_on_hover": true,
-        "speed": 90,
-        "section_full_width": true,
-        "section_max_width": 1400,
-        "content_full_width": false,
-        "content_max_width": 1440,
-        "padding_desktop": 0,
-        "padding_tablet_mobile": 0,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
-        "background_color": "#121212",
-        "background_gradient_color": "",
-        "foreground_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -73,7 +35,6 @@
     }
   },
   "order": [
-    "tpt_scrolling_text_1_WTwtQp",
     "header"
   ]
 }
