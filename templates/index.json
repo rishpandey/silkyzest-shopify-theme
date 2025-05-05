@@ -35,7 +35,7 @@
             "description": "",
             "button_label": "Explore Now",
             "button_link": "#shopify-section-template--17328704847914__tpt_collection_list_3_WCEEm9",
-            "outline_button": true
+            "outline_button": false
           }
         }
       },
@@ -44,7 +44,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -40%; min-width: 75%; }}",
+        "@media (min-width: 1025px) {.tpt-slideshow__info--content {margin-top: -35%; min-width: 75%; }}",
         "@media (max-width: 1025px) {.tpt-slideshow__info--content {margin-top: -50%; } .tpt-slideshow__info--content h2 {font-size: 1.5rem; } .tpt-slideshow__info--content a {display: none; }}",
         ".tpt-swiper-container,.tpt-swiper-container img {max-height: 90vh;}"
       ],
