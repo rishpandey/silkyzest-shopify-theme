@@ -27,6 +27,7 @@
         },
         "slide_HXhWYJ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_6701.jpg",
             "preload_image": false,
