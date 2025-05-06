@@ -219,6 +219,7 @@
         "slide_pwThGU",
         "slide_e3ywxi"
       ],
+      "disabled": true,
       "settings": {
         "item_background_color": "#ffffff",
         "background_opacity": 5,
@@ -275,8 +276,8 @@
         "content_max_width": 1440,
         "padding_desktop": 2,
         "padding_tablet_mobile": 2,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
+        "margin_desktop": 20,
+        "margin_tablet_mobile": 20,
         "background_color": "#121212",
         "background_gradient_color": "",
         "foreground_color": "#ffffff",
