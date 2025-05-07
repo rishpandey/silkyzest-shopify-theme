@@ -40,6 +40,20 @@
             "outline_button": true
           }
         },
+        "slide_yXFcjC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Bring_the_cafe_home._1_c229f33a-9c9d-4d73-8e73-6ee31e9ec54f.png",
+            "mobile_image": "shopify://shop_images/Bring_the_cafe_home._1_c229f33a-9c9d-4d73-8e73-6ee31e9ec54f.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/nature-inspired",
+            "outline_button": true
+          }
+        },
         "slide_HXhWYJ": {
           "type": "slide",
           "disabled": true,
@@ -58,6 +72,7 @@
       "block_order": [
         "slide_mNaRMT",
         "slide_fB8Etn",
+        "slide_yXFcjC",
         "slide_HXhWYJ"
       ],
       "custom_css": [
@@ -89,7 +104,7 @@
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
-        "button_background_color": "#000000",
+        "button_background_color": "#121212",
         "button_text_color": "#ffffff",
         "outline_button_color": "#000000",
         "input_button_radius": 0,
