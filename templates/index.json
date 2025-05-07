@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/mini_cupcake.jpg",
+            "mobile_image": "shopify://shop_images/mini_cupcake.png",
             "preload_image": false,
             "info_position": "center",
             "heading": "<strong>Delightful</strong> Scented Cupcake Candles Handcrafted with <strong>Love</strong>",
