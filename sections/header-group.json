@@ -21,7 +21,7 @@
         "menu": "header",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "menu_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "enable_country_selector": false,
@@ -29,7 +29,7 @@
         "enable_customer_avatar": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 4,
+        "padding_top": 8,
         "padding_bottom": 4
       }
     }
