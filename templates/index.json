@@ -21,8 +21,8 @@
             "info_position": "center",
             "heading": "",
             "description": "",
-            "button_label": "Shop at Silky Café",
-            "button_link": "shopify://collections/sweet-dessert",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/cafe-inspired",
             "outline_button": true
           }
         },
