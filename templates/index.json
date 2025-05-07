@@ -15,7 +15,8 @@
         "slide_mNaRMT": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/2.png",
+            "image": "shopify://shop_images/2_67c0badf-ebe9-4fe1-a76c-45261447408d.png",
+            "mobile_image": "shopify://shop_images/2_67c0badf-ebe9-4fe1-a76c-45261447408d.png",
             "preload_image": false,
             "info_position": "center",
             "heading": "",
@@ -28,7 +29,8 @@
         "slide_fB8Etn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Bring_the_cafe_home..png",
+            "image": "shopify://shop_images/3.png",
+            "mobile_image": "shopify://shop_images/3.png",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
