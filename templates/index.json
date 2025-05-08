@@ -394,8 +394,8 @@
       "type": "featured-collection",
       "custom_css": [],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "<em>Visit our café</em>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
