@@ -13,9 +13,7 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [
-        "header {max-width: 1480px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-left",
         "menu": "header",
