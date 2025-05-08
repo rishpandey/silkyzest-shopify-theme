@@ -114,6 +114,7 @@
           "type": "item",
           "settings": {
             "collection": "nature-inspired",
+            "collection_image": "shopify://shop_images/Logo_design_3.png",
             "collection_name": "Nature Inspired Collection"
           }
         },
@@ -158,9 +159,9 @@
         "top_button_label": "",
         "top_button_link": "",
         "button_text": "SHOP NOW",
-        "collection_name_color": "#f8f6f3",
-        "collection_button_background": "#ffffff",
-        "collection_button_text": "#000000",
+        "collection_name_color": "#121212",
+        "collection_button_background": "#31ff5d",
+        "collection_button_text": "#121212",
         "collection_button_radius": 6,
         "bottom_button_label": "",
         "bottom_button_link": "",
