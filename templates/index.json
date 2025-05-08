@@ -285,23 +285,14 @@
         "item_w3gKjw": {
           "type": "item",
           "settings": {
-            "content": "Enjoy <strong>10% off</strong> on your first order & free shipping on orders above ₹999. Prepaid only!",
+            "content": "Your cozy moment just got sweeter—10% off + free shipping over ₹999. Prepaid love only!",
             "font_size": 14,
-            "link": ""
-          }
-        },
-        "item_RtNDPk": {
-          "type": "item",
-          "settings": {
-            "content": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability",
-            "font_size": 16,
             "link": ""
           }
         }
       },
       "block_order": [
-        "item_w3gKjw",
-        "item_RtNDPk"
+        "item_w3gKjw"
       ],
       "name": "Tpt - Scrolling Text",
       "settings": {
