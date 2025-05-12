@@ -16,22 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/2_67c0badf-ebe9-4fe1-a76c-45261447408d.png",
-            "mobile_image": "shopify://shop_images/Bring_the_cafe_home._Instagram_Post_46_1.png",
-            "preload_image": false,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": true
-          }
-        },
-        "slide_fB8Etn": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/3.png",
-            "mobile_image": "shopify://shop_images/8.png",
+            "mobile_image": "shopify://shop_images/3_7a035aad-63b5-4cdd-9a22-45370a5d83a6.png",
             "preload_image": false,
             "info_position": "center",
             "heading": "",
@@ -72,7 +57,6 @@
       },
       "block_order": [
         "slide_mNaRMT",
-        "slide_fB8Etn",
         "slide_yXFcjC",
         "slide_HXhWYJ"
       ],
