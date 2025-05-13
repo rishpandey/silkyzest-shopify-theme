@@ -23,7 +23,7 @@
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": true
+            "outline_button": false
           }
         },
         "slide_yXFcjC": {
@@ -61,7 +61,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        ".tpt-slideshow__info--content {margin-top: -20% !important;}"
+        ".tpt-slideshow__info--content {margin-top: -25% !important;}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
