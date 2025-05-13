@@ -87,8 +87,8 @@
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
-        "button_background_color": "#121212",
-        "button_text_color": "#f3f3f3",
+        "button_background_color": "#f7dfe7",
+        "button_text_color": "#121212",
         "outline_button_color": "#000000",
         "input_button_radius": 47,
         "section_lazyload": true
