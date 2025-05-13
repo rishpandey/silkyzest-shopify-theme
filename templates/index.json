@@ -60,7 +60,9 @@
         "slide_yXFcjC",
         "slide_HXhWYJ"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "a {padding-top: -10%;}"
+      ],
       "settings": {
         "item_background_color": "#ffffff",
         "background_opacity": 0,
