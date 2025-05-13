@@ -61,7 +61,8 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        ".tpt-slideshow__info--content {margin-top: -25% !important;}"
+        ".tpt-slideshow__info--content {margin-top: -25% !important;}",
+        ".tpt-slideshow__info--content a svg {display:none;}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
