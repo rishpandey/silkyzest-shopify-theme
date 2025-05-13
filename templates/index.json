@@ -37,7 +37,7 @@
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/nature-inspired",
-            "outline_button": true
+            "outline_button": false
           }
         },
         "slide_HXhWYJ": {
@@ -61,7 +61,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        "a {padding-top: -10%;}"
+        ".tpt-slideshow__info--content {margin-top: -20% !important;}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
