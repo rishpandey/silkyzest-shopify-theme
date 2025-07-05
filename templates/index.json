@@ -517,14 +517,14 @@
         "bottom_button_label": "",
         "bottom_button_link": "",
         "section_full_width": false,
-        "section_max_width": 1400,
+        "section_max_width": 1440,
         "content_full_width": false,
-        "content_max_width": 1400,
+        "content_max_width": 1440,
         "padding_desktop": 40,
         "padding_tablet_mobile": 40,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#ffffff",
+        "background_color": "#f7f5e6",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
@@ -548,7 +548,7 @@
         "gsc_instagram_feed_instafeed_rwpp9E"
       ],
       "custom_css": [
-        ".shopify-app-block {margin: 0px; background: white !important;}"
+        ".shopify-app-block {padding: 0;}"
       ],
       "settings": {
         "include_margins": true
