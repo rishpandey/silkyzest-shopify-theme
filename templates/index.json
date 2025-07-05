@@ -365,8 +365,8 @@
         "section_max_width": 1400,
         "content_full_width": false,
         "content_max_width": 1400,
-        "padding_desktop": 0,
-        "padding_tablet_mobile": 0,
+        "padding_desktop": 16,
+        "padding_tablet_mobile": 15,
         "margin_desktop": 40,
         "margin_tablet_mobile": 40,
         "background_color": "#ffffff",
@@ -548,7 +548,7 @@
         "gsc_instagram_feed_instafeed_rwpp9E"
       ],
       "custom_css": [
-        ".shopify-app-block {margin-top: 40px;}"
+        ".shopify-app-block {margin: 0px; background: white !important;}"
       ],
       "settings": {
         "include_margins": true
