@@ -27,6 +27,7 @@
       "block_order": [
         "buttons_hyyAGG"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__box {background: transparent; position: relative; width: 100%;}",
         ".button {position: absolute; bottom: -200%; /* width: 125px; */ left: calc(50% - 75px); opacity: 1; /* background-color: #007bff; */ /* color: #fff; */ padding: 12px 24px; border-radius: 5px; font-size: 1em; text-decoration: none; transition: all 0.3s ease-in-out; border: none; cursor: pointer;}",
@@ -99,7 +100,6 @@
         "slide_mNaRMT",
         "slide_HXhWYJ"
       ],
-      "disabled": true,
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
         ".tpt-slideshow__info--content a svg {display: none;}",
