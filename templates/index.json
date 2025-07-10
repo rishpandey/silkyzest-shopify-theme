@@ -12,20 +12,6 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
-        "slide_mNaRMT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2_49252423-3a91-4f95-b13b-c70e16e51bec.png",
-            "mobile_image": "shopify://shop_images/3_7a035aad-63b5-4cdd-9a22-45370a5d83a6.png",
-            "preload_image": false,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": true
-          }
-        },
         "slide_yXFcjC": {
           "type": "slide",
           "settings": {
@@ -37,6 +23,20 @@
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/nature-inspired",
+            "outline_button": true
+          }
+        },
+        "slide_mNaRMT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_49252423-3a91-4f95-b13b-c70e16e51bec.png",
+            "mobile_image": "shopify://shop_images/3_7a035aad-63b5-4cdd-9a22-45370a5d83a6.png",
+            "preload_image": false,
+            "info_position": "center",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/cafe-inspired",
             "outline_button": true
           }
         },
@@ -56,8 +56,8 @@
         }
       },
       "block_order": [
-        "slide_mNaRMT",
         "slide_yXFcjC",
+        "slide_mNaRMT",
         "slide_HXhWYJ"
       ],
       "custom_css": [
@@ -76,9 +76,9 @@
         "effect": "slide",
         "auto_play": true,
         "delay": 6,
-        "section_full_width": false,
+        "section_full_width": true,
         "section_max_width": 1440,
-        "content_full_width": false,
+        "content_full_width": true,
         "content_max_width": 1340,
         "padding_desktop": 0,
         "padding_tablet_mobile": 0,
@@ -147,9 +147,9 @@
         "top_button_label": "",
         "top_button_link": "",
         "button_text": "SHOP NOW",
-        "collection_name_color": "#121212",
-        "collection_button_background": "#121212",
-        "collection_button_text": "#ffffff",
+        "collection_name_color": "#ffffff",
+        "collection_button_background": "#ffffff",
+        "collection_button_text": "#161515",
         "collection_button_radius": 11,
         "bottom_button_label": "",
         "bottom_button_link": "",
@@ -164,11 +164,11 @@
         "margin_tablet_mobile": 40,
         "background_color": "#ffffff",
         "background_gradient_color": "",
-        "foreground_color": "#242833",
+        "foreground_color": "#ffffff",
         "title_color": "#242833",
         "button_background_color": "#000000",
-        "button_text_color": "#f7dfe7",
-        "input_button_radius": 26,
+        "button_text_color": "#ffffff",
+        "input_button_radius": 35,
         "section_lazyload": true
       }
     },
