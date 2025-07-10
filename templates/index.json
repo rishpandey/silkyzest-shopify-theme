@@ -23,11 +23,12 @@
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/nature-inspired",
-            "outline_button": true
+            "outline_button": false
           }
         },
         "slide_mNaRMT": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2_49252423-3a91-4f95-b13b-c70e16e51bec.png",
             "mobile_image": "shopify://shop_images/3_7a035aad-63b5-4cdd-9a22-45370a5d83a6.png",
@@ -61,7 +62,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        ".tpt-slideshow__info--content {margin-top: 45% !important;}",
+        ".tpt-slideshow__info--content {margin-top: 45% !important; }",
         ".tpt-slideshow__info--content a svg {display: none;}"
       ],
       "settings": {
@@ -88,10 +89,10 @@
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
-        "button_background_color": "#121212",
-        "button_text_color": "#f3f3f3",
-        "outline_button_color": "#000000",
-        "input_button_radius": 47,
+        "button_background_color": "#ffffff",
+        "button_text_color": "#121212",
+        "outline_button_color": "#ffffff",
+        "input_button_radius": 25,
         "section_lazyload": true
       }
     },
