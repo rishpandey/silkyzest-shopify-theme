@@ -11,6 +11,27 @@
   "sections": {
     "image_banner_hPqqMn": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_hyyAGG": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_hyyAGG"
+      ],
+      "custom_css": [
+        ".banner__box {background: transparent; position: relative;}",
+        ".button {position: absolute; top: 200px; opacity: 1; /* background-color: #007bff; */ /* color: #fff; */ padding: 12px 24px; border-radius: 5px; font-size: 1em; text-decoration: none; transition: all 0.3s ease-in-out; border: none; cursor: pointer;}",
+        ".button:hover {transform: translateY(-2px);}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/1_12dd689d-80db-41a5-aca9-d5df6ae7aad5.png",
