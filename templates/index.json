@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/1_12dd689d-80db-41a5-aca9-d5df6ae7aad5.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
