@@ -13,7 +13,9 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        ".header{display: flex; justify-content: space-between; }"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "header",
