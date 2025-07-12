@@ -168,7 +168,7 @@
         "button_JEBBwL"
       ],
       "custom_css": [
-        ".image-with-text__content {padding-left: 0;}"
+        ".image-with-text__content {padding-left: 0; padding-right: 15%;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
