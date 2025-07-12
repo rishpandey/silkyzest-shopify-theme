@@ -637,7 +637,7 @@
         "gsc_instagram_feed_instafeed_rwpp9E"
       ],
       "custom_css": [
-        ".shopify-app-block {padding: 0; margin-top: 0px;}"
+        ".shopify-app-block {padding: 0; margin: 100px 0;}"
       ],
       "settings": {
         "include_margins": true
