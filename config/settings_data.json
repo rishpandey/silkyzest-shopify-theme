@@ -451,6 +451,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "body{background: #FDFBF7;}"
+    ]
   }
 }
