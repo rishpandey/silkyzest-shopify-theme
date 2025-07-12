@@ -180,7 +180,7 @@
         "color_scheme": "",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 60,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -249,8 +249,8 @@
         "content_max_width": 1400,
         "padding_desktop": 22,
         "padding_tablet_mobile": 15,
-        "margin_desktop": 26,
-        "margin_tablet_mobile": 40,
+        "margin_desktop": 100,
+        "margin_tablet_mobile": 100,
         "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#ffffff",
@@ -286,8 +286,8 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 16,
-        "padding_bottom": 40
+        "padding_top": 20,
+        "padding_bottom": 60
       }
     },
     "tpt_slideshow_four_ddNyAH": {
@@ -343,8 +343,8 @@
         "content_max_width": 1400,
         "padding_desktop": 0,
         "padding_tablet_mobile": 0,
-        "margin_desktop": 40,
-        "margin_tablet_mobile": 40,
+        "margin_desktop": 100,
+        "margin_tablet_mobile": 100,
         "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -378,9 +378,9 @@
         "section_full_width": true,
         "section_max_width": 1460,
         "content_full_width": true,
-        "content_max_width": 1440,
-        "padding_desktop": 4,
-        "padding_tablet_mobile": 4,
+        "content_max_width": 1460,
+        "padding_desktop": 0,
+        "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
         "background_color": "#121212",
@@ -456,8 +456,8 @@
         "content_max_width": 1400,
         "padding_desktop": 16,
         "padding_tablet_mobile": 15,
-        "margin_desktop": 40,
-        "margin_tablet_mobile": 40,
+        "margin_desktop": 60,
+        "margin_tablet_mobile": 60,
         "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -472,7 +472,7 @@
       "type": "featured-collection",
       "custom_css": [],
       "settings": {
-        "title": "<em>Visit our café</em>",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -493,8 +493,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_3hq8MR": {
@@ -541,8 +541,8 @@
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 40
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "tpt_badges_three_h7JzD6": {
@@ -609,8 +609,8 @@
         "section_max_width": 1440,
         "content_full_width": false,
         "content_max_width": 1460,
-        "padding_desktop": 40,
-        "padding_tablet_mobile": 40,
+        "padding_desktop": 80,
+        "padding_tablet_mobile": 80,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
         "background_color": "#f7f5e6",
@@ -637,7 +637,7 @@
         "gsc_instagram_feed_instafeed_rwpp9E"
       ],
       "custom_css": [
-        ".shopify-app-block {padding: 0;}"
+        ".shopify-app-block {padding: 0; margin-top: 0px;}"
       ],
       "settings": {
         "include_margins": true
