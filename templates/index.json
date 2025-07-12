@@ -508,7 +508,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     },
     "image_with_text_3hq8MR": {
@@ -543,7 +543,7 @@
         "button_KeUd6n"
       ],
       "custom_css": [
-        ".gradient {margin-top: -25px; pardding-top: 20px;}"
+        ".gradient {margin-top: -25px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Premium_Wagyu_213.png",
