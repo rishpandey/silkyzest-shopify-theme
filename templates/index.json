@@ -150,7 +150,7 @@
           "type": "text",
           "settings": {
             "text": "<p><em>Unveil the essence of lasting beauty with our </em><em><strong>Eternal Bloom Peony Candle Gift Box</strong></em><em>. </em></p><p><em>Presented in a sleek, ready-to-gift black box, it's a perfect thoughtful gesture for any occasion, symbolizing enduring affection and elegance. </em></p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_JEBBwL": {
@@ -166,6 +166,9 @@
         "heading_3NyynB",
         "text_YMGYqT",
         "button_JEBBwL"
+      ],
+      "custom_css": [
+        ".image-with-text__content {padding-left: 0;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
