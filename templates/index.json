@@ -122,10 +122,10 @@
         "section_max_width": 1460,
         "content_full_width": true,
         "content_max_width": 1200,
-        "padding_desktop": 0,
-        "padding_tablet_mobile": 0,
-        "margin_desktop": 40,
-        "margin_tablet_mobile": 40,
+        "padding_desktop": 40,
+        "padding_tablet_mobile": 40,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
         "background_color": "#fdfbf7",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -253,10 +253,10 @@
         "section_max_width": 1460,
         "content_full_width": true,
         "content_max_width": 1400,
-        "padding_desktop": 22,
-        "padding_tablet_mobile": 15,
-        "margin_desktop": 100,
-        "margin_tablet_mobile": 100,
+        "padding_desktop": 100,
+        "padding_tablet_mobile": 100,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
         "background_color": "#fdfbf7",
         "background_gradient_color": "",
         "foreground_color": "#fdfbf7",
@@ -269,7 +269,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".collection {margin-top: -80px;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -292,7 +294,7 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
+        "padding_top": 0,
         "padding_bottom": 60
       }
     },
@@ -464,10 +466,10 @@
         "section_max_width": 1460,
         "content_full_width": true,
         "content_max_width": 1400,
-        "padding_desktop": 16,
-        "padding_tablet_mobile": 15,
-        "margin_desktop": 60,
-        "margin_tablet_mobile": 60,
+        "padding_desktop": 60,
+        "padding_tablet_mobile": 60,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
         "background_color": "#fdfbf7",
         "background_gradient_color": "",
         "foreground_color": "#000000",
@@ -481,7 +483,7 @@
     "featured_collection_JzLY7M": {
       "type": "featured-collection",
       "custom_css": [
-        ".tpt-section {background: #fdfbf7;}"
+        ".collection {background: #fdfbf7; margin-top: -40px;}"
       ],
       "settings": {
         "title": "",
@@ -540,7 +542,9 @@
         "text_NCTUyN",
         "button_KeUd6n"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".gradient {margin-top: -25px; pardding-top: 20px;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Premium_Wagyu_213.png",
         "height": "medium",
@@ -554,7 +558,7 @@
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 60
       }
     },
     "tpt_badges_three_h7JzD6": {
