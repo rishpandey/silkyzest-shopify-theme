@@ -103,7 +103,8 @@
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
         ".tpt-slideshow__info--content a svg {display: none;}",
-        "@media only screen and (max-width: 720px) {.tpt-slideshow__info--content {margin-top: -30% !important; }}"
+        "@media only screen and (max-width: 720px) {.tpt-slideshow__info--content {margin-top: -30% !important; }}",
+        ".tpt-section {background: #fdfbf7;}"
       ],
       "settings": {
         "item_background_color": "#fdfbf7",
@@ -229,7 +230,9 @@
         "item_gYUAdW",
         "item_88NYN9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".tpt-section {background: #fdfbf7;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h4",
@@ -374,6 +377,7 @@
       "block_order": [
         "item_w3gKjw"
       ],
+      "custom_css": [],
       "name": "Tpt - Scrolling Text",
       "settings": {
         "pause_on_hover": true,
@@ -437,6 +441,9 @@
         "item_CELMGz",
         "item_9rdPyQ"
       ],
+      "custom_css": [
+        ".tpt-section {background: #fdfbf7;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -473,7 +480,9 @@
     },
     "featured_collection_JzLY7M": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".tpt-section {background: #fdfbf7;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -590,6 +599,7 @@
         "item_hqTnng",
         "item_Y9UnFz"
       ],
+      "custom_css": [],
       "settings": {
         "heading": "<em>Why choose us</em>",
         "heading_size": "h2",
@@ -640,7 +650,7 @@
         "gsc_instagram_feed_instafeed_rwpp9E"
       ],
       "custom_css": [
-        ".shopify-app-block {padding: 0; margin: 100px 0; background: #FDFBF7;}"
+        ".shopify-app-block {padding: 0; margin: 100px 0; background: #fdfbf7;}"
       ],
       "settings": {
         "include_margins": true
