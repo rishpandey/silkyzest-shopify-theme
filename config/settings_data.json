@@ -451,6 +451,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".product-extra-info .collapsible {font-size: 1.5rem; padding-left: 0;}"
+    ]
   }
 }
