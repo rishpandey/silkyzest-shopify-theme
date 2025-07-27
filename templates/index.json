@@ -640,6 +640,24 @@
         "section_lazyload": false
       }
     },
+    "image_banner_PpB3AY": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Olivia_Robert_text.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1746551293002862f9": {
       "type": "apps",
       "blocks": {
@@ -673,6 +691,7 @@
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6",
+    "image_banner_PpB3AY",
     "1746551293002862f9"
   ]
 }
