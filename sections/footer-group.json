@@ -17,7 +17,7 @@
         "brand-information": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         },
         "link_list_q9AhTC": {
@@ -33,9 +33,10 @@
         "link_list_q9AhTC"
       ],
       "custom_css": [
-        ".footer__blocks-wrapper {display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center; gap: 2rem; /* spacing between sections */}",
-        ".footer__blocks-wrapper .footer-block {text-align: center; width: 100% !important; max-width: 75%; /* keeps it readable and centered */ padding: 0 1rem; box-sizing: border-box;}",
-        ".footer-block__brand-info {text-align: center; display: flex; flex-direction: column; align-items: center;}"
+        ".footer__blocks-wrapper {display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center; gap: 2.5rem; padding: 2rem 1rem;}",
+        ".footer__blocks-wrapper .footer-block {width: 100% !important; max-width: 75%; box-sizing: border-box;}",
+        ".footer-block__brand-info {display: flex; flex-direction: column; align-items: center; text-align: center;}",
+        ".footer-block__details-content.list-unstyled {display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
