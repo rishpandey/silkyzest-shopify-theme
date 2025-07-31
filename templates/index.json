@@ -137,57 +137,6 @@
         "section_lazyload": true
       }
     },
-    "image_with_text_UAUBEb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_3NyynB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Eternal Bloom",
-            "heading_size": "h1"
-          }
-        },
-        "text_YMGYqT": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Unveil the essence of lasting beauty with our </em><em><strong>Eternal Bloom Peony Candle Gift Box</strong></em><em>. </em></p><p><em>Presented in a sleek, ready-to-gift black box, it's a perfect thoughtful gesture for any occasion, symbolizing enduring affection and elegance. </em></p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_JEBBwL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy now",
-            "button_link": "shopify://products/eternal-bloom-gift-box",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_3NyynB",
-        "text_YMGYqT",
-        "button_JEBBwL"
-      ],
-      "custom_css": [
-        ".image-with-text__content {padding-left: 0; padding-right: 15%; background: #fdfbf7;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/IMG_8533.heic",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
     "tpt_collection_list_3_XUpgfU": {
       "type": "tpt-collection-list-3",
       "blocks": {
@@ -265,6 +214,57 @@
         "button_text_color": "#ffffff",
         "input_button_radius": 35,
         "section_lazyload": false
+      }
+    },
+    "image_with_text_UAUBEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3NyynB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eternal Bloom",
+            "heading_size": "h1"
+          }
+        },
+        "text_YMGYqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Unveil the essence of lasting beauty with our </em>Eternal Bloom Peony Candle Gift Box. </p><p><em>Presented in a sleek, ready-to-gift black box, it's a perfect thoughtful gesture for any occasion.</em></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_JEBBwL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy now",
+            "button_link": "shopify://products/eternal-bloom-gift-box",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3NyynB",
+        "text_YMGYqT",
+        "button_JEBBwL"
+      ],
+      "custom_css": [
+        ".image-with-text__content {padding-left: 0; padding-right: 15%; background: #fdfbf7;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9664.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "color_scheme": "scheme-dcb98526-7b6f-426f-867c-421be8dd7a80",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -664,8 +664,8 @@
   "order": [
     "image_banner_hPqqMn",
     "tpt_slideshow_four_4MQdVP",
-    "image_with_text_UAUBEb",
     "tpt_collection_list_3_XUpgfU",
+    "image_with_text_UAUBEb",
     "featured_collection",
     "tpt_slideshow_four_ddNyAH",
     "tpt_scrolling_text_1_f67KJM",
