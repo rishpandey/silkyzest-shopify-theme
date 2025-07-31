@@ -370,9 +370,9 @@
         "item_w3gKjw": {
           "type": "item",
           "settings": {
-            "content": "Your cozy moment just got sweeter—10% off + free shipping over ₹999. Prepaid love only!",
+            "content": "<strong>Elevate Your Cozy Escape:</strong> Enjoy <strong>10% OFF</strong> your entire order and <strong>FREE Shipping</strong> when you spend ₹999 or more.",
             "font_size": 14,
-            "link": ""
+            "link": "shopify://collections/the-perfect-gift-thoughtfully-made"
           }
         }
       },
@@ -382,7 +382,7 @@
       "custom_css": [],
       "name": "Tpt - Scrolling Text",
       "settings": {
-        "pause_on_hover": true,
+        "pause_on_hover": false,
         "speed": 90,
         "section_full_width": true,
         "section_max_width": 1460,
