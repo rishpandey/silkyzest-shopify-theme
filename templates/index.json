@@ -253,7 +253,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/IMG_9664.jpg",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
