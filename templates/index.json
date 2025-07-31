@@ -253,7 +253,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/IMG_9664.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -263,7 +263,7 @@
         "color_scheme": "scheme-dcb98526-7b6f-426f-867c-421be8dd7a80",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 48
       }
     },
