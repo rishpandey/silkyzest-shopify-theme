@@ -103,7 +103,7 @@
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
         ".tpt-slideshow__info--content a svg {display: none;}",
-        "@media only screen and (max-width: 720px) {.tpt-slideshow__info--content {margin-top: -10% !important; }}",
+        "@media only screen and (max-width: 720px) {.tpt-slideshow__info--content {/* margin-top: 10% !important; */ }}",
         ".tpt-section {background: #fdfbf7;}"
       ],
       "settings": {
@@ -133,7 +133,7 @@
         "button_background_color": "#ffffff",
         "button_text_color": "#121212",
         "outline_button_color": "#ffffff",
-        "input_button_radius": 25,
+        "input_button_radius": 19,
         "section_lazyload": true
       }
     },
