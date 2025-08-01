@@ -542,6 +542,7 @@
         "text_NCTUyN",
         "button_KeUd6n"
       ],
+      "disabled": true,
       "custom_css": [
         ".gradient {margin-top: -25px;}"
       ],
