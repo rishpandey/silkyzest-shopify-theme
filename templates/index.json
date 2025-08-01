@@ -571,7 +571,7 @@
             "image_type": "icon",
             "image_preload": false,
             "heading": "<strong>Handcrafted with Love</strong>",
-            "description": "<p>Every candle is hand-poured in small batches to ensure the highest quality and attention to detail.</p>",
+            "description": "<p><br/>Every candle is hand-poured in small batches to ensure the highest quality and attention to detail.</p>",
             "link_text": "",
             "link": ""
           }
@@ -581,8 +581,8 @@
           "settings": {
             "image_type": "icon",
             "image_preload": false,
-            "heading": "<strong>Premium & Natural Ingredients</strong>",
-            "description": "<p>We use eco-friendly soy wax, lead-free cotton wicks, and the finest fragrance oils for a clean, long-lasting burn.</p>",
+            "heading": "<strong>Quality Ingredients</strong>",
+            "description": "<p><br/>We use eco-friendly soy wax, lead-free cotton wicks, and the finest fragrance oils for a clean, long-lasting burn.</p>",
             "link_text": "",
             "link": ""
           }
@@ -593,7 +593,7 @@
             "image_type": "icon",
             "image_preload": false,
             "heading": "<strong>Perfect for Gifting</strong>",
-            "description": "<p>Beautiful candles and exquisite scents make our candles the ideal gift for any occasion.</p>",
+            "description": "<p><br/>Beautiful candles and exquisite scents make our candles the ideal gift for any occasion.</p>",
             "link_text": "",
             "link": ""
           }
