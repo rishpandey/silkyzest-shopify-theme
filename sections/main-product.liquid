@@ -240,6 +240,7 @@
 
                 <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
+                    <hr style="margin: 10px 0;" />
                     <button class="collapsible active" onclick="toggleCollapsible(this)">
                       Story <span class="chevron">&#9660;</span>
                     </button>
@@ -250,6 +251,7 @@
                   {% endif %}
 
                   {% if product.metafields.custom.ingredients != blank %}
+                    <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
                       Ingredients <span class="chevron">&#9660;</span>
                     </button>
@@ -260,6 +262,7 @@
                   {% endif %}
 
                   {% if product.metafields.custom.safety != blank %}
+                    <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
                       Safety & Usage <span class="chevron">&#9660;</span>
                     </button>
@@ -270,6 +273,7 @@
                   {% endif %}
 
                   {% if product.metafields.custom.shipping_handling != blank %}
+                    <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
                       Shipping & Handling <span class="chevron">&#9660;</span>
                     </button>
