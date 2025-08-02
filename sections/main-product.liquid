@@ -840,7 +840,8 @@
           chevron.innerHTML = "&#9662;"; // Down chevron
         } else {
           content.style.display = "block";
-          chevron.innerHTML = "&#9652;"; // Up chevron
+          {% comment %} chevron.innerHTML = "&#9652;"; // Up chevron {% endcomment %}
+          chevron.innerHTML = "&#9662;"; // Up chevron
         }
       }
       
