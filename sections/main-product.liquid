@@ -944,12 +944,12 @@
         
         .chevron {
           transition: transform 0.3s ease;
-          {% comment %} font-size: 14px; {% endcomment %}
+          font-size: 14px;
         }
         
-        .collapsible.active .chevron {
+        {% comment %} .collapsible.active .chevron {
           transform: rotate(180deg);
-        }
+        } {% endcomment %}
         
         .content {
           display: none;
