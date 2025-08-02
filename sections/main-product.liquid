@@ -198,46 +198,6 @@
                   </div>
 
 
-
-               {% comment %} <div class="product-extra-info">
-                  {% if product.metafields.custom.story != blank %}
-                    <button class="collapsible active" onclick="toggleCollapsible(this)">
-                      Story <span class="chevron">&#8964;</span>
-                    </button>
-                    <div class="content show">
-                      <p>{{ product.metafields.custom.story | metafield_tag }}</p>
-                    </div>
-                  {% endif %}
-                
-                  {% if product.metafields.custom.ingredients != blank %}
-                    <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Ingredients <span class="chevron">&#8964;</span>
-                    </button>
-                    <div class="content">
-                      <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
-                    </div>
-                  {% endif %}
-                
-                  {% if product.metafields.custom.safety != blank %}
-                    <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Safety & Usage <span class="chevron">&#8964;</span>
-                    </button>
-                    <div class="content">
-                      <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
-                    </div>
-                  {% endif %}
-
-                  {% if product.metafields.custom.shipping_handling != blank %}
-                    <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Shipping & Handling <span class="chevron">&#8964;</span>
-                    </button>
-                    <div class="content">
-                      <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
-                    </div>
-                  {% endif %}
-                </div> {% endcomment %}
-
-
                 <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
                     <hr style="margin: 10px 0;" />
@@ -905,7 +865,7 @@
           chevron.innerHTML = "&#8964;"; // Down caret
         } else {
           content.style.display = "block";
-          chevron.innerHTML = "&#8963;"; // Up caret
+          {% comment %} chevron.innerHTML = "&#8963;"; // Up caret {% endcomment %}
         }
       }
 
@@ -916,7 +876,7 @@
           firstCollapsible.nextElementSibling.style.display = "block";
           let chevron = firstCollapsible.querySelector(".chevron");
           if (chevron) {
-            chevron.innerHTML = "&#8963;"; // Up caret
+            {% comment %} chevron.innerHTML = "&#8963;"; // Up caret {% endcomment %}
           }
         }
       });
@@ -947,9 +907,9 @@
           font-size: 14px;
         }
         
-        {% comment %} .collapsible.active .chevron {
+        .collapsible.active .chevron {
           transform: rotate(180deg);
-        } {% endcomment %}
+        }
         
         .content {
           display: none;
