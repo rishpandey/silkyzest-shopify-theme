@@ -294,7 +294,6 @@
                     
                     .chevron {
                       transition: transform 0.3s ease;
-                      font-size: 12px;
                     }
                     </style>
                   </div>
@@ -838,10 +837,10 @@
         if (content.style.display === "block") {
           content.style.display = "none";
 
-          chevron.innerHTML = "&#9662;"; // down
+          chevron.innerHTML = "▾"; // down
           {% comment %} chevron.innerHTML = "&#8964;"; // Down chevron {% endcomment %}
         } else {
-          chevron.innerHTML = "&#9652;";
+          chevron.innerHTML = "▴";
           content.style.display = "block";
           {% comment %} chevron.innerHTML = "&#9650;"; // Up chevron {% endcomment %}
         }
