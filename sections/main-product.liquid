@@ -830,7 +830,9 @@
 
     <script>
       function toggleCollapsible(button) {
-        let isActive = button.classList.find("active");
+        let isActive = Array.from(button.classList).find(c => c === 'active')
+
+
         button.classList.toggle("active");
         if(isActive){
           chevron.innerHTML = "▾";
