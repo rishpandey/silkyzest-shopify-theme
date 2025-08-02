@@ -660,6 +660,76 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "tpt_collection_list_1_fthM8L": {
+      "type": "tpt-collection-list-1",
+      "blocks": {
+        "item_JA7g6p": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/36_cd8b34f6-ea18-4fb7-b87e-4bd308ae997d.jpg",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "item_8Emci9": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/37.jpg",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "item_cPEYqJ": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/38.jpg",
+            "button_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "item_JA7g6p",
+        "item_8Emci9",
+        "item_cPEYqJ"
+      ],
+      "disabled": true,
+      "name": "Tpt - Collection list #1",
+      "settings": {
+        "heading": "Collection list #1",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur. Sapien faucibus feugiat duis ornare tortor nulla pulvinar ut sed.</p>",
+        "alignment": "center",
+        "top_button_label": "",
+        "top_button_link": "",
+        "image_ratio": 120,
+        "image_radius": 12,
+        "button_item_background": "#FFFFFF",
+        "button_item_text": "#000000",
+        "desktop_column": 3,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1440,
+        "padding_desktop": 40,
+        "padding_tablet_mobile": 40,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
     }
   },
   "order": [
@@ -674,6 +744,7 @@
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6",
-    "1746551293002862f9"
+    "1746551293002862f9",
+    "tpt_collection_list_1_fthM8L"
   ]
 }
