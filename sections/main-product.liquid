@@ -198,11 +198,51 @@
                   </div>
 
 
+
+               {% comment %} <div class="product-extra-info">
+                  {% if product.metafields.custom.story != blank %}
+                    <button class="collapsible active" onclick="toggleCollapsible(this)">
+                      Story <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content show">
+                      <p>{{ product.metafields.custom.story | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                
+                  {% if product.metafields.custom.ingredients != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Ingredients <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                
+                  {% if product.metafields.custom.safety != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Safety & Usage <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+
+                  {% if product.metafields.custom.shipping_handling != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Shipping & Handling <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                </div> {% endcomment %}
+
+
                 <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible active" onclick="toggleCollapsible(this)">
-                      Story <span class="chevron">▾</span>
+                      Story <span class="chevron">&#9660;</span>
                     </button>
                     <div class="content show">
                       <p>{{ product.metafields.custom.story | metafield_tag }}</p>
@@ -212,7 +252,7 @@
                   {% if product.metafields.custom.ingredients != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Ingredients <span class="chevron">▾</span>
+                      Ingredients <span class="chevron">&#9660;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
@@ -222,7 +262,7 @@
                   {% if product.metafields.custom.safety != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Safety & Usage <span class="chevron">▾</span>
+                      Safety & Usage <span class="chevron">&#9660;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
@@ -232,7 +272,7 @@
                   {% if product.metafields.custom.shipping_handling != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Shipping & Handling <span class="chevron">▾</span>
+                      Shipping & Handling <span class="chevron">&#9660;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
@@ -294,6 +334,7 @@
                     
                     .chevron {
                       transition: transform 0.3s ease;
+                      font-size: 12px;
                     }
                     </style>
                   </div>
@@ -830,14 +871,16 @@
 
     <script>
       function toggleCollapsible(button) {
-        let isActive = Array.from(button.classList).find(c => c === 'active')
-
-
         button.classList.toggle("active");
-        if(isActive){
-          chevron.innerHTML = "▾";
-        }else{
-          chevron.innerHTML = "▴";
+        let content = button.nextElementSibling;
+        let chevron = button.querySelector(".chevron");
+      
+        if (content.style.display === "block") {
+          content.style.display = "none";
+          chevron.innerHTML = "&#9660;"; // Down chevron
+        } else {
+          content.style.display = "block";
+          chevron.innerHTML = "&#9650;"; // Up chevron
         }
       }
       
@@ -847,8 +890,7 @@
         if (firstCollapsible) {
           firstCollapsible.nextElementSibling.style.display = "block";
         }
-      }); 
-
+      });
       </script>
 
       <style>
@@ -872,13 +914,11 @@
         
         .chevron {
           transition: transform 0.3s ease;
-          font-size: 22px;
-          margin-top: -13px;
+          font-size: 14px;
         }
         
         .collapsible.active .chevron {
-          {% comment %} transform: rotate(180deg); {% endcomment %}
-          margin-top: 0px;
+          transform: rotate(180deg);
         }
         
         .content {
