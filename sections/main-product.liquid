@@ -202,7 +202,7 @@
                {% comment %} <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
                     <button class="collapsible active" onclick="toggleCollapsible(this)">
-                      Story <span class="chevron">&#9660;</span>
+                      Story <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content show">
                       <p>{{ product.metafields.custom.story | metafield_tag }}</p>
@@ -211,7 +211,7 @@
                 
                   {% if product.metafields.custom.ingredients != blank %}
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Ingredients <span class="chevron">&#9660;</span>
+                      Ingredients <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
@@ -220,7 +220,7 @@
                 
                   {% if product.metafields.custom.safety != blank %}
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Safety & Usage <span class="chevron">&#9660;</span>
+                      Safety & Usage <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
@@ -229,7 +229,7 @@
 
                   {% if product.metafields.custom.shipping_handling != blank %}
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Shipping & Handling <span class="chevron">&#9660;</span>
+                      Shipping & Handling <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
@@ -242,7 +242,7 @@
                   {% if product.metafields.custom.story != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible active" onclick="toggleCollapsible(this)">
-                      Story <span class="chevron">&#9660;</span>
+                      Story <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content show">
                       <p>{{ product.metafields.custom.story | metafield_tag }}</p>
@@ -252,7 +252,7 @@
                   {% if product.metafields.custom.ingredients != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Ingredients <span class="chevron">&#9660;</span>
+                      Ingredients <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
@@ -262,7 +262,7 @@
                   {% if product.metafields.custom.safety != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Safety & Usage <span class="chevron">&#9660;</span>
+                      Safety & Usage <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
@@ -272,7 +272,7 @@
                   {% if product.metafields.custom.shipping_handling != blank %}
                     <hr style="margin: 10px 0;" />
                     <button class="collapsible" onclick="toggleCollapsible(this)">
-                      Shipping & Handling <span class="chevron">&#9660;</span>
+                      Shipping & Handling <span class="chevron">&#8964;</span>
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
@@ -870,17 +870,20 @@
     </script>
 
     <script>
-      function toggleCollapsible(button) {
+      {% comment %} function toggleCollapsible(button) {
         button.classList.toggle("active");
         let content = button.nextElementSibling;
         let chevron = button.querySelector(".chevron");
       
         if (content.style.display === "block") {
           content.style.display = "none";
-          chevron.innerHTML = "&#9660;"; // Down chevron
+
+          chevron.innerHTML = "&#9662;"; // down
+          {% comment %} chevron.innerHTML = "&#8964;"; // Down chevron {% endcomment %}
         } else {
+          chevron.innerHTML = "&#9652;";
           content.style.display = "block";
-          chevron.innerHTML = "&#9650;"; // Up chevron
+          {% comment %} chevron.innerHTML = "&#9650;"; // Up chevron {% endcomment %}
         }
       }
       
@@ -890,7 +893,34 @@
         if (firstCollapsible) {
           firstCollapsible.nextElementSibling.style.display = "block";
         }
+      }); {% endcomment %}
+
+      function toggleCollapsible(button) {
+        button.classList.toggle("active");
+        let content = button.nextElementSibling;
+        let chevron = button.querySelector(".chevron");
+
+        if (content.style.display === "block") {
+          content.style.display = "none";
+          chevron.innerHTML = "&#8964;"; // Down caret
+        } else {
+          content.style.display = "block";
+          chevron.innerHTML = "&#8963;"; // Up caret
+        }
+      }
+
+      // Ensure first section is open by default and caret is pointing up
+      document.addEventListener("DOMContentLoaded", function() {
+        let firstCollapsible = document.querySelector(".collapsible.active");
+        if (firstCollapsible) {
+          firstCollapsible.nextElementSibling.style.display = "block";
+          let chevron = firstCollapsible.querySelector(".chevron");
+          if (chevron) {
+            chevron.innerHTML = "&#8963;"; // Up caret
+          }
+        }
       });
+
       </script>
 
       <style>
