@@ -830,7 +830,7 @@
     </script>
 
     <script>
-      {% comment %} function toggleCollapsible(button) {
+      function toggleCollapsible(button) {
         button.classList.toggle("active");
         let content = button.nextElementSibling;
         let chevron = button.querySelector(".chevron");
@@ -853,8 +853,9 @@
         if (firstCollapsible) {
           firstCollapsible.nextElementSibling.style.display = "block";
         }
-      }); {% endcomment %}
+      }); 
 
+{% comment %} 
       function toggleCollapsible(button) {
         button.classList.toggle("active");
         let content = button.nextElementSibling;
@@ -879,7 +880,7 @@
             {% comment %} chevron.innerHTML = "&#8963;"; // Up caret {% endcomment %}
           }
         }
-      });
+      }); {% endcomment %}
 
       </script>
 
