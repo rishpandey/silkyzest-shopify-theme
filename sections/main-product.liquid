@@ -199,7 +199,7 @@
 
 
 
-               <div class="product-extra-info">
+               {% comment %} <div class="product-extra-info">
                   {% if product.metafields.custom.story != blank %}
                     <button class="collapsible active" onclick="toggleCollapsible(this)">
                       Story <span class="chevron">&#9660;</span>
@@ -224,6 +224,57 @@
                     </button>
                     <div class="content">
                       <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+
+                  {% if product.metafields.custom.shipping_handling != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Shipping & Handling <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
+                    </div>
+                  {% endif %}
+                </div> {% endcomment %}
+
+
+                <div class="product-extra-info">
+                  {% if product.metafields.custom.story != blank %}
+                    <button class="collapsible active" onclick="toggleCollapsible(this)">
+                      Story <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content show">
+                      <p>{{ product.metafields.custom.story | metafield_tag }}</p>
+                    </div>
+                    <hr>
+                  {% endif %}
+
+                  {% if product.metafields.custom.ingredients != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Ingredients <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>
+                    </div>
+                    <hr>
+                  {% endif %}
+
+                  {% if product.metafields.custom.safety != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Safety & Usage <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.safety | metafield_tag }}</p>
+                    </div>
+                    <hr>
+                  {% endif %}
+
+                  {% if product.metafields.custom.shipping_handling != blank %}
+                    <button class="collapsible" onclick="toggleCollapsible(this)">
+                      Shipping & Handling <span class="chevron">&#9660;</span>
+                    </button>
+                    <div class="content">
+                      <p>{{ product.metafields.custom.shipping_handling | metafield_tag }}</p>
                     </div>
                   {% endif %}
                 </div>
