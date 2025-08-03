@@ -295,7 +295,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 4,
-        "padding_bottom": 4
+        "padding_bottom": 36
       }
     },
     "tpt_slideshow_four_ddNyAH": {
@@ -492,7 +492,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "cafe-inspired",
-        "products_to_show": 12,
+        "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
