@@ -570,7 +570,14 @@
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+
+
               {%- when 'buy_buttons' -%}
+                {% if product.handle == 'make-your-own-candle' %}
+                  <label for="custom_message">Add a custom message (optional):</label>
+                  <input type="text" name="properties[Custom Message]" id="custom_message" placeholder="e.g. Happy Birthday, Love Mia 💛">
+                {% endif %}
+
                 {%- render 'buy-buttons',
                   block: block,
                   product: product,
