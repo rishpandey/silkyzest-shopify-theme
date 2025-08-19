@@ -542,12 +542,11 @@
         "text_NCTUyN",
         "button_KeUd6n"
       ],
-      "disabled": true,
       "custom_css": [
         ".gradient {margin-top: -25px;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Premium_Wagyu_213.png",
+        "image": "shopify://shop_images/48.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
