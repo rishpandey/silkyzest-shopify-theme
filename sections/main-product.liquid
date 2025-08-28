@@ -193,6 +193,7 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
+                  <hr style="margin: 10px 0;" />
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
                   </div>
