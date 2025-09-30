@@ -34,10 +34,10 @@
             "giftapp_subheading_text_size": 16,
             "giftapp_hint_text_color": "#666666",
             "giftapp_hint_text_size": 14,
-            "giftapp_banner_background": "#fff7e9",
+            "giftapp_banner_background": "#ffffff",
             "giftapp_banner_text_color": "#875800",
             "giftapp_banner_text_size": 16,
-            "giftapp_button_background": "#008060",
+            "giftapp_button_background": "#121212",
             "giftapp_button_text": "#FFFFFF",
             "giftapp_button_font_size": 16
           }
@@ -46,6 +46,7 @@
       "block_order": [
         "pal_cart_gift_selector_block_4y9UBh"
       ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
