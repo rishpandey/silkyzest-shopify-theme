@@ -37,11 +37,20 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "custom_liquid_qR8Drw": {
-          "type": "custom_liquid",
-          "disabled": true,
+        "pal_product_gift_selector_block_rkpFYL": {
+          "type": "shopify://apps/pal/blocks/product-gift-selector-block/2aac8a73-a255-45a0-a21a-d9c31f00526d",
           "settings": {
-            "custom_liquid": "<label for=\"customMessage\" class=\"custom-label\">Personalized Message</label>\n\n<input type=\"text\" id=\"customMessage\" name=\"properties[Custom Message]\" class=\"custom-input\" placeholder=\"Enter your message\">\n\n\n\n<style>\n.custom-label {\n  margin-top: 2rem;\n  font-family: inherit;\n  font-size: 1em;\n  color: #333;\n  margin-bottom: 0;\n  display: block;\n}\n\n.custom-input {\n  margin: 0;\n  border: 2px solid #0066cc;\n  border-radius: 8px;\n  padding: 10px;\n  width: 100%;\n  font-family: inherit;\n  background: #f7f7fa;\n  color: #222;\n  transition: border-color 0.3s;\n  margin-bottom: 1.5em;\n}\n\n.custom-input:focus {\n  border-color: #3399ff;\n}\n\n</style>"
+            "giftapp_primary_background": "#FFFFFF",
+            "giftapp_secondary_background": "#F3F3F3",
+            "giftapp_input_field_border": "#000000",
+            "giftapp_rounded_corners": 6,
+            "giftapp_dropdown_image_size": 40,
+            "giftapp_heading_text_color": "#333333",
+            "giftapp_heading_text_size": 16,
+            "giftapp_subheading_text_color": "#666666",
+            "giftapp_subheading_text_size": 16,
+            "giftapp_hint_text_color": "#666666",
+            "giftapp_hint_text_size": 14
           }
         },
         "buy_buttons": {
@@ -68,7 +77,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "custom_liquid_qR8Drw",
+        "pal_product_gift_selector_block_rkpFYL",
         "buy_buttons",
         "description",
         "share"
