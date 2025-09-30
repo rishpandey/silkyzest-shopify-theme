@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -8,18 +17,49 @@
         "padding_bottom": 36
       }
     },
+    "17592530725d558e69": {
+      "type": "apps",
+      "blocks": {
+        "pal_cart_gift_selector_block_4y9UBh": {
+          "type": "shopify://apps/pal/blocks/cart-gift-selector-block/2aac8a73-a255-45a0-a21a-d9c31f00526d",
+          "settings": {
+            "giftapp_primary_background": "#FFFFFF",
+            "giftapp_secondary_background": "#F3F3F3",
+            "giftapp_input_field_border": "#000000",
+            "giftapp_rounded_corners": 6,
+            "giftapp_dropdown_image_size": 40,
+            "giftapp_heading_text_color": "#333333",
+            "giftapp_heading_text_size": 16,
+            "giftapp_subheading_text_color": "#666666",
+            "giftapp_subheading_text_size": 16,
+            "giftapp_hint_text_color": "#666666",
+            "giftapp_hint_text_size": 14,
+            "giftapp_banner_background": "#fff7e9",
+            "giftapp_banner_text_color": "#875800",
+            "giftapp_banner_text_size": 16,
+            "giftapp_button_background": "#008060",
+            "giftapp_button_text": "#FFFFFF",
+            "giftapp_button_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "pal_cart_gift_selector_block_4y9UBh"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -31,10 +71,18 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "1759253066f4e37886": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "17592530725d558e69",
+    "cart-footer",
+    "1759253066f4e37886"
   ]
 }
