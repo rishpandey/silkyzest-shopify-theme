@@ -251,14 +251,14 @@
         "heading_3NyynB": {
           "type": "heading",
           "settings": {
-            "heading": "September’s Featured Gift Candle",
+            "heading": "Diwali Collection",
             "heading_size": "h1"
           }
         },
         "text_YMGYqT": {
           "type": "text",
           "settings": {
-            "text": "<p>Lush, enchanting, and made to impress. </p><p>With a <strong>floral & musk fragrance</strong> that feels both soothing and romantic, it’s the perfect <strong>gift candle</strong> for anniversaries, surprises, or simply saying <em>“I’m thinking of you.”</em></p>",
+            "text": "<p>Celebrate the season of light with our handcrafted candles. From golden urlis to floral centerpieces, each piece is designed to add warmth, fragrance, and festive charm to your home.<br/><em>Light up this Diwali with elegance.</em></p>",
             "text_style": "subtitle"
           }
         },
@@ -281,7 +281,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/3_d7695bb5-3028-4b11-a96e-3abb9e89b8ff.jpg",
+        "image": "shopify://shop_images/Shop_our.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
