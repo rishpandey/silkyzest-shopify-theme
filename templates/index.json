@@ -266,7 +266,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now →",
-            "button_link": "shopify://products/flower-bouquet-floral-musk-scented",
+            "button_link": "shopify://collections/the-perfect-gift-thoughtfully-made",
             "button_style_secondary": true
           }
         }
