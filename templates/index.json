@@ -636,6 +636,7 @@
         "text_NCTUyN",
         "button_KeUd6n"
       ],
+      "disabled": true,
       "custom_css": [
         ".gradient {margin-top: -25px;}"
       ],
@@ -787,6 +788,7 @@
         "item_8Emci9",
         "item_cPEYqJ"
       ],
+      "disabled": true,
       "name": "Tpt - Collection list #1",
       "settings": {
         "heading": "<em><strong>Bring Home the Glow!</strong></em>",
