@@ -143,9 +143,9 @@
         "item_9Hqdrb": {
           "type": "item",
           "settings": {
-            "content": "Find the perfect candles to light up your celebrations and enjoy 20% off our entire collection.",
+            "content": "Let your festivities glow, enjoy 20% off our entire collection with <strong>DIWALI20</strong>.",
             "font_size": 18,
-            "link": ""
+            "link": "shopify://collections/diwali-collection"
           }
         }
       },
