@@ -107,7 +107,7 @@
         ".tpt-section {background: #fdfbf7;}"
       ],
       "settings": {
-        "item_background_color": "#fdfbf7",
+        "item_background_color": "#ffffff",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 76,
