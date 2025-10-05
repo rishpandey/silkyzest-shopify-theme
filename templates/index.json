@@ -76,7 +76,7 @@
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": true
+            "outline_button": false
           }
         },
         "slide_HXhWYJ": {
@@ -472,6 +472,7 @@
       "block_order": [
         "item_w3gKjw"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Tpt - Scrolling Text",
       "settings": {
