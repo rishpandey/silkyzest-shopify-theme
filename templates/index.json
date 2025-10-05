@@ -104,7 +104,7 @@
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
         ".tpt-slideshow__info--content a svg {display: none;}",
         "@media only screen and (max-width: 720px) {.tpt-slideshow__info--content {/* margin-top: 10% !important; */ }}",
-        ".tpt-section {background: #fdfbf7;}"
+        ".tpt-section {background: #fff;}"
       ],
       "settings": {
         "item_background_color": "#ffffff",
