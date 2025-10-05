@@ -201,6 +201,57 @@
         "section_lazyload": false
       }
     },
+    "image_with_text_UAUBEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3NyynB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Diwali Collection",
+            "heading_size": "h1"
+          }
+        },
+        "text_YMGYqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Celebrate the season of light with our handcrafted candles. From golden urlis to floral centerpieces, each piece is designed to add warmth, fragrance, and festive charm to your home.<br/><em>Light up this Diwali with elegance.</em></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_JEBBwL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now →",
+            "button_link": "shopify://collections/diwali-collection",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3NyynB",
+        "text_YMGYqT",
+        "button_JEBBwL"
+      ],
+      "custom_css": [
+        ".image-with-text__content {padding-left: 0; padding-right: 15%; background: #fdfbf7;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Shop_our.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "color_scheme": "scheme-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
     "featured_collection_Ef8VEG": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -307,57 +358,6 @@
         "button_text_color": "#fefcf9",
         "input_button_radius": 35,
         "section_lazyload": false
-      }
-    },
-    "image_with_text_UAUBEb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_3NyynB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Diwali Collection",
-            "heading_size": "h1"
-          }
-        },
-        "text_YMGYqT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Celebrate the season of light with our handcrafted candles. From golden urlis to floral centerpieces, each piece is designed to add warmth, fragrance, and festive charm to your home.<br/><em>Light up this Diwali with elegance.</em></p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_JEBBwL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now →",
-            "button_link": "shopify://collections/the-perfect-gift-thoughtfully-made",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_3NyynB",
-        "text_YMGYqT",
-        "button_JEBBwL"
-      ],
-      "custom_css": [
-        ".image-with-text__content {padding-left: 0; padding-right: 15%; background: #fdfbf7;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Shop_our.png",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "color_scheme": "scheme-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 24,
-        "padding_bottom": 48
       }
     },
     "featured_collection": {
@@ -828,9 +828,9 @@
   "order": [
     "image_banner_hPqqMn",
     "tpt_slideshow_four_4MQdVP",
-    "image_with_text_UAUBEb",
     "featured_collection_RTrnHj",
     "tpt_scrolling_text_1_fJrkLL",
+    "image_with_text_UAUBEb",
     "featured_collection_Ef8VEG",
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
