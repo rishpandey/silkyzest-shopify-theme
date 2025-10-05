@@ -641,7 +641,7 @@
         "alignment": "center",
         "top_button_label": "",
         "top_button_link": "",
-        "item_background_color": "#ffffff",
+        "item_background_color": "#fefcf9",
         "item_text_color": "#000000",
         "border_radius": 8,
         "hidden_border": false,
@@ -748,12 +748,12 @@
         "padding_tablet_mobile": 60,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#ffffff",
+        "background_color": "#fefcf9",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "button_text_color": "#fefcf9",
         "input_button_radius": 6,
         "section_lazyload": false
       }
