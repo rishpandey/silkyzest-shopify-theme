@@ -221,7 +221,7 @@
         "top_button_link": "",
         "button_text": "SHOP NOW",
         "collection_name_color": "#ffffff",
-        "collection_button_background": "#ffffff",
+        "collection_button_background": "#fefcf9",
         "collection_button_text": "#161515",
         "collection_button_radius": 11,
         "bottom_button_label": "",
@@ -240,7 +240,7 @@
         "foreground_color": "#fdfbf7",
         "title_color": "#242833",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "button_text_color": "#fefcf9",
         "input_button_radius": 35,
         "section_lazyload": false
       }
@@ -363,7 +363,7 @@
       ],
       "disabled": true,
       "settings": {
-        "item_background_color": "#ffffff",
+        "item_background_color": "#fefcf9",
         "background_opacity": 5,
         "desktop_image_ratio": 45,
         "mobile_image_ratio": 100,
@@ -382,12 +382,12 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 100,
         "margin_tablet_mobile": 100,
-        "background_color": "#ffffff",
+        "background_color": "#fefcf9",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "button_text_color": "#fefcf9",
         "outline_button_color": "#000000",
         "input_button_radius": 0,
         "section_lazyload": false
@@ -423,9 +423,9 @@
         "margin_tablet_mobile": 0,
         "background_color": "#121212",
         "background_gradient_color": "",
-        "foreground_color": "#ffffff",
+        "foreground_color": "#fefcf9",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "button_text_color": "#fefcf9",
         "input_button_radius": 0,
         "section_lazyload": false
       }
@@ -484,7 +484,7 @@
         "top_button_label": "",
         "top_button_link": "",
         "button_text": "SHOP NOW",
-        "collection_name_color": "#ffffff",
+        "collection_name_color": "#fefcf9",
         "collection_button_background": "#ffffff",
         "collection_button_text": "#121212",
         "collection_button_radius": 24,
@@ -504,7 +504,7 @@
         "foreground_color": "#000000",
         "title_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "button_text_color": "#fefcf9",
         "input_button_radius": 0,
         "section_lazyload": false
       }
