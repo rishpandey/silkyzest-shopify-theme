@@ -107,7 +107,7 @@
         ".tpt-section {background: #fff;}"
       ],
       "settings": {
-        "item_background_color": "#ffffff",
+        "item_background_color": "#fefcf9",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 76,
@@ -126,13 +126,13 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#ffffff",
+        "background_color": "#fefcf9",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
         "button_background_color": "#ffffff",
         "button_text_color": "#121212",
-        "outline_button_color": "#ffffff",
+        "outline_button_color": "#fefcf9",
         "input_button_radius": 19,
         "section_lazyload": true
       }
