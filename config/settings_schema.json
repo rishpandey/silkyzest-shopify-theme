@@ -1465,5 +1465,17 @@
         "default": "scheme-1"
       }
     ]
-  }
+  },
+  {
+  "name": "Free delivery settings",
+  "settings": [
+    {
+      "type": "number",
+      "id": "free_shipping_threshold",
+      "label": "Free delivery threshold (in whole currency units)",
+      "default": 999,
+      "info": "Enter amount like 999 for ₹999"
+    }
+  ]
+}
 ]
