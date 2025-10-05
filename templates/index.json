@@ -137,6 +137,42 @@
         "section_lazyload": true
       }
     },
+    "tpt_scrolling_text_1_fJrkLL": {
+      "type": "tpt-scrolling-text-1",
+      "blocks": {
+        "item_9Hqdrb": {
+          "type": "item",
+          "settings": {
+            "content": "Let your festivities glow, find the perfect candles to light up your celebrations and enjoy 20% off our entire collection.",
+            "font_size": 18,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9Hqdrb"
+      ],
+      "name": "Tpt - Scrolling Text",
+      "settings": {
+        "pause_on_hover": true,
+        "speed": 60,
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1440,
+        "padding_desktop": 10,
+        "padding_tablet_mobile": 10,
+        "margin_desktop": 24,
+        "margin_tablet_mobile": 24,
+        "background_color": "#121212",
+        "background_gradient_color": "",
+        "foreground_color": "#fefcf9",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "featured_collection_Ef8VEG": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -762,6 +798,7 @@
   "order": [
     "image_banner_hPqqMn",
     "tpt_slideshow_four_4MQdVP",
+    "tpt_scrolling_text_1_fJrkLL",
     "featured_collection_Ef8VEG",
     "tpt_collection_list_3_XUpgfU",
     "image_with_text_UAUBEb",
