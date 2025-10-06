@@ -68,8 +68,8 @@
         "slide_mNaRMT": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_1.png",
-            "mobile_image": "shopify://shop_images/1_b222184a-f191-49d2-97f6-d66f4bbbc829.jpg",
+            "image": "shopify://shop_images/Shop_our_1.png",
+            "mobile_image": "shopify://shop_images/eternal_bloom_mobile.png",
             "preload_image": false,
             "info_position": "center",
             "heading": "",
