@@ -81,15 +81,14 @@
         },
         "slide_HXhWYJ": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/IMG_6701.jpg",
+            "image": "shopify://shop_images/Make_this_Diwali_shine_effortlessly_1.png",
             "preload_image": false,
             "info_position": "center",
-            "heading": "Fragrance that <strong>Fills Your Home</strong>, Beauty that <strong>Warms Your Soul.</strong>",
+            "heading": "",
             "description": "",
-            "button_label": "Explore Now",
-            "button_link": "#shopify-section-template--17328704847914__tpt_collection_list_3_WCEEm9",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/the-instant-candle-kit-sand-wax-with-wicks-and-4-mini-jars",
             "outline_button": false
           }
         }
