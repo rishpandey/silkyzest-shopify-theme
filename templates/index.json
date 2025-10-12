@@ -165,7 +165,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 60,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "tpt_scrolling_text_1_fJrkLL": {
@@ -194,8 +194,8 @@
         "content_max_width": 1440,
         "padding_desktop": 10,
         "padding_tablet_mobile": 10,
-        "margin_desktop": 24,
-        "margin_tablet_mobile": 24,
+        "margin_desktop": 60,
+        "margin_tablet_mobile": 60,
         "background_color": "#ef8799",
         "background_gradient_color": "",
         "foreground_color": "#fefcf9",
@@ -252,8 +252,8 @@
         "color_scheme": "scheme-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "featured_collection_Ef8VEG": {
@@ -284,8 +284,8 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 60,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 60
       }
     },
     "tpt_collection_list_3_XUpgfU": {
@@ -395,111 +395,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 4,
-        "padding_bottom": 36
-      }
-    },
-    "tpt_slideshow_four_ddNyAH": {
-      "type": "tpt-slideshow-four",
-      "blocks": {
-        "slide_pwThGU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9027.jpg",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "<strong>New Arrival</strong>",
-            "description": "<p><strong>Rose Bubble Candle</strong> - A Perfect Blend of Beauty and Aroma</p>",
-            "button_label": "Shop now",
-            "button_link": "shopify://products/rose-bubble-candle-pack-of-1-candle",
-            "outline_button": true
-          }
-        },
-        "slide_e3ywxi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Tezza-4360.jpg",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "<strong>New Collection</strong>",
-            "description": "<p><strong>Sweet Dessert</strong> - Sweet, Luscious Scent of a Gourmet Dessert</p>",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/sweet-dessert",
-            "outline_button": true
-          }
-        }
-      },
-      "block_order": [
-        "slide_pwThGU",
-        "slide_e3ywxi"
-      ],
-      "disabled": true,
-      "settings": {
-        "item_background_color": "#fefcf9",
-        "background_opacity": 5,
-        "desktop_image_ratio": 45,
-        "mobile_image_ratio": 100,
-        "border_radius": 0,
-        "nav": false,
-        "dots": true,
-        "loop": true,
-        "effect": "fade",
-        "auto_play": true,
-        "delay": 6,
-        "section_full_width": false,
-        "section_max_width": 1460,
-        "content_full_width": true,
-        "content_max_width": 1400,
-        "padding_desktop": 0,
-        "padding_tablet_mobile": 0,
-        "margin_desktop": 100,
-        "margin_tablet_mobile": 100,
-        "background_color": "#fefcf9",
-        "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#fefcf9",
-        "outline_button_color": "#000000",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
-    },
-    "tpt_scrolling_text_1_f67KJM": {
-      "type": "tpt-scrolling-text-1",
-      "blocks": {
-        "item_w3gKjw": {
-          "type": "item",
-          "settings": {
-            "content": "<strong>Elevate Your Cozy Escape:</strong> Enjoy <strong>10% OFF</strong> your entire order and <strong>FREE Shipping</strong> when you spend ₹999 or more.",
-            "font_size": 14,
-            "link": "shopify://collections/the-perfect-gift-thoughtfully-made"
-          }
-        }
-      },
-      "block_order": [
-        "item_w3gKjw"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Tpt - Scrolling Text",
-      "settings": {
-        "pause_on_hover": false,
-        "speed": 90,
-        "section_full_width": true,
-        "section_max_width": 1460,
-        "content_full_width": true,
-        "content_max_width": 1460,
-        "padding_desktop": 0,
-        "padding_tablet_mobile": 0,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
-        "background_color": "#121212",
-        "background_gradient_color": "",
-        "foreground_color": "#fefcf9",
-        "button_background_color": "#000000",
-        "button_text_color": "#fefcf9",
-        "input_button_radius": 0,
-        "section_lazyload": false
+        "padding_bottom": 60
       }
     },
     "tpt_collection_list_3_WCEEm9": {
@@ -608,7 +504,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 4,
         "padding_bottom": 60
       }
     },
@@ -842,8 +738,6 @@
     "featured_collection_Ef8VEG",
     "tpt_collection_list_3_XUpgfU",
     "featured_collection",
-    "tpt_slideshow_four_ddNyAH",
-    "tpt_scrolling_text_1_f67KJM",
     "tpt_collection_list_3_WCEEm9",
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
