@@ -138,6 +138,9 @@
     },
     "featured_collection_RTrnHj": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title h2 {text-align: center;}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "<strong>Light Up Your Festive Season</strong>",
