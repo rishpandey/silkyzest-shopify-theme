@@ -43,7 +43,7 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
-        <input
+        {% comment %} <input
           type="hidden"
           name="id"
           value="{{ product.selected_or_first_available_variant.id }}"
@@ -54,7 +54,17 @@
             disabled
           {% endif %}
           class="product-variant-id"
-        >
+        > {% endcomment %}
+
+        <input
+          type="hidden"
+          name="id"
+          value="{{ product.selected_or_first_available_variant.id }}"
+          {% if product.selected_or_first_available_variant == null %}
+            disabled
+          {% endif %}
+          class="product-variant-id"
+        />
 
         {%- if gift_card_recipient_feature_active -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
