@@ -40,8 +40,8 @@
         "pal_product_gift_selector_block_rkpFYL": {
           "type": "shopify://apps/pal/blocks/product-gift-selector-block/2aac8a73-a255-45a0-a21a-d9c31f00526d",
           "settings": {
-            "giftapp_primary_background": "#FFFFFF",
-            "giftapp_secondary_background": "#F3F3F3",
+            "giftapp_primary_background": "#ffffff",
+            "giftapp_secondary_background": "#f3f3f3",
             "giftapp_input_field_border": "#000000",
             "giftapp_rounded_corners": 6,
             "giftapp_dropdown_image_size": 40,
@@ -51,6 +51,13 @@
             "giftapp_subheading_text_size": 16,
             "giftapp_hint_text_color": "#666666",
             "giftapp_hint_text_size": 14
+          }
+        },
+        "text_XrUL8X": {
+          "type": "text",
+          "settings": {
+            "text": "Make it special — gift options in your cart!",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -78,6 +85,7 @@
         "variant_picker",
         "quantity_selector",
         "pal_product_gift_selector_block_rkpFYL",
+        "text_XrUL8X",
         "buy_buttons",
         "description",
         "share"
