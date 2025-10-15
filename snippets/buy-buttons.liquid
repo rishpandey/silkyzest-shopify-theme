@@ -95,7 +95,11 @@
           </button>
         
 
-
+  {%- if show_dynamic_checkout -%}
+            <div>
+              {{ form | payment_button }}
+            </div>
+          {%- endif -%}
 
           
         </div>
