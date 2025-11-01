@@ -51,20 +51,6 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
-        "slide_yXFcjC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/shubh_deepawalit_5.png",
-            "mobile_image": "shopify://shop_images/floral_candle_3.png",
-            "preload_image": true,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/diwali-collection",
-            "outline_button": false
-          }
-        },
         "slide_mNaRMT": {
           "type": "slide",
           "settings": {
@@ -92,12 +78,27 @@
             "button_link": "shopify://products/the-instant-candle-kit-sand-wax-with-wicks-and-4-mini-jars",
             "outline_button": false
           }
+        },
+        "slide_yXFcjC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/shubh_deepawalit_5.png",
+            "mobile_image": "shopify://shop_images/floral_candle_3.png",
+            "preload_image": true,
+            "info_position": "center",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/diwali-collection",
+            "outline_button": false
+          }
         }
       },
       "block_order": [
-        "slide_yXFcjC",
         "slide_mNaRMT",
-        "slide_HXhWYJ"
+        "slide_HXhWYJ",
+        "slide_yXFcjC"
       ],
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
@@ -183,6 +184,7 @@
       "block_order": [
         "item_9Hqdrb"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Tpt - Scrolling Text",
       "settings": {
@@ -236,6 +238,7 @@
         "text_YMGYqT",
         "button_JEBBwL"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__content {padding-left: 0; padding-right: 15%; background: #fdfbf7;}"
       ],

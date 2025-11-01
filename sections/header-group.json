@@ -11,31 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement_bar_XU36H7": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_diDVRc": {
-          "type": "announcement",
-          "settings": {
-            "text": "Find the perfect candle to light up your Diwali celebrations. Enjoy 20% off on all products.",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_diDVRc"
-      ],
-      "name": "t:sections.announcement-bar.presets.name",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -60,7 +35,6 @@
     }
   },
   "order": [
-    "announcement_bar_XU36H7",
     "header"
   ]
 }
