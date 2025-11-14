@@ -671,8 +671,8 @@
         "heading_MQmJN6": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "<strong>Explore the Holiday Season</strong>",
+            "heading_size": "h2"
           }
         },
         "buttons_9KRMnW": {
@@ -681,7 +681,7 @@
             "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": true,
-            "button_label_2": "Embrace the Holiday Season!",
+            "button_label_2": "Shop Now →",
             "button_link_2": "shopify://collections/the-perfect-gift-thoughtfully-made",
             "button_style_secondary_2": true
           }
@@ -692,7 +692,7 @@
         "buttons_9KRMnW"
       ],
       "custom_css": [
-        ".banner__box {background: transparent;}"
+        ".banner__box {background: rgba(255, 255, 255, 0.5); border-radius: 20px;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
