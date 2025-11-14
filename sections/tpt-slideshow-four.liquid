@@ -76,6 +76,8 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 {%- for block in section.blocks -%}
+                  <a href="#">
+
                   <div class="swiper-slide">
                     <div class="tpt-slideshow__inner {% if block.settings.mobile_image != blank %} tpt-mobile-active {% endif %}">
                       <div class="tpt-slideshow__image">
@@ -164,6 +166,9 @@
                       </div>
                     </div>
                   </div>
+
+                </a>
+
                 {%- endfor -%}
               </div>
             </div>
