@@ -604,17 +604,6 @@
             "link": ""
           }
         },
-        "item_cyABgr": {
-          "type": "item",
-          "settings": {
-            "image_type": "icon",
-            "image_preload": false,
-            "heading": "Free Delivery",
-            "description": "<p>Description</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
         "item_Y9UnFz": {
           "type": "item",
           "settings": {
@@ -630,7 +619,6 @@
       "block_order": [
         "item_47wmmx",
         "item_hqTnng",
-        "item_cyABgr",
         "item_Y9UnFz"
       ],
       "custom_css": [],
