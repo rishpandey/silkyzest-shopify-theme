@@ -27,14 +27,14 @@
         "heading_NmUDnU": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The Art of Gifting — Silky Zest</strong>",
+            "heading": "<strong>The Silky Zest Gifting Edit</strong>",
             "heading_size": "h1"
           }
         },
         "text_hMezea": {
           "type": "text",
           "settings": {
-            "text": "<h3>There is something tender about choosing a gift — the quiet pause, the thought behind it, the wish to make someone smile.  Here we have most loved gifting collections, each one crafted like a little moment of joy, wrapped in candlelight.</h3>"
+            "text": "<h4><strong>A gift is more than an object — it’s a tender pause, a thoughtful gesture, a quiet wish to make someone smile. Here, you’ll find our most-loved gifting collections, each one crafted like a small moment of joy, wrapped gently in candlelight.</strong></h4>"
           }
         },
         "button_UNNVF6": {
@@ -142,7 +142,7 @@
       ],
       "custom_css": [
         "h2 {margin-bottom: 8px;}",
-        ".rich-text__text{margin-top: 8px;}"
+        ".rich-text__text {margin-top: 8px;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
