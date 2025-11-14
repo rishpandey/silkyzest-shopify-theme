@@ -140,6 +140,10 @@
         "text_hPe3Xe",
         "button_HwGpbx"
       ],
+      "custom_css": [
+        "h2 {margin-bottom: 8px;}",
+        ".rich-text__text{margin-top: 8px;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
