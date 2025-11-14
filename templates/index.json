@@ -79,6 +79,18 @@
             "outline_button": false
           }
         },
+        "slide_4z3mPc": {
+          "type": "slide",
+          "settings": {
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "New Arrivals",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
         "slide_yXFcjC": {
           "type": "slide",
           "disabled": true,
@@ -98,6 +110,7 @@
       "block_order": [
         "slide_mNaRMT",
         "slide_HXhWYJ",
+        "slide_4z3mPc",
         "slide_yXFcjC"
       ],
       "custom_css": [
@@ -591,6 +604,17 @@
             "link": ""
           }
         },
+        "item_cyABgr": {
+          "type": "item",
+          "settings": {
+            "image_type": "icon",
+            "image_preload": false,
+            "heading": "Free Delivery",
+            "description": "<p>Description</p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
         "item_Y9UnFz": {
           "type": "item",
           "settings": {
@@ -606,6 +630,7 @@
       "block_order": [
         "item_47wmmx",
         "item_hqTnng",
+        "item_cyABgr",
         "item_Y9UnFz"
       ],
       "custom_css": [],
@@ -665,6 +690,48 @@
         "include_margins": true
       }
     },
+    "image_banner_x47Lae": {
+      "type": "image-banner",
+      "blocks": {
+        "text_aHVk7U": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_9KRMnW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "Explore now",
+            "button_link_2": "shopify://collections/the-perfect-gift-thoughtfully-made",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "text_aHVk7U",
+        "buttons_9KRMnW"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_2_94c45a6f-e283-4a52-bba5-d0dee7a35d26.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "tpt_collection_list_1_fthM8L": {
       "type": "tpt-collection-list-1",
       "blocks": {
@@ -691,12 +758,20 @@
             "collection_image": "shopify://shop_images/38.jpg",
             "button_text": "SHOP NOW"
           }
+        },
+        "item_FrFe8H": {
+          "type": "item",
+          "settings": {
+            "collection": "",
+            "button_text": "SHOP NOW"
+          }
         }
       },
       "block_order": [
         "item_JA7g6p",
         "item_8Emci9",
-        "item_cPEYqJ"
+        "item_cPEYqJ",
+        "item_FrFe8H"
       ],
       "disabled": true,
       "name": "Tpt - Collection list #1",
@@ -734,6 +809,20 @@
         "input_button_radius": 6,
         "section_lazyload": false
       }
+    },
+    "slideshow_xYbmgA": {
+      "type": "slideshow",
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -750,6 +839,8 @@
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6",
     "1746551293002862f9",
-    "tpt_collection_list_1_fthM8L"
+    "image_banner_x47Lae",
+    "tpt_collection_list_1_fthM8L",
+    "slideshow_xYbmgA"
   ]
 }
