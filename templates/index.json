@@ -93,12 +93,26 @@
             "button_link": "shopify://collections/gifting-collection",
             "outline_button": false
           }
+        },
+        "slide_rzzFWh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Your_paragraph_text.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify://collections/cafe-inspired",
+            "outline_button": false
+          }
         }
       },
       "block_order": [
         "slide_mNaRMT",
         "slide_HXhWYJ",
-        "slide_yXFcjC"
+        "slide_yXFcjC",
+        "slide_rzzFWh"
       ],
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
