@@ -67,6 +67,7 @@
         },
         "slide_HXhWYJ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Make_this_Diwali_shine_effortlessly_1.png",
             "mobile_image": "shopify://shop_images/instant_kit_mobile_8b3d56bd-e38e-4d38-83e2-891fc7438064.png",
