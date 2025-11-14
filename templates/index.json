@@ -81,16 +81,15 @@
         },
         "slide_yXFcjC": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/shubh_deepawalit_5.png",
-            "mobile_image": "shopify://shop_images/floral_candle_3.png",
+            "image": "shopify://shop_images/artisinal.png",
+            "mobile_image": "shopify://shop_images/artisinal.png",
             "preload_image": true,
             "info_position": "center",
             "heading": "",
             "description": "",
             "button_label": "Shop now",
-            "button_link": "shopify://collections/diwali-collection",
+            "button_link": "shopify://collections/gifting-collection",
             "outline_button": false
           }
         }
