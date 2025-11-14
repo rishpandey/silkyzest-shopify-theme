@@ -333,6 +333,7 @@
         "item_gYUAdW",
         "item_88NYN9"
       ],
+      "disabled": true,
       "custom_css": [
         ".tpt-section {background: #fdfbf7;}"
       ],
@@ -372,6 +373,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection {margin-top: 10px;}"
       ],
@@ -443,6 +445,7 @@
         "item_CELMGz",
         "item_9rdPyQ"
       ],
+      "disabled": true,
       "custom_css": [
         ".tpt-section {background: #fdfbf7;}"
       ],
@@ -482,6 +485,7 @@
     },
     "featured_collection_JzLY7M": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection {background: #fdfbf7; margin-top: -40px;}"
       ],
