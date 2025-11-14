@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".collection-hero__description {min-width: 100%;}"
       ],
@@ -18,6 +19,135 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0"
+      }
+    },
+    "rich_text_xX3Wdc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NmUDnU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Art of Gifting — Silky Zest</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_hMezea": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>There is something tender about choosing a gift — the quiet pause, the thought behind it, the wish to make someone smile.  Here we have most loved gifting collections, each one crafted like a little moment of joy, wrapped in candlelight.</h3>"
+          }
+        },
+        "button_UNNVF6": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NmUDnU",
+        "text_hMezea",
+        "button_UNNVF6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collection_list_GrttLX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3PeQtn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "corporate-gifting"
+          }
+        },
+        "featured_collection_iWwmqL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wedding-collection"
+          }
+        },
+        "featured_collection_JXQRpK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-perfect-gift-thoughtfully-made"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3PeQtn",
+        "featured_collection_iWwmqL",
+        "featured_collection_JXQRpK"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EEVDfi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bMQQXY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Meaningful Gifts, Mindfully Crafted</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_hPe3Xe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hand-poured with intention, each candle is a quiet gesture of care — crafted to bring warmth, beauty, and meaning to every moment.</p>"
+          }
+        },
+        "button_HwGpbx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bMQQXY",
+        "text_hPe3Xe",
+        "button_HwGpbx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
       }
     },
     "product-grid": {
@@ -43,6 +173,9 @@
   },
   "order": [
     "banner",
+    "rich_text_xX3Wdc",
+    "collection_list_GrttLX",
+    "rich_text_EEVDfi",
     "product-grid"
   ]
 }
