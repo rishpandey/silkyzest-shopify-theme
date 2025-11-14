@@ -70,6 +70,7 @@
       "blocks": {
         "featured_collection_3PeQtn": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "corporate-gifting"
           }
@@ -97,7 +98,7 @@
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
