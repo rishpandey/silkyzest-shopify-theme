@@ -77,7 +77,17 @@
               <div class="swiper-wrapper">
                 {%- for block in section.blocks -%}
                   <div class="swiper-slide">
-                    <div class="tpt-slideshow__inner {% if block.settings.mobile_image != blank %} tpt-mobile-active {% endif %}">
+                    <a
+                                class="{% if block.settings.outline_button %} tpt-button__secondary {% else %} tpt-button__primary {% endif %}"
+                                href="{{ block.settings.button_link }}"
+
+                                {%- assign mtm_link = block.settings.button_link -%}
+                                {%- if mtm_link contains 'http' -%}
+                                  {% unless mtm_link contains shop.domain %} rel="nofollow" {% endunless %}
+                                {%- endif -%}
+                              >
+                  
+                                <div class="tpt-slideshow__inner {% if block.settings.mobile_image != blank %} tpt-mobile-active {% endif %}">
                       <div class="tpt-slideshow__image">
                         <div
                           class="tpt-ratio_item"
@@ -133,7 +143,7 @@
                             </div>
                           {%- endif -%}
 
-                          {%- if block.settings.button_label != blank -%}
+                          {% comment %} {%- if block.settings.button_label != blank -%}
                             <div class="tpt-slideshow__button">
                               <a
                                 class="{% if block.settings.outline_button %} tpt-button__secondary {% else %} tpt-button__primary {% endif %}"
@@ -159,10 +169,11 @@
                                 </span>
                               </a>
                             </div>
-                          {%- endif -%}
+                          {%- endif -%} {% endcomment %}
                         </div>
                       </div>
                     </div>
+                  </a>
                   </div>
                 {%- endfor -%}
               </div>
