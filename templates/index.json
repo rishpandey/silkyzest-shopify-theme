@@ -79,18 +79,6 @@
             "outline_button": false
           }
         },
-        "slide_4z3mPc": {
-          "type": "slide",
-          "settings": {
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "New Arrivals",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
-            "button_label": "Shop now",
-            "button_link": "/",
-            "outline_button": false
-          }
-        },
         "slide_yXFcjC": {
           "type": "slide",
           "disabled": true,
@@ -110,7 +98,6 @@
       "block_order": [
         "slide_mNaRMT",
         "slide_HXhWYJ",
-        "slide_4z3mPc",
         "slide_yXFcjC"
       ],
       "custom_css": [
@@ -681,19 +668,27 @@
     "image_banner_x47Lae": {
       "type": "image-banner",
       "blocks": {
+        "heading_MQmJN6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
         "buttons_9KRMnW": {
           "type": "buttons",
           "settings": {
             "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": true,
-            "button_label_2": "Explore the Gifting Collection",
+            "button_label_2": "Embrace the Holiday Season!",
             "button_link_2": "shopify://collections/the-perfect-gift-thoughtfully-made",
             "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
+        "heading_MQmJN6",
         "buttons_9KRMnW"
       ],
       "custom_css": [
