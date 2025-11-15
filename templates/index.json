@@ -51,6 +51,20 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_yXFcjC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/artisinal_2.png",
+            "mobile_image": "shopify://shop_images/artisinal_2.png",
+            "preload_image": true,
+            "info_position": "center",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/gifting-collection",
+            "outline_button": false
+          }
+        },
         "slide_mNaRMT": {
           "type": "slide",
           "settings": {
@@ -80,20 +94,6 @@
             "outline_button": false
           }
         },
-        "slide_yXFcjC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/artisinal_2.png",
-            "mobile_image": "shopify://shop_images/artisinal_2.png",
-            "preload_image": true,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/gifting-collection",
-            "outline_button": false
-          }
-        },
         "slide_rzzFWh": {
           "type": "slide",
           "settings": {
@@ -109,9 +109,9 @@
         }
       },
       "block_order": [
+        "slide_yXFcjC",
         "slide_mNaRMT",
         "slide_HXhWYJ",
-        "slide_yXFcjC",
         "slide_rzzFWh"
       ],
       "custom_css": [
