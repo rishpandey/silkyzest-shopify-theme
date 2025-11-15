@@ -65,6 +65,20 @@
             "outline_button": false
           }
         },
+        "slide_rzzFWh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Your_paragraph_text.png",
+            "mobile_image": "shopify://shop_images/2_4d48c3fb-a0f9-455f-80cc-2f71d15695e1.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify://collections/cafe-inspired",
+            "outline_button": false
+          }
+        },
         "slide_mNaRMT": {
           "type": "slide",
           "settings": {
@@ -93,27 +107,13 @@
             "button_link": "shopify://products/the-instant-candle-kit-sand-wax-with-wicks-and-4-mini-jars",
             "outline_button": false
           }
-        },
-        "slide_rzzFWh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Your_paragraph_text.png",
-            "mobile_image": "shopify://shop_images/2_4d48c3fb-a0f9-455f-80cc-2f71d15695e1.png",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "",
-            "description": "",
-            "button_label": "",
-            "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": false
-          }
         }
       },
       "block_order": [
         "slide_yXFcjC",
+        "slide_rzzFWh",
         "slide_mNaRMT",
-        "slide_HXhWYJ",
-        "slide_rzzFWh"
+        "slide_HXhWYJ"
       ],
       "custom_css": [
         ".tpt-slideshow__info--content {margin-top: 40% !important;}",
