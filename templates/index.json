@@ -153,6 +153,67 @@
         "section_lazyload": true
       }
     },
+    "176452200691df7107": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_c690a8d_XQPiVf": {
+          "type": "ai_gen_block_c690a8d",
+          "settings": {
+            "heading": "Shop by Collection",
+            "heading_alignment": "center",
+            "heading_size": 32,
+            "section_padding": 40,
+            "container_width": 1200,
+            "show_all_tab": false,
+            "all_tab_label": "All Products",
+            "collection_1": "gifting-collection",
+            "collection_1_label": "",
+            "collection_2": "cafe-inspired",
+            "collection_2_label": "",
+            "collection_3": "nature-inspired",
+            "collection_3_label": "",
+            "collection_4": "",
+            "collection_4_label": "",
+            "collection_5": "",
+            "collection_5_label": "",
+            "products_limit": 4,
+            "empty_message": "No products found in this collection.",
+            "products_per_row": 4,
+            "products_per_row_tablet": 3,
+            "products_per_row_mobile": "2",
+            "product_gap": 20,
+            "tabs_alignment": "center",
+            "tab_bg_color": "#ffffff",
+            "tab_text_color": "#000000",
+            "tab_border_color": "#e0e0e0",
+            "tab_hover_bg_color": "#f5f5f5",
+            "tab_hover_text_color": "#000000",
+            "tab_hover_border_color": "#cccccc",
+            "tab_active_bg_color": "#000000",
+            "tab_active_text_color": "#ffffff",
+            "tab_active_border_color": "#000000",
+            "tab_border_radius": 4,
+            "card_bg_color": "#ffffff",
+            "card_border_radius": 8,
+            "product_title_color": "#000000",
+            "product_price_color": "#666666",
+            "button_label": "View Product",
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_hover_bg_color": "#333333",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 4,
+            "heading_color": "#000000",
+            "border_color": "#e0e0e0"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_c690a8d_XQPiVf"
+      ],
+      "settings": {}
+    },
     "featured_collection_RTrnHj": {
       "type": "featured-collection",
       "custom_css": [
@@ -821,6 +882,7 @@
   "order": [
     "image_banner_hPqqMn",
     "tpt_slideshow_four_4MQdVP",
+    "176452200691df7107",
     "featured_collection_RTrnHj",
     "tpt_scrolling_text_1_fJrkLL",
     "image_with_text_UAUBEb",
