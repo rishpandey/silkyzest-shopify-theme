@@ -689,7 +689,7 @@
       "custom_css": [],
       "settings": {
         "heading": "<strong>Why choose us</strong>",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "sub_heading": "",
         "description": "<p>At <strong>Silky Zest</strong>, we believe a candle is more than just wax and wick—it’s an experience.</p><p>Here’s why our customers love us:</p>",
         "alignment": "center",
