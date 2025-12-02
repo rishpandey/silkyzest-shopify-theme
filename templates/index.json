@@ -769,6 +769,7 @@
         "heading_MQmJN6",
         "buttons_9KRMnW"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__box {background: rgba(255, 255, 255, 0.5); border-radius: 20px;}"
       ],
@@ -865,6 +866,58 @@
         "section_lazyload": false
       }
     },
+    "image_banner_4mTeGq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_etYLJA": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_RLqdqx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_nFqYG7": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_etYLJA",
+        "text_RLqdqx",
+        "buttons_nFqYG7"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ad1236.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "slideshow_xYbmgA": {
       "type": "slideshow",
       "name": "t:sections.slideshow.presets.name",
@@ -897,6 +950,7 @@
     "1746551293002862f9",
     "image_banner_x47Lae",
     "tpt_collection_list_1_fthM8L",
+    "image_banner_4mTeGq",
     "slideshow_xYbmgA"
   ]
 }
