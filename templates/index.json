@@ -790,6 +790,7 @@
     },
     "image_banner_6KzJdj": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/ad1236_2.png",
