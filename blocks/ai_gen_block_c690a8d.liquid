@@ -290,49 +290,54 @@
           {% endif %}
         {% endfor %}
       {% else %}
-        {% liquid
-          assign first_collection = block.settings.collection_1
-        %}
-        {% if first_collection != blank %}
-          {% for product in first_collection.products limit: block.settings.products_limit %}
-            <div
-              class="ai-collection-filter-product-{{ ai_gen_id }}"
-              data-collection="{{ first_collection.handle }}"
-            >
-              <div class="ai-collection-filter-product-card-{{ ai_gen_id }}">
-                <div class="ai-collection-filter-product-image-{{ ai_gen_id }}">
-                  {% if product.featured_image %}
-                    <img
-                      src="{{ product.featured_image | image_url: width: 600 }}"
-                      alt="{{ product.featured_image.alt | escape }}"
-                      loading="lazy"
-                      width="600"
-                      height="600"
-                    >
-                  {% else %}
-                    <div class="ai-collection-filter-product-image-placeholder-{{ ai_gen_id }}">
-                      {{ 'product-1' | placeholder_svg_tag }}
-                    </div>
-                  {% endif %}
-                </div>
-                <div class="ai-collection-filter-product-info-{{ ai_gen_id }}">
-                  <h3 class="ai-collection-filter-product-title-{{ ai_gen_id }}">
-                    <a href="{{ product.url }}">{{ product.title }}</a>
-                  </h3>
-                  <div class="ai-collection-filter-product-price-{{ ai_gen_id }}">
-                    {{ product.price | money }}
+        {% for i in (1..5) %}
+          {% liquid
+            assign collection_key = 'collection_' | append: i
+            assign collection = block.settings[collection_key]
+          %}
+
+          {% if collection != blank %}
+            {% for product in collection.products limit: block.settings.products_limit %}
+              <div
+                class="ai-collection-filter-product-{{ ai_gen_id }} {% if forloop.parentloop.first %}{% else %}{% endif %}"
+                data-collection="{{ collection.handle }}"
+                {% unless forloop.parentloop.first %}style="display: none;"{% endunless %}
+              >
+                <div class="ai-collection-filter-product-card-{{ ai_gen_id }}">
+                  <div class="ai-collection-filter-product-image-{{ ai_gen_id }}">
+                    {% if product.featured_image %}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 600 }}"
+                        alt="{{ product.featured_image.alt | escape }}"
+                        loading="lazy"
+                        width="600"
+                        height="600"
+                      >
+                    {% else %}
+                      <div class="ai-collection-filter-product-image-placeholder-{{ ai_gen_id }}">
+                        {{ 'product-1' | placeholder_svg_tag }}
+                      </div>
+                    {% endif %}
                   </div>
-                  <a
-                    href="{{ product.url }}"
-                    class="ai-collection-filter-product-button-{{ ai_gen_id }}"
-                  >
-                    {{ block.settings.button_label }}
-                  </a>
+                  <div class="ai-collection-filter-product-info-{{ ai_gen_id }}">
+                    <h3 class="ai-collection-filter-product-title-{{ ai_gen_id }}">
+                      <a href="{{ product.url }}">{{ product.title }}</a>
+                    </h3>
+                    <div class="ai-collection-filter-product-price-{{ ai_gen_id }}">
+                      {{ product.price | money }}
+                    </div>
+                    <a
+                      href="{{ product.url }}"
+                      class="ai-collection-filter-product-button-{{ ai_gen_id }}"
+                    >
+                      {{ block.settings.button_label }}
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          {% endfor %}
-        {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       {% endif %}
     </div>
 
@@ -382,9 +387,11 @@
       showInitialProducts() {
         setTimeout(() => {
           this.products.forEach((product, index) => {
-            setTimeout(() => {
-              product.classList.add('visible');
-            }, index * 50);
+            if (product.style.display !== 'none') {
+              setTimeout(() => {
+                product.classList.add('visible');
+              }, index * 50);
+            }
           });
         }, 100);
       }
@@ -395,35 +402,36 @@
 
         const selectedCollection = selectedTab.getAttribute('data-collection');
 
-        this.productsContainer.innerHTML = '';
+        let visibleCount = 0;
 
-        let filteredProducts = [];
+        this.products.forEach((product) => {
+          const productCollection = product.getAttribute('data-collection');
 
-        if (selectedCollection === 'all') {
-          filteredProducts = this.allProducts;
-        } else {
-          filteredProducts = this.allProducts.filter(
-            (product) => product.collection === selectedCollection
-          );
-        }
+          if (selectedCollection === 'all' || productCollection === selectedCollection) {
+            product.style.display = '';
+            product.classList.remove('visible');
+            visibleCount++;
+          } else {
+            product.style.display = 'none';
+            product.classList.remove('visible');
+          }
+        });
 
-        if (filteredProducts.length === 0) {
+        if (visibleCount === 0) {
           this.emptyMessage.style.display = 'block';
           this.productsContainer.style.display = 'none';
         } else {
           this.emptyMessage.style.display = 'none';
           this.productsContainer.style.display = 'grid';
 
-          filteredProducts.forEach((product, index) => {
-            const productElement = document.createElement('div');
-            productElement.innerHTML = product.html;
-            const productNode = productElement.firstElementChild;
-            productNode.classList.remove('visible');
-            this.productsContainer.appendChild(productNode);
-
-            setTimeout(() => {
-              productNode.classList.add('visible');
-            }, index * 50);
+          let animationIndex = 0;
+          this.products.forEach((product) => {
+            if (product.style.display !== 'none') {
+              setTimeout(() => {
+                product.classList.add('visible');
+              }, animationIndex * 50);
+              animationIndex++;
+            }
           });
         }
       }
@@ -815,3 +823,4 @@
   ]
 }
 {% endschema %}
+
