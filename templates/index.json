@@ -904,8 +904,8 @@
       "settings": {
         "custom_liquid": "<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/b3a9fb65b745411997d4a16d0ba3a4e3.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:100%; height:auto;\">\n</video>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "video_kbrMaU": {
