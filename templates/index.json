@@ -908,10 +908,10 @@
         "video": "shopify://files/videos/Red and White Merry Christmas greeting Video.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "",
         "padding_top": 16,
-        "padding_bottom": 8
+        "padding_bottom": 16
       }
     }
   },
