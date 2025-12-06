@@ -902,7 +902,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/1c4641164cbb47869e8425a6acec145c.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:100%; height:auto;\">\n</video>",
+        "custom_liquid": "<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/1c4641164cbb47869e8425a6acec145c.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:1400px; height:auto;\">\n</video>",
         "color_scheme": "",
         "padding_top": 16,
         "padding_bottom": 16
