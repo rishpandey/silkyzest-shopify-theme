@@ -90,6 +90,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".price {font-size: 2.5rem;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
