@@ -14,8 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header {display: flex; justify-content: space-between;}",
-        ".list-menu a{color: #cb1920;}"
+        ".header {display: flex; justify-content: space-between;}"
       ],
       "settings": {
         "logo_position": "middle-left",
