@@ -11,6 +11,34 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_4LQe3K": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_wQdbWP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Merry Christmas and Happy New Year. Enjoy 20% till Christmas, use code: NEWYEAR20.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_wQdbWP"
+      ],
+      "custom_css": [
+        ".announcement-bar__message.h5{font-size: 1.25rem;}"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "color_scheme": "scheme-a0065c7e-f5fa-4ef5-9e75-65c18af1c88f",
+        "show_line_separator": false,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -35,6 +63,7 @@
     }
   },
   "order": [
+    "announcement_bar_4LQe3K",
     "header"
   ]
 }
