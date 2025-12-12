@@ -195,7 +195,7 @@
             "heading_alignment": "center",
             "heading_size": 32,
             "section_padding": 40,
-            "container_width": 1400,
+            "container_width": 1500,
             "show_all_tab": false,
             "all_tab_label": "All Products",
             "collection_1": "gifting-collection",
@@ -738,7 +738,7 @@
       ],
       "custom_css": [
         ".shopify-app-block {padding: 0; margin: 60px 0 100px 0; background: #fdfbf7;}",
-        ".page-width{padding: 0;}"
+        ".page-width {padding: 0;}"
       ],
       "settings": {
         "include_margins": true
