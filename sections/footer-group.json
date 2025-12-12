@@ -33,7 +33,7 @@
         "link_list_q9AhTC"
       ],
       "custom_css": [
-        "/* see custom css for theme */"
+        ".footer__content-bottom{padding: 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
