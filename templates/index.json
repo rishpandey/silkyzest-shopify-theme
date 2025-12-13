@@ -54,7 +54,8 @@
         "slide_fLgNH7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/made_for_celebrations.png",
+            "image": "shopify://shop_images/curated_celebration_2.png",
+            "mobile_image": "shopify://shop_images/Untitled_design_mobi.png",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
