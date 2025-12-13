@@ -67,6 +67,7 @@
         },
         "slide_yXFcjC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/artisinal_2.png",
             "mobile_image": "shopify://shop_images/Untitled_design_12.png",
