@@ -51,6 +51,19 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_fLgNH7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/made_for_celebrations.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
         "slide_yXFcjC": {
           "type": "slide",
           "settings": {
@@ -110,6 +123,7 @@
         }
       },
       "block_order": [
+        "slide_fLgNH7",
         "slide_yXFcjC",
         "slide_rzzFWh",
         "slide_mNaRMT",
