@@ -148,7 +148,7 @@
   }
 
   .ai-collection-filter-product-price-{{ ai_gen_id }} {
-    font-size: 14px;
+    font-size: 1.5rem;
     color: {{ block.settings.product_price_color }};
     margin-bottom: 12px;
   }
@@ -275,7 +275,7 @@
                       <a href="{{ product.url }}">{{ product.title }}</a>
                     </h3>
                     <div class="ai-collection-filter-product-price-{{ ai_gen_id }}">
-                      <h4>{{ product.price | money }}</h4>
+                      {{ product.price | money }}
                     </div>
                     <a
                       href="{{ product.url }}"
