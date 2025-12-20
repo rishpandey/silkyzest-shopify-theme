@@ -51,6 +51,20 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_3hUJzL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/drinks_selection.png",
+            "mobile_image": "shopify://shop_images/drinks_selection_mob.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify://collections/cafe-inspired",
+            "outline_button": false
+          }
+        },
         "slide_fLgNH7": {
           "type": "slide",
           "settings": {
@@ -125,6 +139,7 @@
         }
       },
       "block_order": [
+        "slide_3hUJzL",
         "slide_fLgNH7",
         "slide_yXFcjC",
         "slide_rzzFWh",
