@@ -887,19 +887,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "custom_liquid_4zEcgi": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "div {text-align: center;}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"width:100%; text-align:center; background: #faf9f4;\">\n<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/1c4641164cbb47869e8425a6acec145c.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:1400px; height:auto;\">\n</video>\n</div>",
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "video_kbrMaU": {
       "type": "video",
       "disabled": true,
@@ -936,7 +923,6 @@
     "image_banner_6KzJdj",
     "tpt_collection_list_1_fthM8L",
     "slideshow_xYbmgA",
-    "custom_liquid_4zEcgi",
     "video_kbrMaU"
   ]
 }
