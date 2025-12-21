@@ -197,7 +197,7 @@
     "featured_collection_RTrnHj": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title h2, .collection__title p {text-align: center;}"
+        ".collection__title h2,.collection__title p {text-align: center;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
@@ -235,9 +235,9 @@
             "heading": "Our Bestsellers",
             "heading_alignment": "center",
             "heading_size": 32,
-            "description": "Trusted by candle lovers across India — poured in small batches, reordered again and again.",
+            "description": "Trusted by candle lovers across India — poured in small batches and consistently reordered.",
             "description_alignment": "center",
-            "description_size": 16,
+            "description_size": 20,
             "section_padding": 40,
             "container_width": 1500,
             "show_all_tab": false,
@@ -717,14 +717,14 @@
         "section_max_width": 1440,
         "content_full_width": false,
         "content_max_width": 1460,
-        "padding_desktop": 96,
-        "padding_tablet_mobile": 96,
-        "margin_desktop": 0,
-        "margin_tablet_mobile": 0,
-        "background_color": "#faf9f4",
+        "padding_desktop": 198,
+        "padding_tablet_mobile": 56,
+        "margin_desktop": 56,
+        "margin_tablet_mobile": 56,
+        "background_color": "#a91824",
         "background_gradient_color": "",
-        "foreground_color": "#000000",
-        "title_color": "#000000",
+        "foreground_color": "#fefcf9",
+        "title_color": "#fefcf9",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "input_button_radius": 0,
