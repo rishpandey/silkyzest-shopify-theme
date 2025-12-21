@@ -26,7 +26,7 @@
         "announcement_wQdbWP"
       ],
       "custom_css": [
-        ".announcement-bar__message.h5 {font-size: 1.25rem;}"
+        ".announcement-bar__message.h5 {font-size: 1.2rem;}"
       ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
