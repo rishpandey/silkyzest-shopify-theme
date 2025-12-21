@@ -20,7 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 4,
     "spacing_grid_vertical": 20,
-    "animations_reveal_on_scroll": true,
+    "animations_reveal_on_scroll": false,
     "animations_hover_elements": "default",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -519,7 +519,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "shopify-section,.tpt-section_loaded {background: #FAF9F4 !important;}",
+      "shopify-section,.tpt-section_loaded {background: #faf9f4 !important;}",
       ".product-extra-info .collapsible {font-size: 1.5rem; padding-left: 0;}",
       ".footer__blocks-wrapper {display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center; gap: 2.5rem; padding: 2rem 1rem;}",
       ".footer__blocks-wrapper .footer-block {margin-top: -50px; width: 100% !important; max-width: 75%; box-sizing: border-box;}",
