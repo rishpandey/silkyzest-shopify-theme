@@ -17,9 +17,17 @@
 
   .ai-collection-filter-heading-{{ ai_gen_id }} {
     text-align: {{ block.settings.heading_alignment }};
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: {{ block.settings.heading_size }}px;
     color: {{ block.settings.heading_color }};
+  }
+
+  .ai-collection-filter-description-{{ ai_gen_id }} {
+    text-align: {{ block.settings.description_alignment }};
+    margin-bottom: 40px;
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    line-height: 1.6;
   }
 
   .ai-collection-filter-tabs-{{ ai_gen_id }} {
@@ -206,6 +214,10 @@
   <div class="ai-collection-filter-container-{{ ai_gen_id }}">
     {% if block.settings.heading != blank %}
       <h2 class="ai-collection-filter-heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+    {% endif %}
+
+    {% if block.settings.description != blank %}
+      <div class="ai-collection-filter-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
     {% endif %}
 
     <div class="ai-collection-filter-tabs-{{ ai_gen_id }}">
@@ -486,6 +498,41 @@
       "unit": "px",
       "label": "Heading size",
       "default": 32
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Description alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
     },
     {
       "type": "range",
@@ -809,6 +856,12 @@
       "id": "heading_color",
       "label": "Heading",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description",
+      "default": "#666666"
     },
     {
       "type": "color",
