@@ -197,13 +197,13 @@
     "featured_collection_RTrnHj": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title h2 {text-align: center;}"
+        ".collection__title h2, .collection__title p {text-align: center;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "<strong>Light Up Your Holiday Season</strong>",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Our most gifted and most reordered candles — easy to choose, effortless to love.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "diwali-collection",
@@ -235,6 +235,9 @@
             "heading": "Our Bestsellers",
             "heading_alignment": "center",
             "heading_size": 32,
+            "description": "Trusted by candle lovers across India — poured in small batches, reordered again and again.",
+            "description_alignment": "center",
+            "description_size": 16,
             "section_padding": 40,
             "container_width": 1500,
             "show_all_tab": false,
@@ -277,6 +280,7 @@
             "button_hover_text_color": "#ffffff",
             "button_border_radius": 4,
             "heading_color": "#000000",
+            "description_color": "#666666",
             "border_color": "#e0e0e0"
           },
           "blocks": {}
