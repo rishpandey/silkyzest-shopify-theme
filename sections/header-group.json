@@ -43,7 +43,7 @@
       "type": "header",
       "custom_css": [
         ".header {display: flex; justify-content: space-between;}",
-        "@media only screen and (min-width: 1024px) {.header{}}"
+        "@media only screen and (min-width: 1024px) {.header {padding-left: 0; padding-right: 0; }}"
       ],
       "settings": {
         "logo_position": "middle-left",
