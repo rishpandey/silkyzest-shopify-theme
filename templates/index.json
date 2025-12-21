@@ -51,6 +51,20 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_NyJRN8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Welcoming_the_Winter_deskt.png",
+            "mobile_image": "shopify://shop_images/FLAT_20_OFF._m.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify://collections/diwali-collection",
+            "outline_button": false
+          }
+        },
         "slide_3hUJzL": {
           "type": "slide",
           "settings": {
@@ -140,6 +154,7 @@
         }
       },
       "block_order": [
+        "slide_NyJRN8",
         "slide_3hUJzL",
         "slide_fLgNH7",
         "slide_yXFcjC",
