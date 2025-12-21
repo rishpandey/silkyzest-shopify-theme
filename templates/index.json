@@ -147,7 +147,7 @@
         "slide_HXhWYJ"
       ],
       "custom_css": [
-        "section{}"
+        "section {}"
       ],
       "settings": {
         "item_background_color": "#f7f5ee",
@@ -936,7 +936,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"width:100%; text-align:center;\">\n<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/1c4641164cbb47869e8425a6acec145c.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:1400px; height:auto;\">\n</video>\n</div>",
+        "custom_liquid": "<div style=\"width:100%; text-align:center; background: #F7F5EE;\">\n<video \nsrc=\"https://cdn.shopify.com/videos/c/o/v/1c4641164cbb47869e8425a6acec145c.mp4\"\n  autoplay\n  loop\n  muted\n  playsinline\n  style=\"width:1400px; height:auto;\">\n</video>\n</div>",
         "color_scheme": "",
         "padding_top": 16,
         "padding_bottom": 16
