@@ -146,9 +146,7 @@
         "slide_mNaRMT",
         "slide_HXhWYJ"
       ],
-      "custom_css": [
-        "section {}"
-      ],
+      "custom_css": [],
       "settings": {
         "item_background_color": "#f7f5ee",
         "background_opacity": 0,
@@ -177,7 +175,7 @@
         "button_text_color": "#121212",
         "outline_button_color": "#fefcf9",
         "input_button_radius": 19,
-        "section_lazyload": true
+        "section_lazyload": false
       }
     },
     "featured_collection_RTrnHj": {
