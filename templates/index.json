@@ -240,7 +240,7 @@
             "products_per_row_mobile": "2",
             "product_gap": 20,
             "tabs_alignment": "center",
-            "tab_bg_color": "#f7f5ee",
+            "tab_bg_color": "#faf9f4",
             "tab_text_color": "#000000",
             "tab_border_color": "#e0e0e0",
             "tab_hover_bg_color": "#f5f5f5",
@@ -250,7 +250,7 @@
             "tab_active_text_color": "#ffffff",
             "tab_active_border_color": "#000000",
             "tab_border_radius": 4,
-            "card_bg_color": "#f7f5ee",
+            "card_bg_color": "#faf9f4",
             "card_border_radius": 8,
             "product_title_color": "#000000",
             "product_price_color": "#666666",
@@ -271,44 +271,6 @@
       ],
       "custom_css": [],
       "settings": {}
-    },
-    "tpt_scrolling_text_1_fJrkLL": {
-      "type": "tpt-scrolling-text-1",
-      "blocks": {
-        "item_9Hqdrb": {
-          "type": "item",
-          "settings": {
-            "content": "Let your festivities glow, enjoy 20% off our entire collection with <strong>DIWALI20</strong>.",
-            "font_size": 18,
-            "link": "shopify://collections/diwali-collection"
-          }
-        }
-      },
-      "block_order": [
-        "item_9Hqdrb"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Tpt - Scrolling Text",
-      "settings": {
-        "pause_on_hover": true,
-        "speed": 60,
-        "section_full_width": true,
-        "section_max_width": 1600,
-        "content_full_width": false,
-        "content_max_width": 1440,
-        "padding_desktop": 10,
-        "padding_tablet_mobile": 10,
-        "margin_desktop": 60,
-        "margin_tablet_mobile": 60,
-        "background_color": "#ef8799",
-        "background_gradient_color": "",
-        "foreground_color": "#fefcf9",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "input_button_radius": 0,
-        "section_lazyload": false
-      }
     },
     "image_with_text_UAUBEb": {
       "type": "image-with-text",
@@ -451,7 +413,7 @@
         "top_button_link": "",
         "button_text": "SHOP NOW",
         "collection_name_color": "#ffffff",
-        "collection_button_background": "#fefcf9",
+        "collection_button_background": "#faf9f4",
         "collection_button_text": "#161515",
         "collection_button_radius": 11,
         "bottom_button_label": "",
@@ -961,7 +923,6 @@
     "tpt_slideshow_four_4MQdVP",
     "featured_collection_RTrnHj",
     "176452200691df7107",
-    "tpt_scrolling_text_1_fJrkLL",
     "image_with_text_UAUBEb",
     "featured_collection_Ef8VEG",
     "tpt_collection_list_3_XUpgfU",
