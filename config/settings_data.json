@@ -519,13 +519,13 @@
   },
   "platform_customizations": {
     "custom_css": [
+      ".tpt-section_loaded {background: #f7f5ee;}",
       ".product-extra-info .collapsible {font-size: 1.5rem; padding-left: 0;}",
       ".footer__blocks-wrapper {display: flex !important; flex-direction: column !important; align-items: center !important; text-align: center; gap: 2.5rem; padding: 2rem 1rem;}",
       ".footer__blocks-wrapper .footer-block {margin-top: -50px; width: 100% !important; max-width: 75%; box-sizing: border-box;}",
       ".footer-block__brand-info {display: flex; flex-direction: column; align-items: center; text-align: center;}",
       ".footer-block__details-content.list-unstyled {display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem;}",
-      "@media screen and (min-width: 750px) {.footer-block__details-content > :first-child .list-menu__item--link {padding-top: 0.5rem; }}",
-      ".tpt-section_loaded{background: #F7F5EE;}"
+      "@media screen and (min-width: 750px) {.footer-block__details-content > :first-child .list-menu__item--link {padding-top: 0.5rem; }}"
     ]
   }
 }
