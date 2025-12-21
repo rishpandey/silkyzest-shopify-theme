@@ -95,6 +95,7 @@
         },
         "slide_rzzFWh": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Your_paragraph_text.png",
             "mobile_image": "shopify://shop_images/2_4d48c3fb-a0f9-455f-80cc-2f71d15695e1.png",
