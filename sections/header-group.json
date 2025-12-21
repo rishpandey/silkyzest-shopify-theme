@@ -14,15 +14,23 @@
     "announcement_bar_4LQe3K": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_eK9aji": {
+          "type": "announcement",
+          "settings": {
+            "text": "Merry Christmas & Happy New Year.",
+            "link": ""
+          }
+        },
         "announcement_wQdbWP": {
           "type": "announcement",
           "settings": {
-            "text": "Merry Christmas & Happy New Year. Enjoy 20% off till Christmas with code NEWYEAR20.",
+            "text": "Enjoy 20% off till Christmas with code NEWYEAR20.",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_eK9aji",
         "announcement_wQdbWP"
       ],
       "custom_css": [
