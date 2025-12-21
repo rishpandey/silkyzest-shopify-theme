@@ -42,7 +42,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header {display: flex; justify-content: space-between;}"
+        ".header {display: flex; justify-content: space-between;}",
+        "@media only screen and (min-width: 1024px) {.header{}}"
       ],
       "settings": {
         "logo_position": "middle-left",
