@@ -722,7 +722,7 @@
         "margin_desktop": 56,
         "margin_tablet_mobile": 56,
         "background_color": "#a91824",
-        "background_gradient_color": "linear-gradient(\n  180deg,\n  #B3212C 0%,\n  #A91824 50%,\n  #6E1017 100%\n)",
+        "background_gradient_color": "linear-gradient(\n  180deg,\n  #B3212C 0%,\n  #A91824 70%,\n  #6E1017 100%\n)",
         "foreground_color": "#fefcf9",
         "title_color": "#fefcf9",
         "button_background_color": "#000000",
