@@ -256,7 +256,7 @@
             "empty_message": "No products found in this collection.",
             "products_per_row": 4,
             "products_per_row_tablet": 3,
-            "products_per_row_mobile": "2",
+            "products_per_row_mobile": "1",
             "product_gap": 20,
             "tabs_alignment": "center",
             "tab_bg_color": "#faf9f4",
