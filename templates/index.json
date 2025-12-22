@@ -201,7 +201,7 @@
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "<strong>Light Up Your Holiday Season</strong>",
+        "title": "Light Up Your Holiday Season",
         "heading_size": "h2",
         "description": "<p>Our most gifted and most reordered candles — easy to choose, effortless to love.</p>",
         "show_description": false,
@@ -234,7 +234,7 @@
           "settings": {
             "heading": "Our Bestsellers",
             "heading_alignment": "center",
-            "heading_size": 32,
+            "heading_size": 36,
             "description": "Trusted by candle lovers across India — poured in small batches and consistently reordered.",
             "description_alignment": "center",
             "description_size": 20,
@@ -696,7 +696,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "heading": "<strong>Why choose us</strong>",
+        "heading": "Why choose us",
         "heading_size": "h0",
         "sub_heading": "",
         "description": "<p>At <strong>Silky Zest</strong>, we believe a candle is more than just wax and wick—it’s an experience.</p>",
@@ -722,7 +722,7 @@
         "margin_desktop": 56,
         "margin_tablet_mobile": 56,
         "background_color": "#a91824",
-        "background_gradient_color": "linear-gradient(\n  180deg,\n  #B3212C 0%,\n  #A91824 70%,\n  #6E1017 100%\n)",
+        "background_gradient_color": "linear-gradient(180deg, rgba(179, 33, 44, 1), rgba(169, 24, 36, 1) 70%, rgba(110, 16, 23, 1) 100%)",
         "foreground_color": "#fefcf9",
         "title_color": "#fefcf9",
         "button_background_color": "#000000",
