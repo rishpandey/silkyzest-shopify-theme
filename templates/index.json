@@ -722,9 +722,82 @@
         "margin_desktop": 56,
         "margin_tablet_mobile": 56,
         "background_color": "#a91824",
-        "background_gradient_color": "linear-gradient(180deg, rgba(179, 33, 44, 1), rgba(169, 24, 36, 1) 70%, rgba(110, 16, 23, 1) 100%)",
+        "background_gradient_color": "linear-gradient(180deg, rgba(179, 33, 44, 1), rgba(169, 24, 36, 1) 100%)",
         "foreground_color": "#fefcf9",
         "title_color": "#fefcf9",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
+    "tpt_review_three_EBbhE8": {
+      "type": "tpt-review-three",
+      "blocks": {
+        "rate_item_jWjged": {
+          "type": "rate_item",
+          "settings": {
+            "customer_name": "Michael",
+            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_rating": 5
+          }
+        },
+        "rate_item_wCbATD": {
+          "type": "rate_item",
+          "settings": {
+            "customer_name": "Michael",
+            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_rating": 5
+          }
+        },
+        "rate_item_kBw6VV": {
+          "type": "rate_item",
+          "settings": {
+            "customer_name": "Michael",
+            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "rate_item_jWjged",
+        "rate_item_wCbATD",
+        "rate_item_kBw6VV"
+      ],
+      "disabled": true,
+      "name": "Tpt - Review #3",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "alignment": "center",
+        "top_button_label": "",
+        "top_button_link": "",
+        "item_background_color": "#fff",
+        "item_text_color": "#000000",
+        "border_radius": 8,
+        "nav": false,
+        "dots": true,
+        "auto_play": false,
+        "loop": false,
+        "desktop_column": 3,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "bottom_button_label": "",
+        "bottom_button_link": "",
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": false,
+        "content_max_width": 1460,
+        "padding_desktop": 40,
+        "padding_tablet_mobile": 0,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
+        "background_color": "#701017",
+        "background_gradient_color": "linear-gradient(180deg, rgba(169, 24, 36, 1), rgba(110, 16, 23, 1) 100%)",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "input_button_radius": 0,
@@ -938,6 +1011,7 @@
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6",
+    "tpt_review_three_EBbhE8",
     "1746551293002862f9",
     "image_banner_x47Lae",
     "image_banner_6KzJdj",
