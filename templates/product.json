@@ -91,7 +91,8 @@
         "share"
       ],
       "custom_css": [
-        ".price {font-size: 2.5rem;}"
+        ".price {font-size: 2.5rem;}",
+        ".product__description table,.product__description tbody,.product__description th,.product__description td,.product__description tr {border: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
