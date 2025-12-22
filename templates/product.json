@@ -91,8 +91,8 @@
         "share"
       ],
       "custom_css": [
-        ".price {font-size: 2.5rem;}",
-        ".product__description table,.product__description table * {border: none !important; outline: none; box-shadow: none;}",
+        "0.price {font-size: 2.5rem;}",
+        ".product__description table,.product__description table * {border: none !important; outline: none; box-shadow: none; padding-left: 0; padding-right: 0;}",
         ".product__description table {background: transparent;}",
         ".product__description th,.product__description td {text-align: left; vertical-align: top;}"
       ],
