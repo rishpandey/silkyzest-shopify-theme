@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify://shop_images/Welcoming_the_Winter_deskt.png",
             "mobile_image": "shopify://shop_images/FLAT_20_OFF._m.png",
-            "preload_image": false,
+            "preload_image": true,
             "info_position": "left",
             "heading": "",
             "description": "",
@@ -98,57 +98,12 @@
           "settings": {
             "image": "shopify://shop_images/artisinal_2.png",
             "mobile_image": "shopify://shop_images/Untitled_design_12.png",
-            "preload_image": true,
+            "preload_image": false,
             "info_position": "center",
             "heading": "",
             "description": "",
             "button_label": "Shop now",
             "button_link": "shopify://collections/nature-inspired",
-            "outline_button": false
-          }
-        },
-        "slide_rzzFWh": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Your_paragraph_text.png",
-            "mobile_image": "shopify://shop_images/2_4d48c3fb-a0f9-455f-80cc-2f71d15695e1.png",
-            "preload_image": false,
-            "info_position": "left",
-            "heading": "",
-            "description": "",
-            "button_label": "",
-            "button_link": "shopify://collections/cafe-inspired",
-            "outline_button": false
-          }
-        },
-        "slide_mNaRMT": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Shop_our_1.png",
-            "mobile_image": "shopify://shop_images/eternal_bloom_mobile1.png",
-            "preload_image": false,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop now",
-            "button_link": "shopify://products/eternal-bloom-duo-box",
-            "outline_button": false
-          }
-        },
-        "slide_HXhWYJ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Make_this_Diwali_shine_effortlessly_1.png",
-            "mobile_image": "shopify://shop_images/instant_kit_mobile_8b3d56bd-e38e-4d38-83e2-891fc7438064.png",
-            "preload_image": false,
-            "info_position": "center",
-            "heading": "",
-            "description": "",
-            "button_label": "Shop Now",
-            "button_link": "shopify://products/the-instant-candle-kit-sand-wax-with-wicks-and-4-mini-jars",
             "outline_button": false
           }
         }
@@ -157,10 +112,7 @@
         "slide_NyJRN8",
         "slide_3hUJzL",
         "slide_fLgNH7",
-        "slide_yXFcjC",
-        "slide_rzzFWh",
-        "slide_mNaRMT",
-        "slide_HXhWYJ"
+        "slide_yXFcjC"
       ],
       "custom_css": [],
       "settings": {
@@ -774,7 +726,7 @@
         "alignment": "center",
         "top_button_label": "",
         "top_button_link": "",
-        "item_background_color": "#fff",
+        "item_background_color": "#ffffff",
         "item_text_color": "#000000",
         "border_radius": 8,
         "nav": false,
