@@ -143,7 +143,7 @@
         "button_text_color": "#121212",
         "outline_button_color": "#fefcf9",
         "input_button_radius": 19,
-        "section_lazyload": true
+        "section_lazyload": false
       }
     },
     "featured_collection_RTrnHj": {
