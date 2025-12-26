@@ -717,6 +717,10 @@
         "rate_item_kBw6VV"
       ],
       "disabled": true,
+      "custom_css": [
+        ".customer-image_container {display: none;}",
+        ".customer-rating_content {padding: 2rem; height: 320px; display: flex; flex-direction: column; justify-content: start; align-items: center;}"
+      ],
       "name": "Tpt - Review #3",
       "settings": {
         "heading": "",
