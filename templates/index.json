@@ -316,7 +316,7 @@
         "ai_gen_block_c690a8d_XQPiVf"
       ],
       "custom_css": [
-        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf{padding: 2rem 0;}"
+        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {padding: 2rem 0;}"
       ],
       "settings": {}
     },
@@ -358,10 +358,7 @@
         ".customer-rating_content {padding: 2rem; height: 320px; display: flex; flex-direction: column; justify-content: start; align-items: center;}",
         ".h6 {font-size: 1.5rem;}",
         ".tpt-review_three .swiper {padding-top: 0;}",
-        ".customer-rating_description {flex: 1; align-items: center; display: flex;}",
-        ".tpt-section-body {margin-bottom: 20px !important;}",
-        "@media only screen and (max-width: 768px) {.swiper-wrapper {margin-bottom: 3rem; }}",
-        ".tpt-section_content {margin-top: -2px;}"
+        ".customer-rating_description {flex: 1; align-items: center; display: flex;}"
       ],
       "name": "Tpt - Review #3",
       "settings": {
