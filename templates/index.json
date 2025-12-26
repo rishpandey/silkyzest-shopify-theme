@@ -683,6 +683,34 @@
         "section_lazyload": false
       }
     },
+    "rich_text_CXNXh4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VhEBpF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Loved by Our Customers",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VhEBpF"
+      ],
+      "custom_css": [
+        ".rich-text {padding: 0px; background: #a91924;}",
+        ".rich-text h2{font-size: 4rem;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-a0065c7e-f5fa-4ef5-9e75-65c18af1c88f",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "tpt_review_three_EBbhE8": {
       "type": "tpt-review-three",
       "blocks": {
@@ -716,10 +744,11 @@
         "rate_item_wCbATD",
         "rate_item_kBw6VV"
       ],
-      "disabled": true,
       "custom_css": [
         ".customer-image_container {display: none;}",
-        ".customer-rating_content {padding: 2rem; height: 320px; display: flex; flex-direction: column; justify-content: start; align-items: center;}"
+        ".customer-rating_content {padding: 2rem; height: 320px; display: flex; flex-direction: column; justify-content: start; align-items: center;}",
+        ".h6 {font-size: 1.5rem;}",
+        ".tpt-review_three .swiper {padding-top: 0;}"
       ],
       "name": "Tpt - Review #3",
       "settings": {
@@ -967,6 +996,7 @@
     "featured_collection_JzLY7M",
     "image_with_text_3hq8MR",
     "tpt_badges_three_h7JzD6",
+    "rich_text_CXNXh4",
     "tpt_review_three_EBbhE8",
     "1746551293002862f9",
     "image_banner_x47Lae",
