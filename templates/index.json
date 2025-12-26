@@ -315,7 +315,9 @@
       "block_order": [
         "ai_gen_block_c690a8d_XQPiVf"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf{padding: 2rem 0;}"
+      ],
       "settings": {}
     },
     "tpt_review_three_EBbhE8": {
