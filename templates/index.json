@@ -720,7 +720,6 @@
         ".customer-image_container {display: none;}",
         ".customer-rating_content {padding: 2rem; height: 320px; display: flex; flex-direction: column; justify-content: start; align-items: center;}",
         ".h6 {font-size: 1.5rem;}",
-        ".tpt-review_three .swiper {padding-top: 0;}",
         ".customer-rating_description {flex: 1; align-items: center; display: flex;}"
       ],
       "name": "Tpt - Review #3",
