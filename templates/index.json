@@ -648,10 +648,10 @@
       ],
       "custom_css": [],
       "settings": {
-        "heading": "Why choose us",
+        "heading": "Thoughtfully Crafted for Modern Living",
         "heading_size": "h0",
         "sub_heading": "",
-        "description": "<p>At <strong>Silky Zest</strong>, we believe a candle is more than just wax and wick—it’s an experience.</p>",
+        "description": "<p>Each Silky Zest candle is carefully made in small batches using clean ingredients and refined fragrance blends. Designed to look good, burn well, and feel right.</p>",
         "alignment": "center",
         "top_button_label": "",
         "top_button_link": "",
@@ -689,24 +689,24 @@
         "rate_item_jWjged": {
           "type": "rate_item",
           "settings": {
-            "customer_name": "Michael",
-            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_name": "Vandita",
+            "customer_description": "<p> The candles are so beautifully handcrafted with such a divine smell. Just love it!!!🥰</p>",
             "customer_rating": 5
           }
         },
         "rate_item_wCbATD": {
           "type": "rate_item",
           "settings": {
-            "customer_name": "Michael",
-            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_name": "Vivek",
+            "customer_description": "<p>The candles look super elegant, and the fragrance is natural and calming. The best thing about silky zest candles is their design and organic scents. My family is in love with all your candles.</p>",
             "customer_rating": 5
           }
         },
         "rate_item_kBw6VV": {
           "type": "rate_item",
           "settings": {
-            "customer_name": "Michael",
-            "customer_description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "customer_name": "Jyoti",
+            "customer_description": "<p>These are beautiful. The scent is soft and not overpowering at all. My favorite part was the custom card, it made the whole gift feel more personal. Highly recommend.</p>",
             "customer_rating": 5
           }
         }
