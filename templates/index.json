@@ -46,6 +46,19 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_eRTLjG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Coming_soon..jpg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
         "slide_NyJRN8": {
           "type": "slide",
           "settings": {
@@ -104,6 +117,7 @@
         }
       },
       "block_order": [
+        "slide_eRTLjG",
         "slide_NyJRN8",
         "slide_3hUJzL",
         "slide_fLgNH7",
