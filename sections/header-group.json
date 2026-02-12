@@ -25,7 +25,6 @@
       "block_order": [
         "announcement_wQdbWP"
       ],
-      "disabled": true,
       "custom_css": [
         ".announcement-bar__message.h5 {font-size: 1.2rem;}"
       ],
