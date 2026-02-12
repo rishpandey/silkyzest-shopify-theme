@@ -111,7 +111,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "item_background_color": "#faf9f4",
+        "item_background_color": "#f7dfe7",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 76,
@@ -130,7 +130,7 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#faf9f4",
+        "background_color": "#fefcf9",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
