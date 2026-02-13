@@ -48,6 +48,7 @@
       "blocks": {
         "slide_NyJRN8": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Welcoming_the_Winter_deskt.png",
             "mobile_image": "shopify://shop_images/FLAT_20_OFF._m.png",
