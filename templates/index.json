@@ -154,7 +154,7 @@
         "description": "<p>Handcrafted café-inspired candles designed to elevate your everyday rituals.</p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "diwali-collection",
+        "collection": "cafe-inspired",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,
