@@ -64,8 +64,8 @@
         "slide_3hUJzL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/website_one.png",
-            "mobile_image": "shopify://shop_images/drinks_selection._Instagram_Post_45_9a749619-bdd3-45bc-98fb-8a726f3178ea.png",
+            "image": "shopify://shop_images/Fresh._Creamy._Comforting._1.jpg",
+            "mobile_image": "shopify://shop_images/mobile_image.jpg",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
@@ -77,6 +77,7 @@
         },
         "slide_fLgNH7": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/curated_celebration_2.png",
             "mobile_image": "shopify://shop_images/Untitled_design_mobi.png",
@@ -91,6 +92,7 @@
         },
         "slide_yXFcjC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/artisinal_2.png",
             "mobile_image": "shopify://shop_images/Untitled_design_12.png",
@@ -131,7 +133,7 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#fefcf9",
+        "background_color": "#fbf8f4",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
