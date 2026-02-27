@@ -1,6 +1,408 @@
+{% doc %}
+  @prompt
+    A magazine-style editorial layout, i wanna show a short video here 2 sec video of the product
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-video-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px;
+  }
+
+  .ai-product-video-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-product-video-player-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .ai-product-video-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    min-height: 400px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-product-video-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .ai-product-video-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-product-video-controls-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 2;
+  }
+
+  .ai-product-video-button-{{ ai_gen_id }} {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .ai-product-video-button-{{ ai_gen_id }}:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .ai-product-video-button-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ai-product-video-overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, {{ block.settings.overlay_opacity }}), transparent);
+    pointer-events: none;
+  }
+
+  .ai-product-video-caption-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: {{ block.settings.caption_color }};
+    font-size: {{ block.settings.caption_size }}px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-product-video-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding | times: 0.5 }}px;
+    }
+
+    .ai-product-video-placeholder-{{ ai_gen_id }} {
+      min-height: 300px;
+    }
+
+    .ai-product-video-caption-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.caption_size }}px * 0.85);
+      bottom: 15px;
+      left: 15px;
+    }
+
+    .ai-product-video-controls-{{ ai_gen_id }} {
+      bottom: 15px;
+      right: 15px;
+    }
+  }
+{% endstyle %}
+
+<product-video-{{ ai_gen_id }} class="ai-product-video-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-product-video-container-{{ ai_gen_id }}">
+    {% if block.settings.video_url != blank %}
+      <video
+        class="ai-product-video-player-{{ ai_gen_id }}"
+        {% if block.settings.autoplay %}autoplay{% endif %}
+        {% if block.settings.loop %}loop{% endif %}
+        {% if block.settings.muted %}muted{% endif %}
+        playsinline
+        preload="metadata"
+        data-video-id="{{ ai_gen_id }}"
+      >
+        <source src="{{ block.settings.video_url }}" type="video/mp4">
+      </video>
+
+      {% if block.settings.show_overlay %}
+        <div class="ai-product-video-overlay-{{ ai_gen_id }}"></div>
+      {% endif %}
+
+      {% if block.settings.caption != blank %}
+        <div class="ai-product-video-caption-{{ ai_gen_id }}">{{ block.settings.caption }}</div>
+      {% endif %}
+
+      {% if block.settings.show_controls %}
+        <div class="ai-product-video-controls-{{ ai_gen_id }}">
+          <button
+            class="ai-product-video-button-{{ ai_gen_id }} ai-video-play-pause-{{ ai_gen_id }}"
+            aria-label="Play or pause video"
+          >
+            <svg class="ai-video-play-icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            <svg class="ai-video-pause-icon-{{ ai_gen_id }}" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+            </svg>
+          </button>
+
+          <button
+            class="ai-product-video-button-{{ ai_gen_id }} ai-video-mute-{{ ai_gen_id }}"
+            aria-label="Mute or unmute video"
+          >
+            <svg class="ai-video-unmute-icon-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+            </svg>
+            <svg class="ai-video-mute-icon-{{ ai_gen_id }}" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+            </svg>
+          </button>
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="ai-product-video-placeholder-{{ ai_gen_id }}">
+        {{ 'product-apparel-1' | placeholder_svg_tag }}
+        <div class="ai-product-video-empty-state-{{ ai_gen_id }}">
+          Add a product video
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</product-video-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductVideo{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.video = null;
+        this.playPauseBtn = null;
+        this.muteBtn = null;
+      }
+
+      connectedCallback() {
+        this.video = this.querySelector('.ai-product-video-player-{{ ai_gen_id }}');
+        
+        if (!this.video) return;
+
+        this.playPauseBtn = this.querySelector('.ai-video-play-pause-{{ ai_gen_id }}');
+        this.muteBtn = this.querySelector('.ai-video-mute-{{ ai_gen_id }}');
+
+        this.setupEventListeners();
+        this.updatePlayPauseIcon();
+        this.updateMuteIcon();
+      }
+
+      setupEventListeners() {
+        if (this.playPauseBtn) {
+          this.playPauseBtn.addEventListener('click', () => this.togglePlayPause());
+        }
+
+        if (this.muteBtn) {
+          this.muteBtn.addEventListener('click', () => this.toggleMute());
+        }
+
+        this.video.addEventListener('play', () => this.updatePlayPauseIcon());
+        this.video.addEventListener('pause', () => this.updatePlayPauseIcon());
+      }
+
+      togglePlayPause() {
+        if (this.video.paused) {
+          this.video.play();
+        } else {
+          this.video.pause();
+        }
+      }
+
+      toggleMute() {
+        this.video.muted = !this.video.muted;
+        this.updateMuteIcon();
+      }
+
+      updatePlayPauseIcon() {
+        const playIcon = this.querySelector('.ai-video-play-icon-{{ ai_gen_id }}');
+        const pauseIcon = this.querySelector('.ai-video-pause-icon-{{ ai_gen_id }}');
+
+        if (!playIcon || !pauseIcon) return;
+
+        if (this.video.paused) {
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        } else {
+          playIcon.style.display = 'none';
+          pauseIcon.style.display = 'block';
+        }
+      }
+
+      updateMuteIcon() {
+        const muteIcon = this.querySelector('.ai-video-mute-icon-{{ ai_gen_id }}');
+        const unmuteIcon = this.querySelector('.ai-video-unmute-icon-{{ ai_gen_id }}');
+
+        if (!muteIcon || !unmuteIcon) return;
+
+        if (this.video.muted) {
+          muteIcon.style.display = 'block';
+          unmuteIcon.style.display = 'none';
+        } else {
+          muteIcon.style.display = 'none';
+          unmuteIcon.style.display = 'block';
+        }
+      }
+    }
+
+    customElements.define('product-video-{{ ai_gen_id }}', ProductVideo{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Product video",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Video URL"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "Caption"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "label": "Loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "muted",
+      "label": "Muted by default",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show controls",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Overlay"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show overlay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.3
+    },
+    {
+      "type": "header",
+      "content": "Caption"
+    },
+    {
+      "type": "color",
+      "id": "caption_color",
+      "label": "Caption color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "caption_size",
+      "label": "Caption size",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product video"
+    }
+  ]
+}
 {% endschema %}
