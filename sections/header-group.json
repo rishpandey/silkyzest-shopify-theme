@@ -25,13 +25,12 @@
       "block_order": [
         "announcement_wQdbWP"
       ],
-      "disabled": true,
       "custom_css": [
         ".announcement-bar__message.h5 {font-size: 1.2rem;}"
       ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
-        "color_scheme": "scheme-a0065c7e-f5fa-4ef5-9e75-65c18af1c88f",
+        "color_scheme": "scheme-5",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
