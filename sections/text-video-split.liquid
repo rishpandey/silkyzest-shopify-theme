@@ -96,7 +96,7 @@
         }}
 
       {% elsif section.settings.mp4_url != blank %}
-        <video controls>
+        <video autoplay loop muted>
           <source src="{{ section.settings.mp4_url }}" type="video/mp4">
         </video>
 
