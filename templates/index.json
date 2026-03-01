@@ -148,7 +148,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title h2,.collection__title p {text-align: center;}",
-        ".card .card__inner .card__media{border-radius: 0;}"
+        ".card .card__inner .card__media {border-radius: 0;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
@@ -300,7 +300,7 @@
             "tab_active_border_color": "#2b2623",
             "tab_border_radius": 4,
             "card_bg_color": "#fbf8f4",
-            "card_border_radius": 8,
+            "card_border_radius": 0,
             "product_title_color": "#2b2623",
             "product_price_color": "#2b2623",
             "button_label": "View Product",
