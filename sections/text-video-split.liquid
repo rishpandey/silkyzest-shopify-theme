@@ -89,10 +89,10 @@
         {{
           section.settings.video_file
           | video_tag:
-            controls: true,
-            autoplay: false,
-            loop: false,
-            muted: false
+            controls: false,
+            autoplay: true,
+            loop: true,
+            muted: true
         }}
 
       {% elsif section.settings.mp4_url != blank %}
