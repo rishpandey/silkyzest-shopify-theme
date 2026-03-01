@@ -147,7 +147,8 @@
     "featured_collection_RTrnHj": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title h2,.collection__title p {text-align: center;}"
+        ".collection__title h2,.collection__title p {text-align: center;}",
+        ".card .card__inner .card__media{border-radius: 0;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
