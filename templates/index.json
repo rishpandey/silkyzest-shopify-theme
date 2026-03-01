@@ -79,7 +79,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/curated_celebration_2.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Mar_1_2026_07_27_39_PM.png",
             "mobile_image": "shopify://shop_images/Untitled_design_mobi.png",
             "preload_image": false,
             "info_position": "left",
@@ -175,6 +175,54 @@
         "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 0
+      }
+    },
+    "image_with_text_q4cywi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_N6NLzn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by Real Blooms",
+            "heading_size": "h1"
+          }
+        },
+        "text_tpJUbK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hand-poured florals inspired by gardens, sunlight, and fresh air.<br/><br/>Thoughtfully made to add a gentle, natural warmth to your space.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_ckgwyn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Nature Inspired Collection→",
+            "button_link": "shopify://collections/nature-inspired",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_N6NLzn",
+        "text_tpJUbK",
+        "button_ckgwyn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_1_2026_07_38_57_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 8
       }
     },
     "tpt_badges_three_h7JzD6": {
@@ -460,6 +508,7 @@
     "image_banner_hPqqMn",
     "tpt_slideshow_four_4MQdVP",
     "featured_collection_RTrnHj",
+    "image_with_text_q4cywi",
     "tpt_badges_three_h7JzD6",
     "176452200691df7107",
     "tpt_review_three_EBbhE8",
