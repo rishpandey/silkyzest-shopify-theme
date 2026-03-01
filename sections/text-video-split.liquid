@@ -12,7 +12,7 @@
       "type": "richtext",
       "id": "text",
       "label": "Text",
-      "default": "<p>Add your description text here. This area supports <strong>bold text</strong>, links, and more.</p>"
+      "default": "<p>Add your description text here. Supports bold text and links.</p>"
     },
     {
       "type": "text",
@@ -28,17 +28,22 @@
     {
       "type": "video",
       "id": "video_file",
-      "label": "Upload MP4 Video"
+      "label": "Upload Video (Shopify Hosted)"
+    },
+    {
+      "type": "text",
+      "id": "mp4_url",
+      "label": "External MP4 URL"
     },
     {
       "type": "text",
       "id": "youtube_url",
-      "label": "YouTube Embed URL (optional)"
+      "label": "YouTube Embed URL"
     },
     {
       "type": "text",
       "id": "vimeo_url",
-      "label": "Vimeo Embed URL (optional)"
+      "label": "Vimeo Embed URL"
     },
     {
       "type": "checkbox",
@@ -58,7 +63,7 @@
 <section class="tv-split-section {% if section.settings.reverse_layout %}tv-reverse{% endif %}">
   <div class="tv-container">
     
-    <!-- LEFT: TEXT -->
+    <!-- TEXT SIDE -->
     <div class="tv-text">
       {% if section.settings.heading != blank %}
         <h2>{{ section.settings.heading }}</h2>
@@ -77,7 +82,7 @@
       {% endif %}
     </div>
 
-    <!-- RIGHT: VIDEO -->
+    <!-- VIDEO SIDE -->
     <div class="tv-video">
 
       {% if section.settings.video_file != blank %}
@@ -89,6 +94,11 @@
             loop: false,
             muted: false
         }}
+
+      {% elsif section.settings.mp4_url != blank %}
+        <video controls>
+          <source src="{{ section.settings.mp4_url }}" type="video/mp4">
+        </video>
 
       {% elsif section.settings.youtube_url != blank %}
         <iframe
@@ -107,7 +117,6 @@
       {% endif %}
 
     </div>
-    
   </div>
 </section>
 
@@ -161,7 +170,6 @@
   flex-direction: row-reverse;
 }
 
-/* Mobile */
 @media screen and (max-width: 768px) {
   .tv-container {
     flex-direction: column;
