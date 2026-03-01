@@ -93,6 +93,9 @@
         "featured_collection_iWwmqL",
         "featured_collection_JXQRpK"
       ],
+      "custom_css": [
+        ".card .card__inner .card__media {border-radius: 0;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
@@ -157,6 +160,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card .card__inner .card__media{border-radius: 0;}"
+      ],
       "settings": {
         "products_per_page": 36,
         "columns_desktop": 4,
