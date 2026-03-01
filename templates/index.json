@@ -222,7 +222,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 60,
-        "padding_bottom": 8
+        "padding_bottom": 60
       }
     },
     "tpt_badges_three_h7JzD6": {
@@ -292,8 +292,8 @@
         "content_max_width": 1460,
         "padding_desktop": 80,
         "padding_tablet_mobile": 80,
-        "margin_desktop": 56,
-        "margin_tablet_mobile": 56,
+        "margin_desktop": 0,
+        "margin_tablet_mobile": 0,
         "background_color": "#f3ede7",
         "background_gradient_color": "",
         "foreground_color": "#faf9f4",
