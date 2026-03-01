@@ -1,0 +1,178 @@
+{% schema %}
+{
+  "name": "Text + Video Split",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your Heading Here"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Add your description text here. This area supports <strong>bold text</strong>, links, and more.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "video",
+      "id": "video_file",
+      "label": "Upload MP4 Video"
+    },
+    {
+      "type": "text",
+      "id": "youtube_url",
+      "label": "YouTube Embed URL (optional)"
+    },
+    {
+      "type": "text",
+      "id": "vimeo_url",
+      "label": "Vimeo Embed URL (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse_layout",
+      "label": "Reverse Layout (Video Left)",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text + Video Split"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="tv-split-section {% if section.settings.reverse_layout %}tv-reverse{% endif %}">
+  <div class="tv-container">
+    
+    <!-- LEFT: TEXT -->
+    <div class="tv-text">
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.text != blank %}
+        <div class="tv-richtext">
+          {{ section.settings.text }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.button_link != blank %}
+        <a href="{{ section.settings.button_link }}" class="tv-button">
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+
+    <!-- RIGHT: VIDEO -->
+    <div class="tv-video">
+
+      {% if section.settings.video_file != blank %}
+        {{
+          section.settings.video_file
+          | video_tag:
+            controls: true,
+            autoplay: false,
+            loop: false,
+            muted: false
+        }}
+
+      {% elsif section.settings.youtube_url != blank %}
+        <iframe
+          src="{{ section.settings.youtube_url }}"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+
+      {% elsif section.settings.vimeo_url != blank %}
+        <iframe
+          src="{{ section.settings.vimeo_url }}"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+
+      {% endif %}
+
+    </div>
+    
+  </div>
+</section>
+
+<style>
+.tv-split-section {
+  padding: 60px 20px;
+}
+
+.tv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.tv-text {
+  flex: 1;
+}
+
+.tv-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.tv-richtext {
+  margin-bottom: 25px;
+}
+
+.tv-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.tv-video {
+  flex: 1;
+}
+
+.tv-video video,
+.tv-video iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tv-reverse .tv-container {
+  flex-direction: row-reverse;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .tv-container {
+    flex-direction: column;
+  }
+
+  .tv-reverse .tv-container {
+    flex-direction: column;
+  }
+
+  .tv-text {
+    text-align: center;
+  }
+}
+</style>
