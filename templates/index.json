@@ -389,7 +389,7 @@
         "content_full_width": false,
         "content_max_width": 1460,
         "padding_desktop": 40,
-        "padding_tablet_mobile": 0,
+        "padding_tablet_mobile": 32,
         "margin_desktop": 5,
         "margin_tablet_mobile": 0,
         "background_color": "#f3ede7",
