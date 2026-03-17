@@ -304,6 +304,46 @@
         "section_lazyload": false
       }
     },
+    "collage_wb7n3z": {
+      "type": "collage",
+      "blocks": {
+        "image_nyUi3B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Boat_Shaped_trinket_tray_-_Silky_Zest.png"
+          }
+        },
+        "product_4UDrpq": {
+          "type": "product",
+          "settings": {
+            "product": "handmade-white-concrete-trinket-tray",
+            "second_image": false
+          }
+        },
+        "collection_9WDMwh": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifting-collection"
+          }
+        }
+      },
+      "block_order": [
+        "image_nyUi3B",
+        "product_4UDrpq",
+        "collection_9WDMwh"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "The Curator’s Selection",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "176452200691df7107": {
       "type": "_blocks",
       "blocks": {
@@ -362,10 +402,68 @@
             "border_color": "#eae2d8"
           },
           "blocks": {}
+        },
+        "ai_gen_block_c690a8d_rtcikH": {
+          "type": "ai_gen_block_c690a8d",
+          "name": "Collection filter",
+          "settings": {
+            "heading": "Shop by Collection",
+            "heading_alignment": "center",
+            "heading_size": 32,
+            "description": "",
+            "description_alignment": "center",
+            "description_size": 16,
+            "section_padding": 40,
+            "container_width": 1200,
+            "show_all_tab": true,
+            "all_tab_label": "All Products",
+            "collection_1": "gifting-collection",
+            "collection_1_label": "",
+            "collection_2": "",
+            "collection_2_label": "",
+            "collection_3": "",
+            "collection_3_label": "",
+            "collection_4": "",
+            "collection_4_label": "",
+            "collection_5": "",
+            "collection_5_label": "",
+            "products_limit": 8,
+            "empty_message": "No products found in this collection.",
+            "products_per_row": 4,
+            "products_per_row_tablet": 3,
+            "products_per_row_mobile": "2",
+            "product_gap": 20,
+            "tabs_alignment": "center",
+            "tab_bg_color": "#ffffff",
+            "tab_text_color": "#000000",
+            "tab_border_color": "#e0e0e0",
+            "tab_hover_bg_color": "#f5f5f5",
+            "tab_hover_text_color": "#000000",
+            "tab_hover_border_color": "#cccccc",
+            "tab_active_bg_color": "#000000",
+            "tab_active_text_color": "#ffffff",
+            "tab_active_border_color": "#000000",
+            "tab_border_radius": 4,
+            "card_bg_color": "#ffffff",
+            "card_border_radius": 8,
+            "product_title_color": "#000000",
+            "product_price_color": "#666666",
+            "button_label": "View Product",
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_hover_bg_color": "#333333",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 4,
+            "heading_color": "#000000",
+            "description_color": "#666666",
+            "border_color": "#e0e0e0"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_c690a8d_XQPiVf"
+        "ai_gen_block_c690a8d_XQPiVf",
+        "ai_gen_block_c690a8d_rtcikH"
       ],
       "custom_css": [
         ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {padding: 2rem 0;}"
@@ -510,6 +608,7 @@
     "featured_collection_RTrnHj",
     "image_with_text_q4cywi",
     "tpt_badges_three_h7JzD6",
+    "collage_wb7n3z",
     "176452200691df7107",
     "tpt_review_three_EBbhE8",
     "1746551293002862f9",
