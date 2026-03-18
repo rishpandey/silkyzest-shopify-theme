@@ -406,6 +406,7 @@
         "ai_gen_block_c690a8d_rtcikH": {
           "type": "ai_gen_block_c690a8d",
           "name": "Collection filter",
+          "disabled": true,
           "settings": {
             "heading": "Shop by Collection",
             "heading_alignment": "center",
@@ -427,7 +428,7 @@
             "collection_4_label": "",
             "collection_5": "",
             "collection_5_label": "",
-            "products_limit": 8,
+            "products_limit": 6,
             "empty_message": "No products found in this collection.",
             "products_per_row": 4,
             "products_per_row_tablet": 3,
