@@ -368,7 +368,7 @@
       "settings": {
         "item_background_color": "#FFFFFF",
         "background_opacity": 0,
-        "desktop_image_ratio": 70,
+        "desktop_image_ratio": 61,
         "mobile_image_ratio": 71,
         "border_radius": 0,
         "nav": false,
