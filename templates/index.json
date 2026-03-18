@@ -350,7 +350,7 @@
         "slide_BRdGAb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/bestseller_1.png",
+            "image": "shopify://shop_images/bestseller_2.png",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
@@ -364,7 +364,6 @@
       "block_order": [
         "slide_BRdGAb"
       ],
-      "disabled": true,
       "name": "Tpt - Slideshow #4",
       "settings": {
         "item_background_color": "#FFFFFF",
