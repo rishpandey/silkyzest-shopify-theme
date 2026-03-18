@@ -344,6 +344,58 @@
         "padding_bottom": 36
       }
     },
+    "tpt_slideshow_four_c9JG84": {
+      "type": "tpt-slideshow-four",
+      "blocks": {
+        "slide_BRdGAb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bestseller_1.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "button_link": "shopify://collections/bestsellers",
+            "outline_button": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_BRdGAb"
+      ],
+      "name": "Tpt - Slideshow #4",
+      "settings": {
+        "item_background_color": "#FFFFFF",
+        "background_opacity": 0,
+        "desktop_image_ratio": 32,
+        "mobile_image_ratio": 100,
+        "border_radius": 0,
+        "nav": false,
+        "dots": true,
+        "loop": true,
+        "effect": "flip",
+        "auto_play": true,
+        "delay": 3,
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": true,
+        "content_max_width": 1440,
+        "padding_desktop": 0,
+        "padding_tablet_mobile": 0,
+        "margin_desktop": 60,
+        "margin_tablet_mobile": 40,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "outline_button_color": "#000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "176452200691df7107": {
       "type": "_blocks",
       "blocks": {
@@ -610,6 +662,7 @@
     "image_with_text_q4cywi",
     "tpt_badges_three_h7JzD6",
     "collage_wb7n3z",
+    "tpt_slideshow_four_c9JG84",
     "176452200691df7107",
     "tpt_review_three_EBbhE8",
     "1746551293002862f9",
