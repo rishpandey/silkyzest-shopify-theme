@@ -496,7 +496,7 @@
             "heading": "",
             "description": "",
             "button_label": "Shop now",
-            "button_link": "/",
+            "button_link": "shopify://pages/custom-orders",
             "outline_button": false
           }
         }
