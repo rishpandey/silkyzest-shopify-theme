@@ -227,46 +227,7 @@
     },
     "tpt_badges_three_h7JzD6": {
       "type": "tpt-badges-three",
-      "blocks": {
-        "item_47wmmx": {
-          "type": "item",
-          "settings": {
-            "image_type": "icon",
-            "image_preload": false,
-            "heading": "<strong>Handcrafted with Love</strong>",
-            "description": "<p> </p><p>Poured in small batches for consistent quality, balance, and a beautiful burn.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "item_hqTnng": {
-          "type": "item",
-          "settings": {
-            "image_type": "icon",
-            "image_preload": false,
-            "heading": "<strong>Thoughtful Ingredients</strong>",
-            "description": "<p> </p><p>Made with soy wax, lead-free cotton wicks, and carefully blended fragrance oils.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "item_Y9UnFz": {
-          "type": "item",
-          "settings": {
-            "image_type": "icon",
-            "image_preload": false,
-            "heading": "<strong>Made to be Gifted</strong>",
-            "description": "<p> </p><p>Designed to feel special the moment it’s received — simple, refined, and easy to love.</p>",
-            "link_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_47wmmx",
-        "item_hqTnng",
-        "item_Y9UnFz"
-      ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "heading": "Thoughtfully Crafted for Modern Living",
@@ -278,11 +239,11 @@
         "top_button_link": "",
         "item_background_color": "#fbf8f4",
         "item_text_color": "#000000",
-        "border_radius": 8,
-        "hidden_border": false,
+        "border_radius": 100,
+        "hidden_border": true,
         "icon_position": "default",
-        "desktop_column": 3,
-        "tablet_column": 3,
+        "desktop_column": 1,
+        "tablet_column": 2,
         "mobile_column": 1,
         "bottom_button_label": "",
         "bottom_button_link": "",
@@ -366,7 +327,7 @@
       ],
       "name": "Tpt - Slideshow #4",
       "settings": {
-        "item_background_color": "#FFFFFF",
+        "item_background_color": "#ffffff",
         "background_opacity": 0,
         "desktop_image_ratio": 61,
         "mobile_image_ratio": 71,
@@ -385,13 +346,13 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 60,
         "margin_tablet_mobile": 40,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
-        "outline_button_color": "#000",
+        "outline_button_color": "#000000",
         "input_button_radius": 0,
         "section_lazyload": false
       }
