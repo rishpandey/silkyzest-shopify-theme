@@ -484,6 +484,58 @@
       ],
       "settings": {}
     },
+    "tpt_slideshow_four_ghHTwi": {
+      "type": "tpt-slideshow-four",
+      "blocks": {
+        "slide_Rt9Vra": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bestseller_3.png",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rt9Vra"
+      ],
+      "name": "Tpt - Slideshow #4",
+      "settings": {
+        "item_background_color": "#FFFFFF",
+        "background_opacity": 0,
+        "desktop_image_ratio": 50,
+        "mobile_image_ratio": 55,
+        "border_radius": 0,
+        "nav": false,
+        "dots": true,
+        "loop": true,
+        "effect": "flip",
+        "auto_play": true,
+        "delay": 3,
+        "section_full_width": true,
+        "section_max_width": 1600,
+        "content_full_width": true,
+        "content_max_width": 1440,
+        "padding_desktop": 0,
+        "padding_tablet_mobile": 0,
+        "margin_desktop": 60,
+        "margin_tablet_mobile": 60,
+        "background_color": "#FFFFFF",
+        "background_gradient_color": "",
+        "foreground_color": "#000000",
+        "title_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "outline_button_color": "#000",
+        "input_button_radius": 0,
+        "section_lazyload": false
+      }
+    },
     "tpt_review_three_EBbhE8": {
       "type": "tpt-review-three",
       "blocks": {
@@ -625,6 +677,7 @@
     "collage_wb7n3z",
     "tpt_slideshow_four_c9JG84",
     "176452200691df7107",
+    "tpt_slideshow_four_ghHTwi",
     "tpt_review_three_EBbhE8",
     "1746551293002862f9",
     "slideshow_xYbmgA",
