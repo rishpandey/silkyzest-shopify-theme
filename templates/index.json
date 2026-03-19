@@ -271,7 +271,7 @@
         "image_nyUi3B": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/The_Curator_s_1.jpg"
+            "image": "shopify://shop_images/The_Curator_s.png"
           }
         },
         "product_4UDrpq": {
@@ -506,7 +506,7 @@
       ],
       "name": "Tpt - Slideshow #4",
       "settings": {
-        "item_background_color": "#FFFFFF",
+        "item_background_color": "#ffffff",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 55,
@@ -525,13 +525,13 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 60,
         "margin_tablet_mobile": 60,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
-        "outline_button_color": "#000",
+        "outline_button_color": "#000000",
         "input_button_radius": 0,
         "section_lazyload": false
       }
