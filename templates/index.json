@@ -174,7 +174,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 60,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "image_with_text_q4cywi": {
@@ -218,7 +218,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-dcb98526-7b6f-426f-867c-421be8dd7a80",
+        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 60,
