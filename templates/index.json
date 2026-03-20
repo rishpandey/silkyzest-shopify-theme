@@ -48,10 +48,9 @@
       "blocks": {
         "slide_NyJRN8": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Welcoming_the_Winter_deskt.png",
-            "mobile_image": "shopify://shop_images/FLAT_20_OFF._m.png",
+            "image": "shopify://shop_images/bestseller_4.png",
+            "mobile_image": "shopify://shop_images/Untitled_Instagram_Post_45.png",
             "preload_image": true,
             "info_position": "left",
             "heading": "",
@@ -63,6 +62,7 @@
         },
         "slide_3hUJzL": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/new_website_summer_1.jpg",
             "mobile_image": "shopify://shop_images/mobile_image_for_summer_1.jpg",
