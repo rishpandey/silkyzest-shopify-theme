@@ -303,10 +303,10 @@
       },
       "scheme-dcb98526-7b6f-426f-867c-421be8dd7a80": {
         "settings": {
-          "background": "#8b9474",
+          "background": "#f7dfe7",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#fefcf9",
+          "text": "#242833",
+          "button": "#f7f5e6",
           "button_label": "#121212",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
