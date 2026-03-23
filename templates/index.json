@@ -320,6 +320,9 @@
     },
     "text_video_split_3wKW84": {
       "type": "text-video-split",
+      "custom_css": [
+        ".tv-split-section {background-color:#fff5ee;}"
+      ],
       "name": "Text + Video Split",
       "settings": {
         "heading": "From pour to glow.",
