@@ -208,6 +208,7 @@
         "text_tpJUbK",
         "button_ckgwyn"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Fresh._Floral._Considered..jpg",
