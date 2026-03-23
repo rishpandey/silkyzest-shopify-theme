@@ -317,6 +317,21 @@
         "section_lazyload": false
       }
     },
+    "text_video_split_3wKW84": {
+      "type": "text-video-split",
+      "name": "Text + Video Split",
+      "settings": {
+        "heading": "From pour to glow.",
+        "text": "<p>A gentle composition of fresh florals and soft greens, designed to bring a natural calm into your space.<br/><br/><em>A thoughtful gift, naturally.</em></p>",
+        "button_text": "Shop Now",
+        "button_link": "shopify://collections/nature-inspired",
+        "video_file": "shopify://files/videos/daily rituals (Instagram Post (4_5)).mp4",
+        "mp4_url": "",
+        "youtube_url": "",
+        "vimeo_url": "",
+        "reverse_layout": false
+      }
+    },
     "176452200691df7107": {
       "type": "_blocks",
       "blocks": {
@@ -636,6 +651,7 @@
     "image_with_text_q4cywi",
     "collage_wb7n3z",
     "tpt_slideshow_four_c9JG84",
+    "text_video_split_3wKW84",
     "176452200691df7107",
     "tpt_slideshow_four_ghHTwi",
     "tpt_review_three_EBbhE8",
