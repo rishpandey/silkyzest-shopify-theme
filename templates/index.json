@@ -46,6 +46,20 @@
     "tpt_slideshow_four_4MQdVP": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_hyL4mN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/bestseller_1.svg",
+            "mobile_image": "shopify://shop_images/bestseller_Instagram_Post_45_1.svg",
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "",
+            "description": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/the-perfect-gift-thoughtfully-made",
+            "outline_button": false
+          }
+        },
         "slide_NyJRN8": {
           "type": "slide",
           "settings": {
@@ -107,6 +121,7 @@
         }
       },
       "block_order": [
+        "slide_hyL4mN",
         "slide_NyJRN8",
         "slide_3hUJzL",
         "slide_fLgNH7",
