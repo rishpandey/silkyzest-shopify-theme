@@ -129,7 +129,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "item_background_color": "#fefcf9",
+        "item_background_color": "rgba(0,0,0,0)",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 76,
