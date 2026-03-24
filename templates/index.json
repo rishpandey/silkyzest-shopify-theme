@@ -360,7 +360,7 @@
             "heading": "",
             "heading_alignment": "center",
             "heading_size": 36,
-            "description": "Trusted by candle lovers across India — poured in small batches and consistently reordered.",
+            "description": "",
             "description_alignment": "center",
             "description_size": 20,
             "section_padding": 20,
@@ -473,10 +473,7 @@
         "ai_gen_block_c690a8d_XQPiVf",
         "ai_gen_block_c690a8d_rtcikH"
       ],
-      "custom_css": [
-        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {padding: 0rem 0;}",
-        "@media screen (min-width: 1000px) {.ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {z-index: 99999999999999; position: relative; margin-top: -100px; }}"
-      ],
+      "custom_css": [],
       "settings": {}
     },
     "text_video_split_7kpg88": {
