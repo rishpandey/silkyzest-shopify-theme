@@ -478,6 +478,21 @@
       ],
       "settings": {}
     },
+    "text_video_split_7kpg88": {
+      "type": "text-video-split",
+      "name": "Text + Video Split",
+      "settings": {
+        "heading": "LAUNCHING SOON.",
+        "text": "<p>Limited pre-booking slots for our first batch.<br/>For <strong>₹899</strong>, you get the full gift-ready experience:</p><p>1x Iced Matcha Latte Jar</p><p>1x Iced Coffee Latte Jar</p><p>1x Sleek Black Gift Box</p><p> <strong>BONUS:</strong> A complimentary dessert candle!</p><p></p>",
+        "button_text": "",
+        "button_link": "",
+        "video_file": "shopify://files/videos/Looking for the perfect gift for.mp4",
+        "mp4_url": "",
+        "youtube_url": "",
+        "vimeo_url": "",
+        "reverse_layout": false
+      }
+    },
     "tpt_slideshow_four_ghHTwi": {
       "type": "tpt-slideshow-four",
       "blocks": {
@@ -672,6 +687,7 @@
     "tpt_slideshow_four_c9JG84",
     "text_video_split_3wKW84",
     "176452200691df7107",
+    "text_video_split_7kpg88",
     "tpt_slideshow_four_ghHTwi",
     "tpt_review_three_EBbhE8",
     "1746551293002862f9",
