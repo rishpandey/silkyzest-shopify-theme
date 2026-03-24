@@ -281,6 +281,24 @@
         "padding_bottom": 60
       }
     },
+    "text_video_split_3wKW84": {
+      "type": "text-video-split",
+      "custom_css": [
+        ".tv-split-section {background-color: #fff5ee;}"
+      ],
+      "name": "Text + Video Split",
+      "settings": {
+        "heading": "From pour to glow.",
+        "text": "<p>A gentle composition of fresh florals and soft greens, designed to bring a natural calm into your space.<br/><br/><em>A thoughtful gift, naturally.</em></p>",
+        "button_text": "Shop Now",
+        "button_link": "shopify://collections/nature-inspired",
+        "video_file": "shopify://files/videos/download.mp4",
+        "mp4_url": "",
+        "youtube_url": "",
+        "vimeo_url": "",
+        "reverse_layout": false
+      }
+    },
     "tpt_slideshow_four_c9JG84": {
       "type": "tpt-slideshow-four",
       "blocks": {
@@ -333,31 +351,13 @@
         "section_lazyload": false
       }
     },
-    "text_video_split_3wKW84": {
-      "type": "text-video-split",
-      "custom_css": [
-        ".tv-split-section {background-color: #fff5ee;}"
-      ],
-      "name": "Text + Video Split",
-      "settings": {
-        "heading": "From pour to glow.",
-        "text": "<p>A gentle composition of fresh florals and soft greens, designed to bring a natural calm into your space.<br/><br/><em>A thoughtful gift, naturally.</em></p>",
-        "button_text": "Shop Now",
-        "button_link": "shopify://collections/nature-inspired",
-        "video_file": "shopify://files/videos/download.mp4",
-        "mp4_url": "",
-        "youtube_url": "",
-        "vimeo_url": "",
-        "reverse_layout": false
-      }
-    },
     "176452200691df7107": {
       "type": "_blocks",
       "blocks": {
         "ai_gen_block_c690a8d_XQPiVf": {
           "type": "ai_gen_block_c690a8d",
           "settings": {
-            "heading": "Our Bestsellers",
+            "heading": "",
             "heading_alignment": "center",
             "heading_size": 36,
             "description": "Trusted by candle lovers across India — poured in small batches and consistently reordered.",
@@ -474,7 +474,8 @@
         "ai_gen_block_c690a8d_rtcikH"
       ],
       "custom_css": [
-        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {padding: 0rem 0;}"
+        ".ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {padding: 0rem 0;}",
+        "@media screen (min-width: 1000px) {.ai-collection-filter-container-az09gl2tlsnntbgjhraigenblockc690a8dxqpivf {z-index: 99999999999999; position: relative; margin-top: -100px; }}"
       ],
       "settings": {}
     },
@@ -687,8 +688,8 @@
     "featured_collection_RTrnHj",
     "image_with_text_q4cywi",
     "collage_wb7n3z",
-    "tpt_slideshow_four_c9JG84",
     "text_video_split_3wKW84",
+    "tpt_slideshow_four_c9JG84",
     "176452200691df7107",
     "text_video_split_7kpg88",
     "tpt_slideshow_four_ghHTwi",
