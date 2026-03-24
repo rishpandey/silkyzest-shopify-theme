@@ -480,6 +480,9 @@
     },
     "text_video_split_7kpg88": {
       "type": "text-video-split",
+      "custom_css": [
+        ".tv-split-section {margin-top: 80px;}"
+      ],
       "name": "Text + Video Split",
       "settings": {
         "heading": "LAUNCHING SOON.",
