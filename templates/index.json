@@ -127,7 +127,9 @@
         "slide_fLgNH7",
         "slide_yXFcjC"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.section-template--fallback {margin-top: -30px !important; /* Adjust this number to pull it higher or lower */ }}"
+      ],
       "settings": {
         "item_background_color": "rgba(0,0,0,0)",
         "background_opacity": 0,
@@ -143,7 +145,7 @@
         "section_full_width": true,
         "section_max_width": 1600,
         "content_full_width": false,
-        "content_max_width": 1260,
+        "content_max_width": 1060,
         "padding_desktop": 0,
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
