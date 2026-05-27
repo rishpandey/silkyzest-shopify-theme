@@ -292,8 +292,8 @@
       "name": "Text + Video Split",
       "settings": {
         "heading": "From pour to glow.",
-        "text": "<p>A gentle composition of fresh florals and soft greens, designed to bring a natural calm into your space.<br/><br/><em>A thoughtful gift, naturally.</em></p>",
-        "button_text": "Shop Now",
+        "text": "<p>Thoughtfully crafted to turn everyday spaces into slow, comforting rituals. <br/><em>A beautiful gift, naturally.</em></p><h3></h3>",
+        "button_text": "Explore more",
         "button_link": "shopify://collections/nature-inspired",
         "video_file": "shopify://files/videos/download.mp4",
         "mp4_url": "",
