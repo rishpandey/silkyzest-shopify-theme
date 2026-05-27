@@ -259,13 +259,13 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#f7dfe7",
+          "background": "#b4ba8f",
           "background_gradient": "",
-          "text": "#44363b",
+          "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#af565e",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#ffffff"
         }
       },
       "scheme-232bf064-5cbd-4584-8e18-09679e02d081": {
