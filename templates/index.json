@@ -305,10 +305,23 @@
     "tpt_slideshow_four_c9JG84": {
       "type": "tpt-slideshow-four",
       "blocks": {
+        "slide_nET9tJ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "preload_image": false,
+            "info_position": "left",
+            "heading": "New Arrivals",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post</p>",
+            "button_label": "Shop now",
+            "button_link": "/",
+            "outline_button": false
+          }
+        },
         "slide_BRdGAb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/bestseller_2.png",
+            "image": "shopify://shop_images/Business_Website_story_section_1.jpg",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
@@ -320,6 +333,7 @@
         }
       },
       "block_order": [
+        "slide_nET9tJ",
         "slide_BRdGAb"
       ],
       "name": "Tpt - Slideshow #4",
