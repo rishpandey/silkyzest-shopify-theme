@@ -321,7 +321,7 @@
         "slide_BRdGAb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Business_Website_story_section_fin.png",
+            "image": "shopify://shop_images/Business_Website_story_section_fin_1.png",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
@@ -416,7 +416,7 @@
             "product_title_color": "#2b2623",
             "product_price_color": "#2b2623",
             "button_label": "View Product",
-            "button_bg_color": "#c89b6d",
+            "button_bg_color": "#b4ba8f",
             "button_text_color": "#fbf8f4",
             "button_hover_bg_color": "#b68452",
             "button_hover_text_color": "#ffffff",
