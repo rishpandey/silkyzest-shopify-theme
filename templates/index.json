@@ -322,6 +322,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Business_Website_story_section_fin_1.png",
+            "mobile_image": "shopify://shop_images/Business_Website_story_section_fin_1_Instagram_Post_45.png",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
