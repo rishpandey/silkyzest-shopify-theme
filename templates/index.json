@@ -321,7 +321,7 @@
         "slide_BRdGAb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Business_Website_story_section_1.jpg",
+            "image": "shopify://shop_images/Business_Website_story_section_fin.jpg",
             "preload_image": false,
             "info_position": "left",
             "heading": "",
@@ -532,6 +532,7 @@
       "block_order": [
         "slide_Rt9Vra"
       ],
+      "disabled": true,
       "name": "Tpt - Slideshow #4",
       "settings": {
         "item_background_color": "#ffffff",
