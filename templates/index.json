@@ -250,20 +250,20 @@
         "image_nyUi3B": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/The_Curator_s_2.jpg"
+            "image": "shopify://shop_images/575B9C53-0D39-4A1A-9E88-20F3C2CF34A3.png"
           }
         },
         "product_4UDrpq": {
           "type": "product",
           "settings": {
-            "product": "handmade-white-concrete-trinket-tray",
+            "product": "dragon-fruit-slice-trinket-tray-handmade-fruit-inspired-jewellery-desk-organiser-tray",
             "second_image": false
           }
         },
         "collection_9WDMwh": {
           "type": "collection",
           "settings": {
-            "collection": "gifting-collection"
+            "collection": "nature-inspired"
           }
         }
       },
