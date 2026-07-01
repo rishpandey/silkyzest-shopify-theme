@@ -284,24 +284,6 @@
         "padding_bottom": 60
       }
     },
-    "text_video_split_3wKW84": {
-      "type": "text-video-split",
-      "custom_css": [
-        ".tv-split-section {background-color: #fff5ee;}"
-      ],
-      "name": "Text + Video Split",
-      "settings": {
-        "heading": "From pour to glow.",
-        "text": "<p>Thoughtfully crafted to turn everyday spaces into slow, comforting rituals. <br/><em>A beautiful gift, naturally.</em></p><h3></h3>",
-        "button_text": "Explore more",
-        "button_link": "shopify://collections/nature-inspired",
-        "video_file": "shopify://files/videos/download.mp4",
-        "mp4_url": "",
-        "youtube_url": "",
-        "vimeo_url": "",
-        "reverse_layout": false
-      }
-    },
     "tpt_slideshow_four_c9JG84": {
       "type": "tpt-slideshow-four",
       "blocks": {
@@ -368,6 +350,29 @@
         "outline_button_color": "#000000",
         "input_button_radius": 0,
         "section_lazyload": false
+      }
+    },
+    "rich_text_gEXETN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wGwHRw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>At Silky Zest, every candle is hand-poured and every trinket tray is hand-painted in small batches. Crafted from scratch with care and intention, each piece tells its own story.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wGwHRw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "176452200691df7107": {
@@ -706,8 +711,8 @@
     "featured_collection_RTrnHj",
     "image_with_text_q4cywi",
     "collage_wb7n3z",
-    "text_video_split_3wKW84",
     "tpt_slideshow_four_c9JG84",
+    "rich_text_gEXETN",
     "176452200691df7107",
     "text_video_split_7kpg88",
     "tpt_slideshow_four_ghHTwi",
