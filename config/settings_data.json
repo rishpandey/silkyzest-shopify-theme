@@ -107,9 +107,8 @@
     "badge_corner_radius": 8,
     "sale_badge_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
     "sold_out_badge_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-    "brand_headline": "Fragrance for <strong>Your Home</strong>, Beauty for <strong>Your Soul</strong>.",
-    "brand_description": "<p>Silky Zest creates hand-poured candles inspired by café comforts and botanical calm.<br/><br/>From creamy lattes to fresh rose and forest air, each fragrance is crafted to feel warm, balanced, and beautifully refreshing. Designed for modern living and thoughtful gifting.</p><p></p>",
-    "brand_image": "shopify://shop_images/logo_text_with_bg_Medium_362b1b9e-1cd9-4ebc-ad99-79aedfb0ad3b.png",
+    "brand_headline": "",
+    "brand_description": "<p><br/><br/></p>",
     "brand_image_width": 165,
     "social_facebook_link": "",
     "social_instagram_link": "http://instagram.com/silkyzest",
@@ -196,14 +195,14 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "",
           "button_color": "#fcf1f4",
           "secondary_color": "#44363b",
           "ternary_color": "#6A6A6A",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
+          "button_vertical_position": "lowest"
         }
       },
       "pagefly-page-builder": {
