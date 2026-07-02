@@ -107,9 +107,10 @@
     "badge_corner_radius": 8,
     "sale_badge_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
     "sold_out_badge_color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
-    "brand_headline": "",
-    "brand_description": "<p><br/><br/></p>",
-    "brand_image_width": 165,
+    "brand_headline": "Handcrafted candles & trinket trays.",
+    "brand_description": "<p><em> Every order comes with a gift-ready packaging, and the knowledge that real hands made everything inside.</em></p>",
+    "brand_image": "shopify://shop_images/sz_3.svg",
+    "brand_image_width": 380,
     "social_facebook_link": "",
     "social_instagram_link": "http://instagram.com/silkyzest",
     "social_youtube_link": "",
@@ -323,6 +324,17 @@
         }
       },
       "scheme-dd1f09dc-0cb3-4f6a-8ba8-c51829e75a0b": {
+        "settings": {
+          "background": "#fefcf9",
+          "background_gradient": "",
+          "text": "#242833",
+          "button": "#f7dfe7",
+          "button_label": "#121212",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-d0255fe9-2e89-4fee-b2a7-886e0f540960": {
         "settings": {
           "background": "#fefcf9",
           "background_gradient": "",
