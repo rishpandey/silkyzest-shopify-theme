@@ -522,7 +522,7 @@
           "settings": {
             "button_label": "A Note From the Maker",
             "button_link": "shopify://blogs/articles/a-note-from-the-maker",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
