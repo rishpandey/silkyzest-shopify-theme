@@ -157,7 +157,7 @@
         "title_color": "#121212",
         "button_background_color": "#ffffff",
         "button_text_color": "#121212",
-        "outline_button_color": "#C21514",
+        "outline_button_color": "#FFEFCE",
         "input_button_radius": 18,
         "section_lazyload": false
       }
@@ -182,7 +182,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-a0065c7e-f5fa-4ef5-9e75-65c18af1c88f",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -191,7 +191,7 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 60,
+        "padding_top": 68,
         "padding_bottom": 40
       }
     },
