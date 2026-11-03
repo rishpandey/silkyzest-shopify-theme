@@ -37,7 +37,7 @@
         "@media (max-width: 768px) {.footer-block {min-width: 100% !important; } .link {text-decoration: underline; } .footer-block__details-content, .footer-block--menu {margin-bottom: 0; }}"
       ],
       "settings": {
-        "color_scheme": "scheme-c8ce81c5-9ec0-4c46-87c5-46f72a3b9cd0",
+        "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "<strong>Join us for early access to new releases and quiet inspirations.</strong>",
         "enable_follow_on_shop": false,
