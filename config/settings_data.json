@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Silkyzest.png",
+    "logo": "shopify://shop_images/OCT_2026_SZ_logo3.svg",
     "logo_width": 150,
-    "favicon": "shopify://shop_images/Pink_And_Black_Beauty_Logo.svg",
+    "favicon": "shopify://shop_images/silky_zest_monogram_refined_inverse.svg",
     "type_header_font": "fraunces_n5",
     "heading_scale": 135,
     "type_body_font": "dm_sans_n4",
@@ -198,8 +198,6 @@
         "settings": {
           "greeting_message": "",
           "button_color": "#fcf1f4",
-          "secondary_color": "#44363b",
-          "ternary_color": "#6A6A6A",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
