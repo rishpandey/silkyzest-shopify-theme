@@ -213,7 +213,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FFEFCE",
+          "background": "#ffefce",
           "background_gradient": "",
           "text": "#242833",
           "button": "#f7dfe7",
@@ -312,7 +312,7 @@
       },
       "scheme-a0065c7e-f5fa-4ef5-9e75-65c18af1c88f": {
         "settings": {
-          "background": "#cb1920",
+          "background": "#C21514",
           "background_gradient": "",
           "text": "#fefcf9",
           "button": "#cb1920",
