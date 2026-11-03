@@ -132,7 +132,7 @@
         "@media screen and (max-width: 749px) {.section-template--fallback {margin-top: -30px !important; /* Adjust this number to pull it higher or lower */ }}"
       ],
       "settings": {
-        "item_background_color": "#C21514",
+        "item_background_color": "#FFEFCE",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 76,
@@ -151,7 +151,7 @@
         "padding_tablet_mobile": 0,
         "margin_desktop": 0,
         "margin_tablet_mobile": 0,
-        "background_color": "#C21514",
+        "background_color": "#FFEFCE",
         "background_gradient_color": "",
         "foreground_color": "#000000",
         "title_color": "#121212",
