@@ -14,7 +14,7 @@
     "favicon": "shopify://shop_images/silky_zest_monogram_refined_inverse.svg",
     "type_header_font": "fraunces_n5",
     "heading_scale": 135,
-    "type_body_font": "dm_sans_n4",
+    "type_body_font": "josefin_sans_n5",
     "body_scale": 120,
     "page_width": 1000,
     "spacing_sections": 0,
@@ -213,7 +213,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FBF5E9",
+          "background": "#FFEFCE",
           "background_gradient": "",
           "text": "#242833",
           "button": "#f7dfe7",
@@ -335,17 +335,6 @@
       "scheme-d0255fe9-2e89-4fee-b2a7-886e0f540960": {
         "settings": {
           "background": "#fefcf9",
-          "background_gradient": "",
-          "text": "#242833",
-          "button": "#f7dfe7",
-          "button_label": "#121212",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-d435e497-f7f3-4156-a6e4-c39cde9ab0c2": {
-        "settings": {
-          "background": "#FBF5E9",
           "background_gradient": "",
           "text": "#242833",
           "button": "#f7dfe7",
