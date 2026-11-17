@@ -257,7 +257,7 @@
           "type": "product",
           "settings": {
             "product": "flower-bouquet-floral-musk-scented",
-            "second_image": false
+            "second_image": true
           }
         },
         "collection_9WDMwh": {
@@ -271,6 +271,9 @@
         "image_nyUi3B",
         "product_4UDrpq",
         "collection_9WDMwh"
+      ],
+      "custom_css": [
+        ".collage__item--product,.collage__item--collection {width: 250px !important;}"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
