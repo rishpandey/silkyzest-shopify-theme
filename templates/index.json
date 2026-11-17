@@ -250,7 +250,7 @@
         "image_nyUi3B": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/575B9C53-0D39-4A1A-9E88-20F3C2CF34A3.png"
+            "image": "shopify://shop_images/Make_gifting_personal.jpg"
           }
         },
         "product_4UDrpq": {
@@ -590,7 +590,7 @@
       "disabled": true,
       "name": "Tpt - Slideshow #4",
       "settings": {
-        "item_background_color": "#EDE3D6",
+        "item_background_color": "#ede3d6",
         "background_opacity": 0,
         "desktop_image_ratio": 50,
         "mobile_image_ratio": 55,
